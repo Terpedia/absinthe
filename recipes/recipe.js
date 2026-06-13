@@ -1,3 +1,7 @@
+function isTerpene(molecule) {
+  return Boolean(molecule && /terpene/i.test(molecule.class));
+}
+
 async function renderRecipePage() {
   const recipeSlug = document.body.dataset.recipeSlug;
   const root = document.getElementById("recipe-root");
@@ -55,8 +59,9 @@ async function renderRecipePage() {
               .slice(0, 4)
               .map((moleculeSlug) => {
                 const molecule = molecules[moleculeSlug];
+                const terpeneClass = isTerpene(molecule) ? " mini-chip-terpene" : "";
                 return molecule
-                  ? `<a class="mini-chip" href="../molecules/${moleculeSlug}.html">${molecule.title}</a>`
+                  ? `<a class="mini-chip${terpeneClass}" href="../molecules/${moleculeSlug}.html">${molecule.title}</a>`
                   : "";
               })
               .join("")
@@ -79,6 +84,7 @@ async function renderRecipePage() {
         return `
           <li>
             <strong><a class="text-link" href="../molecules/${slug}.html">${molecule.title}</a>:</strong> ${note}.
+            ${isTerpene(molecule) ? '<span class="terpene-badge">Terpene</span>' : ""}
           </li>
         `;
       })
@@ -120,12 +126,12 @@ async function renderRecipePage() {
           </article>
           <article class="panel">
             <p class="section-label">Service posture</p>
-            <h2>How the SKU should read</h2>
+            <h2>How it should be served</h2>
             <ul>${serviceHtml}</ul>
           </article>
           <article class="panel">
-            <p class="section-label">Knowledge graph</p>
-            <h2>Continue exploring</h2>
+            <p class="section-label">Explore More</p>
+            <h2>Go deeper into the collection</h2>
             <p><a class="text-link" href="../herbs/index.html">Browse the herb library</a></p>
             <p><a class="text-link" href="../molecules/index.html">Browse the molecule library</a></p>
           </article>

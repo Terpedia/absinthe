@@ -6,12 +6,36 @@
     "chip": "Sweet anisic core",
     "summary": "Anethole is the defining sweet-spice aromatic in anise and fennel, and the key driver of classical absinthe's louche behavior.",
     "sensory": "Sweet licorice, anisic warmth, polished fennel sweetness.",
-    "occursIn": ["anise", "fennel", "star-anise"],
+    "occursIn": [
+      "anise",
+      "fennel",
+      "star-anise"
+    ],
     "biochemistry": [
-      "Absorbed through the gut and processed predominantly in the liver through oxidative metabolism and conjugation.",
-      "Discussed in the literature for antimicrobial, spasmolytic, and anti-inflammatory activity, though dose and context matter.",
-      "Best understood in product terms as a high-impact aromatic that shapes flavor perception more than a primary human signaling molecule."
-    ]
+      {
+        "text": "Review literature describes anethole as an orally handled phenylpropene that undergoes oxidative metabolism and conjugation after absorption.",
+        "refs": [
+          "anetholeReview"
+        ]
+      },
+      {
+        "text": "Mechanistic work also identifies trans-anethole as a TRPA1 agonist, while broader pharmacology reviews discuss anti-inflammatory and antimicrobial activity largely in preclinical settings.",
+        "refs": [
+          "anetholeTrpa1",
+          "anetholeReview"
+        ]
+      }
+    ],
+    "references": {
+      "anetholeReview": {
+        "title": "Dietary anethole: a systematic review of its protective effects against metabolic syndrome and related disorders",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11196516/"
+      },
+      "anetholeTrpa1": {
+        "title": "trans-Anethole of fennel oil is a selective and nonelectrophilic agonist of TRPA1",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6408737/"
+      }
+    }
   },
   "fenchone": {
     "title": "Fenchone",
@@ -20,12 +44,34 @@
     "chip": "Dry fennel structure",
     "summary": "Fenchone provides the dry, camphoraceous counterweight that keeps fennel and anise profiles from collapsing into candy.",
     "sensory": "Dry herbal camphor, bitter fennel, cool mineral sharpness.",
-    "occursIn": ["fennel"],
+    "occursIn": [
+      "fennel"
+    ],
     "biochemistry": [
-      "Like many monoterpenes, it is lipophilic and rapidly distributed after oral intake, then metabolized in the liver.",
-      "Its biological relevance is mostly discussed in the broader context of essential-oil activity rather than as a standalone endogenous mediator.",
-      "In formulation it is valuable because it introduces neural crispness to otherwise soft anisic sweetness."
-    ]
+      {
+        "text": "Fenchone is treated in the literature as a small lipophilic monoterpene, with preclinical work examining diuretic and safety profiles after oral exposure.",
+        "refs": [
+          "fenchoneDiuretic"
+        ]
+      },
+      {
+        "text": "Its biological literature is still limited and leans toward preclinical antispasmodic and antimicrobial models rather than human functional evidence.",
+        "refs": [
+          "fenchoneSpasmolytic",
+          "fenchoneDiuretic"
+        ]
+      }
+    ],
+    "references": {
+      "fenchoneDiuretic": {
+        "title": "Fenchone, a monoterpene: toxicity and diuretic profiling in rats",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9909529/"
+      },
+      "fenchoneSpasmolytic": {
+        "title": "In silico and ex vivo studies on the spasmolytic activities of fenchone",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8876211/"
+      }
+    }
   },
   "thujone": {
     "title": "Thujone",
@@ -34,12 +80,35 @@
     "chip": "Wormwood signature bitter",
     "summary": "Thujone is one of the best-known wormwood-associated terpenes and a major symbolic marker in absinthe discourse.",
     "sensory": "Dry green bitterness, resin, sage-like edge, austere lift.",
-    "occursIn": ["wormwood", "roman-wormwood", "hyssop"],
+    "occursIn": [
+      "wormwood",
+      "roman-wormwood",
+      "hyssop"
+    ],
     "biochemistry": [
-      "At higher exposures thujone is discussed as a GABA-A receptor modulator, which helps explain historical toxicology interest.",
-      "It is hepatically metabolized and is not itself a nutritional or endogenous target compound.",
-      "Modern relevance in absinthe is more about aroma identity and compliance than mythology."
-    ]
+      {
+        "text": "The best-established biochemical claim for thujone is negative modulation of GABAA receptor function, which explains its long toxicology history in absinthe discussions.",
+        "refs": [
+          "thujoneGaba"
+        ]
+      },
+      {
+        "text": "Detoxification studies also show species- and isoform-dependent cytochrome P450 oxidation, so metabolism matters as much as receptor pharmacology.",
+        "refs": [
+          "thujoneDetox"
+        ]
+      }
+    ],
+    "references": {
+      "thujoneGaba": {
+        "title": "Alpha-thujone (the active component of absinthe): GABAA receptor modulation and metabolic detoxification",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10725394/"
+      },
+      "thujoneDetox": {
+        "title": "Detoxification of alpha- and beta-thujones (the active ingredients of absinthe): site specificity and species differences in cytochrome P450 oxidation in vitro and in vivo",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11368559/"
+      }
+    }
   },
   "linalool": {
     "title": "Linalool",
@@ -48,12 +117,39 @@
     "chip": "Floral softener",
     "summary": "Linalool broadens harsh herbal structures into something more perfumed and breathable.",
     "sensory": "Floral citrus, lavender-like softness, polished lift.",
-    "occursIn": ["coriander", "rose", "hyssop", "hibiscus", "elderflower", "orange-peel"],
+    "occursIn": [
+      "coriander",
+      "rose",
+      "hyssop",
+      "hibiscus",
+      "elderflower",
+      "orange-peel"
+    ],
     "biochemistry": [
-      "Rapidly absorbed and metabolized through common hepatic terpene pathways.",
-      "Often discussed in sensory neuroscience because it can shift perceived calmness and floral brightness in inhalation contexts.",
-      "Literature frequently explores anxiolytic and anti-inflammatory potential, but context and route of exposure matter."
-    ]
+      {
+        "text": "Linalool is metabolized to oxygenated and acetylated products, and some of those metabolites retain GABAA-relevant activity in vitro.",
+        "refs": [
+          "linaloolMetabolism"
+        ]
+      },
+      {
+        "text": "Broader reviews discuss anxiolytic, anti-inflammatory, and mood-related literature, but most of that evidence remains preclinical or route-dependent.",
+        "refs": [
+          "linaloolReview",
+          "linaloolMetabolism"
+        ]
+      }
+    ],
+    "references": {
+      "linaloolMetabolism": {
+        "title": "Metabolic products of linalool and modulation of GABAA receptors",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5478857/"
+      },
+      "linaloolReview": {
+        "title": "Linalool as a therapeutic and medicinal tool in depression treatment",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9886818/"
+      }
+    }
   },
   "citral": {
     "title": "Citral",
@@ -62,12 +158,30 @@
     "chip": "Lemon-green brightness",
     "summary": "Citral is the sharp lemon leaf cue behind melissa and lemon verbena styles.",
     "sensory": "Lemon zest, green rind, bright volatile citrus.",
-    "occursIn": ["lemon-balm", "lemon-verbena"],
+    "occursIn": [
+      "lemon-balm",
+      "lemon-verbena"
+    ],
     "biochemistry": [
-      "Citral is metabolized as a reactive fragrance aldehyde and then conjugated through common detoxification pathways.",
-      "Frequently investigated for antimicrobial and anti-inflammatory effects in essential-oil research.",
-      "From a human-response standpoint it strongly shapes freshness perception and can make bitter systems feel cleaner and more alert."
-    ]
+      {
+        "text": "Citral is mainly discussed as a reactive monoterpene aldehyde whose biological activity is dominated by antimicrobial and membrane-active chemistry.",
+        "refs": [
+          "citralReview"
+        ]
+      },
+      {
+        "text": "The evidence base around citral is largely preclinical, which is why this site treats it as a freshness-associated aroma cue rather than a beverage function claim.",
+        "refs": [
+          "citralReview"
+        ]
+      }
+    ],
+    "references": {
+      "citralReview": {
+        "title": "Mechanisms and applications of citral's antimicrobial properties in food preservation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10668791/"
+      }
+    }
   },
   "chlorophylls": {
     "title": "Chlorophylls",
@@ -76,12 +190,37 @@
     "chip": "Green color engine",
     "summary": "Chlorophylls matter less as aroma molecules than as the visual anchor for naturally colored verte styles.",
     "sensory": "Visual rather than aromatic: deep herbal green, opaque botanical signal.",
-    "occursIn": ["hyssop", "lemon-balm", "roman-wormwood"],
+    "occursIn": [
+      "hyssop",
+      "lemon-balm",
+      "roman-wormwood"
+    ],
     "biochemistry": [
-      "Chlorophylls are plant pigments, not human signaling molecules, and are broken down during digestion rather than used intact.",
-      "Human interest centers on antioxidant context, pigment derivatives, and food-color stability rather than receptor pharmacology.",
-      "In product design their power is symbolic: they tell the eye what the palate should expect."
-    ]
+      {
+        "text": "Reviews of chlorophyll digestion and absorption describe substantial transformation during digestion, with limited emphasis on intact pigment persistence in circulation.",
+        "refs": [
+          "chlorophyllReview",
+          "chlorophyllFoodReview"
+        ]
+      },
+      {
+        "text": "Most human-interest literature is therefore about pigment stability, digestion, and antioxidant context rather than direct receptor pharmacology.",
+        "refs": [
+          "chlorophyllReview",
+          "chlorophyllFoodReview"
+        ]
+      }
+    ],
+    "references": {
+      "chlorophyllReview": {
+        "title": "Enhancing health benefits through chlorophylls and chlorophyll-rich agro-food: a comprehensive review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10384064/"
+      },
+      "chlorophyllFoodReview": {
+        "title": "Chlorophylls as natural bioactive compounds existing in food by-products: a critical review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10096697/"
+      }
+    }
   },
   "alpha-pinene": {
     "title": "Alpha-pinene",
@@ -90,12 +229,39 @@
     "chip": "Coniferous lift",
     "summary": "Alpha-pinene creates crisp lift and makes bitter herbal formulas feel high and airy instead of muddy.",
     "sensory": "Pine needle, resin, dry forest top note.",
-    "occursIn": ["wormwood", "coriander", "angelica", "juniper", "mastic", "rosemary"],
+    "occursIn": [
+      "wormwood",
+      "coriander",
+      "angelica",
+      "juniper",
+      "mastic",
+      "rosemary"
+    ],
     "biochemistry": [
-      "Absorbed quickly by inhalation or ingestion and metabolized in the liver into oxygenated terpene derivatives.",
-      "Research often explores bronchodilatory, anti-inflammatory, and cognitive-support associations, though evidence varies by model.",
-      "In a beverage aroma matrix it reads as clarity and lift rather than sweetness."
-    ]
+      {
+        "text": "Alpha-pinene is absorbed and metabolized into oxygenated terpene derivatives, with human and animal exposure literature focusing on general volatile-terpene pharmacokinetics.",
+        "refs": [
+          "natVolatiles",
+          "pineneReview"
+        ]
+      },
+      {
+        "text": "The pharmacology literature often explores anti-inflammatory, bronchodilatory, and neuroactive associations, but the evidence remains mixed and mostly preclinical.",
+        "refs": [
+          "pineneReview"
+        ]
+      }
+    ],
+    "references": {
+      "natVolatiles": {
+        "title": "Pharmacology of natural volatiles and essential oils in food, therapy, and disease prophylaxis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8566702/"
+      },
+      "pineneReview": {
+        "title": "Therapeutic potential of α- and β-pinene: a miracle gift of nature",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6920849/"
+      }
+    }
   },
   "limonene": {
     "title": "Limonene",
@@ -104,12 +270,40 @@
     "chip": "Citrus edge",
     "summary": "Limonene adds a broad citrus glow that can sharpen structure without tasting like juice.",
     "sensory": "Orange peel, citrus oil, bright terpene bloom.",
-    "occursIn": ["coriander", "lemon-verbena", "orange-peel", "lemon-peel", "grapefruit-peel", "mastic", "mint"],
+    "occursIn": [
+      "coriander",
+      "lemon-verbena",
+      "orange-peel",
+      "lemon-peel",
+      "grapefruit-peel",
+      "mastic",
+      "mint"
+    ],
     "biochemistry": [
-      "Widely metabolized through oxidation and conjugation after gastrointestinal absorption.",
-      "Frequently studied for gastric, anti-inflammatory, and chemopreventive associations in preclinical contexts.",
-      "Consumer perception often reads limonene as freshness, solvency, and uplift."
-    ]
+      {
+        "text": "Limonene undergoes oxidative metabolism to multiple downstream metabolites, which is why biomarker and metabolite papers matter more than unchanged-compound measurements alone.",
+        "refs": [
+          "limoneneMetabolites"
+        ]
+      },
+      {
+        "text": "Reviews also discuss anti-inflammatory, gastrointestinal, and chemopreventive associations, but again these are mostly preclinical rather than beverage-relevant human outcomes.",
+        "refs": [
+          "natVolatiles",
+          "limoneneMetabolites"
+        ]
+      }
+    ],
+    "references": {
+      "limoneneMetabolites": {
+        "title": "Identification of D-limonene metabolites by LC-HRMS",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9780935/"
+      },
+      "natVolatiles": {
+        "title": "Pharmacology of natural volatiles and essential oils in food, therapy, and disease prophylaxis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8566702/"
+      }
+    }
   },
   "terpinen-4-ol": {
     "title": "Terpinen-4-ol",
@@ -118,12 +312,35 @@
     "chip": "Herbal bridge",
     "summary": "Terpinen-4-ol is a quieter structural terpene that helps hold herbal and citrus notes together.",
     "sensory": "Soft herb, tea-tree-like cleanliness, muted camphor warmth.",
-    "occursIn": ["coriander", "angelica"],
+    "occursIn": [
+      "coriander",
+      "angelica"
+    ],
     "biochemistry": [
-      "Handled through the same broad metabolism pathways that process many volatile terpene alcohols.",
-      "Most human-interest research centers on antimicrobial and skin-relevant bioactivity in essential oils.",
-      "Its formulation value is balance: it keeps bright top notes from feeling detached from the body."
-    ]
+      {
+        "text": "Terpinen-4-ol is best documented as a major tea tree constituent with antimicrobial activity and broader essential-oil pharmacology relevance.",
+        "refs": [
+          "terpinen4olTeaTree"
+        ]
+      },
+      {
+        "text": "Anti-inflammatory reviews also describe terpinen-4-ol activity in cell and animal models, but that evidence is not a basis for alcohol-function messaging.",
+        "refs": [
+          "terpinen4olAntiInflamm",
+          "terpinen4olTeaTree"
+        ]
+      }
+    ],
+    "references": {
+      "terpinen4olTeaTree": {
+        "title": "Melaleuca alternifolia (tea tree) oil: a review of antimicrobial and other medicinal properties",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1360273/"
+      },
+      "terpinen4olAntiInflamm": {
+        "title": "A review on anti-inflammatory activity of monoterpenes",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6269770/"
+      }
+    }
   },
   "rosmarinic-acid": {
     "title": "Rosmarinic acid",
@@ -132,12 +349,35 @@
     "chip": "Melissa depth",
     "summary": "Rosmarinic acid is one of the major phenolics behind the cooling, herbal depth of lemon balm and related Lamiaceae herbs.",
     "sensory": "Not strongly aromatic on its own; contributes green, tannic-herbal depth.",
-    "occursIn": ["lemon-balm", "hyssop"],
+    "occursIn": [
+      "lemon-balm",
+      "hyssop"
+    ],
     "biochemistry": [
-      "Commonly studied for antioxidant and anti-inflammatory activity, especially in melissa and rosemary literature.",
-      "It is metabolized into smaller phenolic fragments and conjugates after ingestion.",
-      "Its importance in the site is as a bridge between botanical identity and broader inflammatory signaling discourse."
-    ]
+      {
+        "text": "Rosmarinic acid reviews consistently note limited oral bioavailability together with measurable intestinal permeability and downstream phenolic metabolism.",
+        "refs": [
+          "rosmarinicReview",
+          "rosmarinicBioavailability"
+        ]
+      },
+      {
+        "text": "The larger pharmacology literature emphasizes antioxidant and anti-inflammatory effects, largely outside the context of beverage alcohol.",
+        "refs": [
+          "rosmarinicReview"
+        ]
+      }
+    ],
+    "references": {
+      "rosmarinicReview": {
+        "title": "A comprehensive review of rosmarinic acid: from phytochemistry to pharmacology and its new insight",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9143754/"
+      },
+      "rosmarinicBioavailability": {
+        "title": "Evaluation of the intestinal permeability of rosmarinic acid from Thunbergia laurifolia leaf water extract in a Caco-2 cell model",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9227994/"
+      }
+    }
   },
   "anthocyanins": {
     "title": "Anthocyanins",
@@ -146,12 +386,38 @@
     "chip": "Red chromatic system",
     "summary": "Anthocyanins give rouge systems their jewel-like red-violet tone and respond visibly to acidity.",
     "sensory": "Visual first: ruby, garnet, magenta cues; lightly tannic-fruit context.",
-    "occursIn": ["hibiscus", "rose", "butterfly-pea", "cornflower"],
+    "occursIn": [
+      "hibiscus",
+      "rose",
+      "butterfly-pea",
+      "cornflower"
+    ],
     "biochemistry": [
-      "These pigments are heavily studied for antioxidant signaling and vascular or inflammatory associations, though bioavailability is limited and complex.",
-      "They are transformed rapidly in the digestive tract and circulation into numerous metabolites rather than persisting intact.",
-      "For product design they are powerful because color change carries meaning before flavor arrives."
-    ]
+      {
+        "text": "Anthocyanins have low oral bioavailability and are extensively transformed during digestion, absorption, and circulation.",
+        "refs": [
+          "anthocyaninBioavailability",
+          "anthocyaninMetabolism"
+        ]
+      },
+      {
+        "text": "As a result, much of the human-biochemistry discussion concerns metabolites and signaling associations rather than long persistence of intact pigments.",
+        "refs": [
+          "anthocyaninBioavailability",
+          "anthocyaninMetabolism"
+        ]
+      }
+    ],
+    "references": {
+      "anthocyaninBioavailability": {
+        "title": "A review of factors affecting anthocyanin bioavailability",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7023094/"
+      },
+      "anthocyaninMetabolism": {
+        "title": "Research progress on absorption, metabolism, and biological activities of anthocyanins",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9855064/"
+      }
+    }
   },
   "geraniol": {
     "title": "Geraniol",
@@ -160,12 +426,30 @@
     "chip": "Rose lift",
     "summary": "Geraniol is one of the clearest floral cues in rose-forward systems and helps rouge stay perfumed instead of merely tart.",
     "sensory": "Rose petal, lychee, sweet floral citrus.",
-    "occursIn": ["rose", "hibiscus"],
+    "occursIn": [
+      "rose",
+      "hibiscus"
+    ],
     "biochemistry": [
-      "Metabolized like many floral terpene alcohols through oxidation and conjugation pathways.",
-      "Literature often explores antimicrobial and anti-inflammatory activity alongside fragrance toxicology and sensory response.",
-      "In formulation it creates the illusion of softness and bloom even when the structure is quite dry."
-    ]
+      {
+        "text": "Geraniol pharmacokinetic reviews report oral metabolism to conjugated and free metabolites, with much of the direct data coming from preclinical models.",
+        "refs": [
+          "geraniolPk"
+        ]
+      },
+      {
+        "text": "The broader bioactivity literature centers on anti-inflammatory and antimicrobial potential, but the relevant evidence is still mostly preclinical.",
+        "refs": [
+          "geraniolPk"
+        ]
+      }
+    ],
+    "references": {
+      "geraniolPk": {
+        "title": "Geraniol pharmacokinetics, bioavailability and its multiple effects on the liver",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5788896/"
+      }
+    }
   },
   "ternatins": {
     "title": "Ternatins",
@@ -174,12 +458,34 @@
     "chip": "Blue-to-purple shift",
     "summary": "Ternatins are the signature pigments of butterfly pea flower and the engine behind Detour's chromatic theater.",
     "sensory": "Primarily visual: saturated blue with pH-sensitive movement toward violet and purple.",
-    "occursIn": ["butterfly-pea"],
+    "occursIn": [
+      "butterfly-pea"
+    ],
     "biochemistry": [
-      "Like other anthocyanin-derived pigments, ternatins are discussed mainly in the context of antioxidant chemistry and pigment stability.",
-      "Human digestion transforms them substantially, so their biochemistry is more about metabolites than intact pigment persistence.",
-      "Their design relevance lies in visible pH behavior, which lets formulation become performance."
-    ]
+      {
+        "text": "Ternatins are acylated anthocyanins from butterfly pea, and the literature emphasizes their pH-dependent blue-to-violet color behavior and stability chemistry.",
+        "refs": [
+          "butterflyAnthocyanin"
+        ]
+      },
+      {
+        "text": "Direct human-biochemistry data for ternatins are sparse; the safest inference is that they likely follow anthocyanin-style digestion and metabolite formation rather than remaining intact for long.",
+        "refs": [
+          "butterflyAnthocyanin",
+          "anthocyaninMetabolism"
+        ]
+      }
+    ],
+    "references": {
+      "butterflyAnthocyanin": {
+        "title": "Anthocyanins from Clitoria ternatea flower: biosynthesis, extraction, stability, antioxidant activity, and applications",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8718764/"
+      },
+      "anthocyaninMetabolism": {
+        "title": "Research progress on absorption, metabolism, and biological activities of anthocyanins",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9855064/"
+      }
+    }
   },
   "verbascoside": {
     "title": "Verbascoside",
@@ -188,12 +494,35 @@
     "chip": "Verbena phenolic backbone",
     "summary": "Verbascoside is a useful marker for the denser phenolic side of lemon verbena-style herbs.",
     "sensory": "Tea-like phenolic depth, herbal bitterness, dried-leaf structure.",
-    "occursIn": ["lemon-verbena"],
+    "occursIn": [
+      "lemon-verbena"
+    ],
     "biochemistry": [
-      "Often studied for antioxidant, anti-inflammatory, and neuroprotective potential in plant-extract research.",
-      "It undergoes hydrolysis and downstream phenolic metabolism after ingestion.",
-      "In product terms it helps explain why some lemon herbs feel structural instead of merely citrusy."
-    ]
+      {
+        "text": "Verbascoside reviews describe antioxidant, anti-inflammatory, and neuroprotective literature together with pharmacokinetic work on the broader acteoside/verbascoside family.",
+        "refs": [
+          "verbascosideReview",
+          "verbascosidePk"
+        ]
+      },
+      {
+        "text": "Mechanistically it is better treated as a phenylpropanoid glycoside with broad extract-level bioactivity literature than as a validated human receptor ligand.",
+        "refs": [
+          "verbascosideReview",
+          "verbascosidePk"
+        ]
+      }
+    ],
+    "references": {
+      "verbascosideReview": {
+        "title": "Multifaceted biological properties of verbascoside/acteoside",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12291726/"
+      },
+      "verbascosidePk": {
+        "title": "The pharmacokinetic property and pharmacological activity of acteoside: a review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9212779/"
+      }
+    }
   },
   "pinocamphone": {
     "title": "Pinocamphone",
@@ -202,12 +531,35 @@
     "chip": "Hyssop severity",
     "summary": "Pinocamphone contributes some of hyssop's sharper medicinal and resinous edge.",
     "sensory": "Camphor, resin, medicinal herb, austere lift.",
-    "occursIn": ["hyssop"],
+    "occursIn": [
+      "hyssop"
+    ],
     "biochemistry": [
-      "Discussed in safety literature because ketone-rich essential oils can show neuroactive behavior at higher exposures.",
-      "Metabolized hepatically, with most practical concern centered on exposure management rather than nutritional function.",
-      "In formulas it adds old-world medicinal tension."
-    ]
+      {
+        "text": "Hyssop reviews identify pinocamphone and isopinocamphone as major ketones and repeatedly flag dose-dependent neurotoxicity and seizure-related safety concerns.",
+        "refs": [
+          "hyssopReview",
+          "hyssopGenusReview"
+        ]
+      },
+      {
+        "text": "That makes pinocamphone primarily a safety-managed aroma constituent rather than a compound for positive health framing.",
+        "refs": [
+          "hyssopReview",
+          "hyssopGenusReview"
+        ]
+      }
+    ],
+    "references": {
+      "hyssopReview": {
+        "title": "Hyssopus essential oil: an update of its phytochemistry, biological activities, and safety profile",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8776447/"
+      },
+      "hyssopGenusReview": {
+        "title": "The genus Hyssopus: traditional use, phytochemicals and pharmacological activities",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11207324/"
+      }
+    }
   },
   "citric-acid": {
     "title": "Citric acid",
@@ -216,12 +568,30 @@
     "chip": "Brightness and snap",
     "summary": "Citric acid is a direct route to brightness and helps red and blue botanical systems feel alive.",
     "sensory": "Sour snap, lifted fruit perception, cleaner finish.",
-    "occursIn": ["hibiscus", "lemon-balm"],
+    "occursIn": [
+      "hibiscus",
+      "lemon-balm"
+    ],
     "biochemistry": [
-      "Citric acid is familiar to human biochemistry because citrate is a core intermediate in the TCA cycle, though dietary citric acid is not a targeted signaling supplement by default.",
-      "In foods and drinks it matters physiologically through acidity, mineral binding, and salivary response.",
-      "Perceptually it changes everything: sourness reorganizes aroma and color expectations."
-    ]
+      {
+        "text": "Citrate is a central tricarboxylic-acid-cycle intermediate, so citric acid sits close to core mammalian energy metabolism even though dietary citric acid is not a specialized signaling supplement.",
+        "refs": [
+          "tcaReview"
+        ]
+      },
+      {
+        "text": "In drinks, its physiological relevance is dominated by acidity and salivary response rather than bespoke pharmacology.",
+        "refs": [
+          "tcaReview"
+        ]
+      }
+    ],
+    "references": {
+      "tcaReview": {
+        "title": "Regulation and function of the mammalian tricarboxylic acid cycle",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9871338/"
+      }
+    }
   },
   "gentiopicroside": {
     "title": "Gentiopicroside",
@@ -230,12 +600,34 @@
     "chip": "Aperitif bitterness",
     "summary": "Gentiopicroside represents the kind of structured bitterness that makes gentian useful in aperitif architecture.",
     "sensory": "Firm bitter line, rooty dryness, palate-tightening persistence.",
-    "occursIn": ["gentian"],
+    "occursIn": [
+      "gentian"
+    ],
     "biochemistry": [
-      "Its main relevance in flavor is bitter receptor activation rather than endogenous signaling.",
-      "Bitter compounds influence salivation and appetite perception through sensory pathways more than through healthful beverage claims.",
-      "That makes it useful for ritual positioning but not for therapeutic language."
-    ]
+      {
+        "text": "Gentiopicroside is a major bitter secoiridoid of gentian, and reviews place it in the overlap between bitter-taste chemistry and broader preclinical anti-inflammatory or gastrointestinal literature.",
+        "refs": [
+          "gentiopicrosideReview",
+          "gentianaceaeReview"
+        ]
+      },
+      {
+        "text": "For this project, its most defensible biochemical role is bitterness perception and aperitif structure rather than therapeutic positioning.",
+        "refs": [
+          "gentiopicrosideReview"
+        ]
+      }
+    ],
+    "references": {
+      "gentiopicrosideReview": {
+        "title": "Gentiopicroside: an insight into its pharmacological significance and mechanisms of action",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10778152/"
+      },
+      "gentianaceaeReview": {
+        "title": "Gentianaceae family-derived bioactive compounds: therapeutic prospects and mechanisms",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12389160/"
+      }
+    }
   },
   "menthol": {
     "title": "Menthol",
@@ -244,12 +636,34 @@
     "chip": "Cooling cue",
     "summary": "Menthol creates a trigeminal cooling sensation that can make a spirit feel calmer, cleaner, and more spacious.",
     "sensory": "Cooling mint, clear breath, icy herbal lift.",
-    "occursIn": ["mint"],
+    "occursIn": [
+      "mint"
+    ],
     "biochemistry": [
-      "Menthol is well known for TRPM8 receptor activation, which generates cooling perception without requiring cold temperature.",
-      "It is metabolized hepatically after absorption and widely used in sensory products for cooling cues.",
-      "In the absinthe line it should be used as a perceptual effect, not a health claim."
-    ]
+      {
+        "text": "Menthol is one of the canonical agonists of TRPM8, which is why it produces cooling without any actual drop in temperature.",
+        "refs": [
+          "mentholTRPM8"
+        ]
+      },
+      {
+        "text": "Clinical and topical-product reviews treat menthol primarily as a sensory and symptomatic cooling agent rather than a systemic wellness compound.",
+        "refs": [
+          "mentholReview",
+          "mentholTRPM8"
+        ]
+      }
+    ],
+    "references": {
+      "mentholTRPM8": {
+        "title": "Identification of a cold receptor reveals a general role for TRP channels in thermosensation",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11882888/"
+      },
+      "mentholReview": {
+        "title": "Looking back to move forward: the current state of research on topical analgesics containing menthol or camphor",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10403385/"
+      }
+    }
   },
   "cineole": {
     "title": "1,8-Cineole",
@@ -258,12 +672,31 @@
     "chip": "Alpine clarity",
     "summary": "1,8-Cineole brings a clean, eucalyptus-like lift that helps alpine herbs read cool and spacious.",
     "sensory": "Cool camphor, eucalyptus, lifted herbal air.",
-    "occursIn": ["genepi", "cardamom", "rosemary"],
+    "occursIn": [
+      "genepi",
+      "cardamom",
+      "rosemary"
+    ],
     "biochemistry": [
-      "Frequently discussed in respiratory and anti-inflammatory literature, though beverage claims should not borrow that framing.",
-      "Its sensory significance is strong because it reads as breath, air, and clarity.",
-      "That makes it valuable for contemplative and alpine ritual language."
-    ]
+      {
+        "text": "1,8-Cineole has a substantial respiratory and anti-inflammatory literature, but those claims belong to medicine or preclinical pharmacology rather than beverage messaging.",
+        "refs": [
+          "cineoleReview"
+        ]
+      },
+      {
+        "text": "What matters most here is that the same chemistry that drives that literature also makes cineole read as cool, airy, and alpine in aroma.",
+        "refs": [
+          "cineoleReview"
+        ]
+      }
+    ],
+    "references": {
+      "cineoleReview": {
+        "title": "Modes of action of 1,8-cineol in infections and inflammation",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10301542/"
+      }
+    }
   },
   "borneol": {
     "title": "Borneol",
@@ -272,12 +705,35 @@
     "chip": "Camphor-soft altitude",
     "summary": "Borneol gives alpine herbs a softer camphoraceous height without the hard edge of stronger ketones.",
     "sensory": "Camphor-soft, resinous, dry alpine top note.",
-    "occursIn": ["genepi", "yarrow"],
+    "occursIn": [
+      "genepi",
+      "yarrow"
+    ],
     "biochemistry": [
-      "Often discussed in traditional medicine and pharmacology literature as part of broader aromatic-herb systems.",
-      "Its beverage relevance is mainly perceptual: it makes herbal systems feel elevated and cool.",
-      "That is useful for ritual positioning but not for curative messaging."
-    ]
+      {
+        "text": "Borneol reviews focus on permeability enhancement, central-nervous-system delivery research, and adjunct anti-inflammatory or analgesic applications.",
+        "refs": [
+          "borneolReview",
+          "borneolCns"
+        ]
+      },
+      {
+        "text": "That literature is why borneol is chemically interesting, but in this project it is still treated as an aroma and texture cue, not a functional beverage claim.",
+        "refs": [
+          "borneolReview"
+        ]
+      }
+    ],
+    "references": {
+      "borneolReview": {
+        "title": "Role of borneol as enhancer in drug formulation: a review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12301920/"
+      },
+      "borneolCns": {
+        "title": "Borneol, a novel agent that improves central nervous system drug delivery by enhancing blood-brain barrier permeability",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8241164/"
+      }
+    }
   },
   "hotrienol": {
     "title": "Hotrienol",
@@ -286,12 +742,35 @@
     "chip": "Soft floral halo",
     "summary": "Hotrienol is a delicate floral top-note compound associated with airy blossom character.",
     "sensory": "Honeyed floral vapor, blossom-like sweetness, soft halo.",
-    "occursIn": ["elderflower"],
+    "occursIn": [
+      "elderflower"
+    ],
     "biochemistry": [
-      "Its significance is primarily olfactory rather than pharmacological.",
-      "Floral volatiles like hotrienol influence perceived softness and calmness through aroma construction.",
-      "That makes it relevant to contemplative serve design even when direct physiological claims are off limits."
-    ]
+      {
+        "text": "The literature on hotrienol is overwhelmingly aroma-analytical: it is discussed as a floral volatile marker rather than a well-characterized human bioactive.",
+        "refs": [
+          "hotrienolMarker",
+          "hotrienolAroma"
+        ]
+      },
+      {
+        "text": "Accordingly, this site treats hotrienol as an olfactory softness cue and explicitly avoids stronger physiological claims that the literature does not support well.",
+        "refs": [
+          "hotrienolMarker",
+          "hotrienolAroma"
+        ]
+      }
+    ],
+    "references": {
+      "hotrienolMarker": {
+        "title": "Hotrienol as a marker of the Zweigelt variety",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9967794/"
+      },
+      "hotrienolAroma": {
+        "title": "Analysis of aroma-active volatiles in an SDE extract of white tea",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7866617/"
+      }
+    }
   },
   "terpinyl-acetate": {
     "title": "Terpinyl acetate",
@@ -300,12 +779,34 @@
     "chip": "Cardamom sparkle",
     "summary": "Terpinyl acetate is one of the compounds that makes cardamom feel sparkling, lifted, and expensive.",
     "sensory": "Sweet spice, cool lift, perfumed cardamom brightness.",
-    "occursIn": ["cardamom"],
+    "occursIn": [
+      "cardamom"
+    ],
     "biochemistry": [
-      "Like many terpene esters, it is relevant mainly through flavor and fragrance behavior.",
-      "It contributes to the psychological read of elegance and brightness more than to any justified functional claim.",
-      "In spirits it is useful when warmth needs polish rather than heat."
-    ]
+      {
+        "text": "Cardamom reviews consistently identify alpha-terpinyl acetate as a major constituent and discuss early antimicrobial and essential-oil bioactivity literature around it.",
+        "refs": [
+          "cardamomReview",
+          "cardamomEO"
+        ]
+      },
+      {
+        "text": "The direct human-biochemistry evidence is thin, so it is safest to present terpinyl acetate here as a high-impact aroma ester rather than a validated functional agent.",
+        "refs": [
+          "cardamomReview"
+        ]
+      }
+    ],
+    "references": {
+      "cardamomReview": {
+        "title": "Recent advances in the extraction, chemical composition, and biological activities of cardamom",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9562589/"
+      },
+      "cardamomEO": {
+        "title": "Effects of essential oils of Elettaria cardamomum grown in India and Guatemala on the growth of Escherichia coli and Pseudomonas aeruginosa",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8123808/"
+      }
+    }
   },
   "paradols": {
     "title": "Paradols",
@@ -314,12 +815,34 @@
     "chip": "Warm spice salivation",
     "summary": "Paradols represent the warming pungency of grains of paradise and related spice materials.",
     "sensory": "Warm peppery heat, salivation, spicy glow.",
-    "occursIn": ["grains-of-paradise"],
+    "occursIn": [
+      "grains-of-paradise"
+    ],
     "biochemistry": [
-      "Pungent spice compounds act strongly through sensory pathways, especially trigeminal response and salivation.",
-      "They can make a drink feel lively and social without any need for mood or stimulant claims.",
-      "That makes them useful for convivial design language."
-    ]
+      {
+        "text": "Paradols belong to the pungent ginger chemistry family, where reviews describe anti-inflammatory and neuroprotective research that is still mostly preclinical.",
+        "refs": [
+          "gingerReview",
+          "paradolNeuro"
+        ]
+      },
+      {
+        "text": "Their most immediate human effect in a drink is trigeminal warmth and salivation, which is sensory territory rather than a health claim.",
+        "refs": [
+          "gingerReview"
+        ]
+      }
+    ],
+    "references": {
+      "gingerReview": {
+        "title": "A critical review of ginger's antioxidant, anti-inflammatory, and bioactive constituents",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11187345/"
+      },
+      "paradolNeuro": {
+        "title": "Neuroprotective effects of 6-shogaol and its metabolite, 6-paradol, in a Parkinson disease mouse model",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6430232/"
+      }
+    }
   },
   "sabinene": {
     "title": "Sabinene",
@@ -328,12 +851,36 @@
     "chip": "Juniper bite",
     "summary": "Sabinene gives juniper its dry, biting, gin-adjacent lift.",
     "sensory": "Peppery pine, dry resin, bright conifer bite.",
-    "occursIn": ["juniper", "wormwood"],
+    "occursIn": [
+      "juniper",
+      "wormwood"
+    ],
     "biochemistry": [
-      "Its importance is largely sensory and structural in essential-oil compositions.",
-      "Juniper-heavy systems use sabinene to feel brisk and adult rather than plush.",
-      "That is a product effect, not a health effect."
-    ]
+      {
+        "text": "Sabinene appears constantly in phytochemical and terpene reviews, but direct human-biochemistry evidence is much thinner than for limonene, pinene, or menthol.",
+        "refs": [
+          "sabinaReview",
+          "terpenesReview"
+        ]
+      },
+      {
+        "text": "That is why this site treats sabinene mainly as a structural aroma hydrocarbon rather than attaching broad functional claims to it.",
+        "refs": [
+          "sabinaReview",
+          "terpenesReview"
+        ]
+      }
+    ],
+    "references": {
+      "sabinaReview": {
+        "title": "Phytochemistry, pharmacology, and traditional medicine of Juniperus sabina",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11676215/"
+      },
+      "terpenesReview": {
+        "title": "Terpenes and terpenoids as main bioactive compounds of essential oils",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9039924/"
+      }
+    }
   },
   "myrcene": {
     "title": "Myrcene",
@@ -342,12 +889,42 @@
     "chip": "Resinous depth",
     "summary": "Myrcene deepens resinous and citrus systems, giving them body and a slightly humid vegetal floor.",
     "sensory": "Resin, damp herb, terpene depth, rounded volatile body.",
-    "occursIn": ["juniper", "mastic", "orange-peel"],
+    "occursIn": [
+      "juniper",
+      "mastic",
+      "orange-peel"
+    ],
     "biochemistry": [
-      "Myrcene appears widely in terpene pharmacology conversations, but in a beverage context the safer truth is that it changes how aroma feels and lingers.",
-      "It is lipophilic and metabolized like many volatile terpenes.",
-      "Its practical value here is atmospheric depth."
-    ]
+      {
+        "text": "Myrcene is usually discussed in broader terpene reviews that summarize preclinical analgesic, anti-inflammatory, and sedative associations along with standard lipophilic terpene handling.",
+        "refs": [
+          "terpenesReview",
+          "myrceneReview",
+          "natVolatiles"
+        ]
+      },
+      {
+        "text": "For beverage design, the defensible point is not those prospective bioactivities but myrcene's effect on aromatic depth and persistence.",
+        "refs": [
+          "myrceneReview",
+          "natVolatiles"
+        ]
+      }
+    ],
+    "references": {
+      "terpenesReview": {
+        "title": "Terpenes and terpenoids as main bioactive compounds of essential oils",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9039924/"
+      },
+      "myrceneReview": {
+        "title": "Terpenes/terpenoids in cannabis: are they important?",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8489319/"
+      },
+      "natVolatiles": {
+        "title": "Pharmacology of natural volatiles and essential oils in food, therapy, and disease prophylaxis",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8566702/"
+      }
+    }
   },
   "camphor": {
     "title": "Camphor",
@@ -356,11 +933,36 @@
     "chip": "Clean medicinal altitude",
     "summary": "Camphor brings austere medicinal brightness and a clean alpine edge.",
     "sensory": "Sharp medicinal coolness, resin, alpine austerity.",
-    "occursIn": ["genepi", "rosemary", "yarrow"],
+    "occursIn": [
+      "genepi",
+      "rosemary",
+      "yarrow"
+    ],
     "biochemistry": [
-      "Camphor is strongly sensory and historically associated with medicinal intensity.",
-      "At beverage formulation levels it is more useful as a precision cue than as a health-positioning asset.",
-      "Its presence should remain controlled so it reads elegant rather than harsh."
-    ]
+      {
+        "text": "Camphor has a long medical and toxicological history, and modern reviews still frame it as a potent sensory irritant with meaningful safety considerations at higher exposure.",
+        "refs": [
+          "camphorReview",
+          "camphorHazards"
+        ]
+      },
+      {
+        "text": "That is why camphor works best here as a tightly controlled precision note rather than anything that should be promoted for health value.",
+        "refs": [
+          "camphorHazards",
+          "camphorReview"
+        ]
+      }
+    ],
+    "references": {
+      "camphorReview": {
+        "title": "Camphor: a fumigant during the Black Death and a coveted fragrant wood in ancient Egypt and Babylon",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6270224/"
+      },
+      "camphorHazards": {
+        "title": "Camphor's therapeutic uses and potential hazards: an in-depth review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12943631/"
+      }
+    }
   }
 }

@@ -164,10 +164,14 @@ li {
 .back-link,
 .sku-card a,
 .library-callout a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   border: 1px solid rgba(213, 163, 93, 0.25);
   border-radius: 999px;
   padding: 0.82rem 1.1rem;
+  min-height: 2.85rem;
   background: rgba(213, 163, 93, 0.08);
   transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
 }
@@ -284,6 +288,10 @@ li {
   font-size: clamp(2.6rem, 6vw, 5rem);
 }
 
+.page-header .back-link + .back-link {
+  margin-left: 0.45rem;
+}
+
 .chip {
   border-radius: 999px;
   padding: 0.42rem 0.72rem;
@@ -363,6 +371,38 @@ ul {
   color: var(--muted);
 }
 
+.mini-chip-terpene,
+.chip-terpene,
+.terpene-badge {
+  color: #f3ecd1;
+  border-color: rgba(102, 172, 124, 0.45);
+  background: linear-gradient(180deg, rgba(63, 110, 72, 0.38), rgba(26, 48, 31, 0.34));
+  box-shadow: inset 0 0 0 1px rgba(146, 212, 168, 0.08);
+}
+
+.chip-terpene {
+  display: inline-flex;
+  align-items: center;
+}
+
+.terpene-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.7rem;
+  border-radius: 999px;
+  padding: 0.28rem 0.58rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.molecule-card-terpene {
+  background:
+    radial-gradient(circle at top right, rgba(69, 130, 88, 0.22), transparent 34%),
+    linear-gradient(180deg, rgba(18, 31, 22, 0.96), rgba(9, 8, 6, 0.96));
+}
+
 .split-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -406,6 +446,7 @@ ul {
   color: var(--gold);
   font-weight: 700;
   text-align: right;
+  white-space: nowrap;
 }
 
 .callout {
@@ -420,6 +461,29 @@ ul {
 
 .molecule-meta strong {
   color: var(--ink);
+}
+
+.reference-links {
+  display: inline-flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  margin-left: 0.35rem;
+}
+
+.reference-links a,
+.reference-number {
+  color: var(--gold);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.reference-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.reference-list li {
+  padding-left: 0.2rem;
 }
 
 .notes {
@@ -441,22 +505,189 @@ ul {
   .split-list {
     grid-template-columns: 1fr;
   }
+
+  .site-home .site-hero {
+    gap: 1rem;
+    padding-top: 1.25rem;
+  }
+
+  .hero-copy {
+    padding: 1rem 0 0;
+  }
+
+  .hero-art {
+    order: -1;
+  }
+
+  .hero-art img {
+    aspect-ratio: 4 / 4.7;
+  }
+
+  .page-header {
+    padding-top: 1.15rem;
+  }
+
+  .page-title h1 {
+    font-size: clamp(2.25rem, 8vw, 4rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .shell {
+    width: min(100% - 1.25rem, 1180px);
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 12vw, 4.2rem);
+    max-width: 11ch;
+  }
+
+  h2 {
+    font-size: clamp(1.65rem, 7vw, 2.45rem);
+    line-height: 1.02;
+  }
+
+  .lede,
+  .page-intro {
+    font-size: 1rem;
+    margin-top: 0.9rem;
+  }
+
+  .hero-links,
+  .back-link {
+    gap: 0.55rem;
+    margin-top: 1.1rem;
+  }
+
+  .hero-links a,
+  .back-link,
+  .sku-card a,
+  .library-callout a {
+    width: 100%;
+  }
+
+  .hero-links a {
+    justify-content: flex-start;
+  }
+
+  .manifesto,
+  .panel,
+  .notes,
+  .page-title-wrap,
+  .sku-card,
+  .library-callout,
+  .herb-card,
+  .molecule-card {
+    padding: 1.15rem;
+  }
+
+  .page-title {
+    gap: 0.65rem;
+  }
+
+  .chip-row {
+    gap: 0.4rem;
+  }
+
+  .hero-image img {
+    aspect-ratio: 1 / 1;
+  }
 }
 
 @media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .hero-copy {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
   }
 
   .shell {
     width: min(100% - 1rem, 1180px);
   }
 
+  .frame::before {
+    inset: 9px;
+  }
+
+  .page-glow {
+    width: 28rem;
+    height: 28rem;
+    filter: blur(46px);
+  }
+
+  .eyebrow,
+  .card-kicker,
+  .section-label,
+  .chip {
+    letter-spacing: 0.15em;
+    font-size: 0.68rem;
+  }
+
+  p,
+  li {
+    line-height: 1.62;
+  }
+
   .ledger-row {
     grid-template-columns: 1fr;
+    gap: 0.45rem;
   }
 
   .ledger-value {
     text-align: left;
+    white-space: normal;
+  }
+
+  .mini-chip,
+  .terpene-badge,
+  .chip {
+    max-width: 100%;
+  }
+
+  .hero-links a,
+  .back-link,
+  .sku-card a,
+  .library-callout a {
+    padding: 0.78rem 0.95rem;
+  }
+
+  .page-title h1 {
+    font-size: clamp(2rem, 11vw, 3rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .manifesto,
+  .panel,
+  .notes,
+  .page-title-wrap,
+  .sku-card,
+  .library-callout,
+  .herb-card,
+  .molecule-card {
+    padding: 1rem;
+  }
+
+  .hero-art img {
+    aspect-ratio: 4 / 5.15;
+  }
+
+  .page-title {
+    align-items: flex-start;
+  }
+
+  .page-title h1 {
+    font-size: clamp(1.85rem, 10vw, 2.65rem);
+  }
+
+  .panel h2 {
+    font-size: 1.45rem;
+    margin-bottom: 0.7rem;
+  }
+
+  ul {
+    padding-left: 1rem;
   }
 }

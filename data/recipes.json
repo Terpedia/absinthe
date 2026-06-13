@@ -1,11 +1,11 @@
 {
   "verte": {
-    "title": "Absinthe",
-    "subtitle": "Nowhere's End NE-01 / Verte",
+    "title": "Verte",
+    "subtitle": "Nowhere's End Absinthe / Verte",
     "chip": "Focused aperitif / green clarity",
     "toneClass": "sku-green",
-    "intro": "The sharpest and most classical bottle in the line: bitter, green, aromatic, dry, and structured.",
-    "story": "Verte is positioned as a focused aperitif ritual rather than a pharmacological promise. Its logic comes from bitterness, dry structure, citrus-herbal lift, and aromatic definition.",
+    "intro": "A classic green absinthe: bitter, aromatic, and bright with a clean, dry finish.",
+    "story": "Verte is the most traditional expression in the line, built around wormwood, anise, fennel, and alpine herbs for a vivid green louche and a focused aperitif ritual.",
     "effectTerritory": "Bright, bitter, and lucidly herbal; built for a focused aperitif ritual.",
     "serve": "Serve 1:4 with cold water, no sugar or half sugar.",
     "flavor": "Bitter green, classic louche, melissa and coriander lift.",
@@ -32,6 +32,14 @@
           ["Effect territory", "Green clarity", "Use ritual language rather than saying stimulant, focus aid, or nootropic."],
           ["Safe language", "Bright, precise, bitter", "Aperitif and aromatic clarity are defensible; drug-effect language is not."],
           ["Avoid saying", "Improves focus", "Do not imply enhanced cognition or stimulant function."]
+        ]
+      },
+      {
+        "title": "Extraction plan",
+        "items": [
+          ["Still charge", "core distillation", "Run grand wormwood, Roman wormwood, green anise, fennel, coriander, and angelica in the still for the structural absinthe spine."],
+          ["Coloration maceration", "warm post-distill", "Use hyssop and lemon balm in a short controlled post-distillation maceration to set the verte color and green aromatic lift without stewing the batch."],
+          ["Cold extract", "trace finishing", "Hold gentian and mint to restrained cold extraction or tincture dosing so bitterness and cooling stay precise rather than muddy."]
         ]
       }
     ],
@@ -63,11 +71,11 @@
   },
   "rouge": {
     "title": "Crimson",
-    "subtitle": "Nowhere's End NE-02 / Rouge",
+    "subtitle": "Nowhere's End Absinthe / Crimson",
     "chip": "Convivial red ritual",
     "toneClass": "sku-red",
-    "intro": "A tart crimson absinthe built for the table: floral, vivid, and social without abandoning the absinthe spine.",
-    "story": "Crimson is framed as a convivial ritual bottle, not a mood enhancer or aphrodisiac. Hibiscus, rosehip, citrus, and warm spice create table drama while wormwood, anise, and fennel keep the identity intact.",
+    "intro": "A crimson absinthe with floral tartness, warm spice, and a dramatic ruby pour.",
+    "story": "Crimson keeps the absinthe spine intact while opening into hibiscus, rosehip, citrus, and rose for a vivid, table-centered serve.",
     "effectTerritory": "Tart, floral, crimson, and convivial; designed for a dramatic table ritual.",
     "serve": "Serve 1:3.5 with cold water and optional expressed orange peel.",
     "flavor": "Hibiscus, citrus, anise, warm spice, and floral bitter finish.",
@@ -98,12 +106,20 @@
           ["Safe language", "Vivid, convivial, crimson", "Frame the bottle as a dramatic ritual for the table."],
           ["Avoid saying", "Aphrodisiac or heart healthy", "Do not imply cardiovascular or sexual-function benefits."]
         ]
+      },
+      {
+        "title": "Extraction plan",
+        "items": [
+          ["Still charge", "core distillation", "Distill wormwoods, anise, fennel, star anise, coriander, orange peel, angelica, cardamom, and grains of paradise for a stable absinthe frame."],
+          ["Maceration", "avoid for hibiscus", "Do not drive hibiscus or rosehip through a hot still maceration; they are better handled outside the main distillation path to preserve fresh tart color."],
+          ["Cold extract", "red finishing", "Build the crimson layer with controlled cold extracts or finishing tinctures of hibiscus, rosehip, and trace rose petal, then bench the dose against louche strength and acid balance."]
+        ]
       }
     ],
     "herbs": [
       ["wormwood", "essential bitter axis"],
       ["roman-wormwood", "keeps the red build anchored to absinthe"],
-      ["anise", "keeps the SKU recognizably absinthe"],
+      ["anise", "keeps the bottle recognizably absinthe"],
       ["fennel", "rounds the hibiscus edge"],
       ["star-anise", "reinforces the sweet-spice frame"],
       ["coriander", "floral citrus-spice bridge"],
@@ -132,11 +148,11 @@
   },
   "detour": {
     "title": "Detour",
-    "subtitle": "Nowhere's End NE-03 / Blue Turning",
+    "subtitle": "Nowhere's End Absinthe / Detour",
     "chip": "Creative deviation / less licorice",
     "toneClass": "sku-amber",
-    "intro": "The less-licorice side road: citrus, resin, blue-to-violet ritual, and botanical lift.",
-    "story": "Detour is the novel bottle in the family, but its language should stay on transformation, surprise, and ritual rather than cognitive enhancement or psychedelia. The point is a blue-to-violet absinthe detour with less licorice and more turning.",
+    "intro": "A less-licorice absinthe with citrus, resin, and a blue-to-violet ritual in the glass.",
+    "story": "Detour steps away from the expected path, leaning into citrus peel, juniper, mastic, and butterfly pea for an absinthe that turns as it opens.",
     "effectTerritory": "A less-licorice absinthe detour: citrus, resin, blue-to-violet ritual, and botanical lift.",
     "serve": "Serve 1:4 with cold water; a citrus-acid drop can trigger the blue-to-violet shift.",
     "flavor": "Less licorice, more citrus, juniper, resin, and botanical lift.",
@@ -145,7 +161,7 @@
       {
         "title": "Primary botanical bill",
         "items": [
-          ["Grand wormwood", "medium", "Keeps the SKU adult and bitter."],
+          ["Grand wormwood", "medium", "Keeps the expression dry, adult, and bitter."],
           ["Roman wormwood", "medium", "Maintains absinthe continuity without dominance."],
           ["Green anise", "low", "Keeps a low-licorice louche base."],
           ["Florence fennel", "low-medium", "Adds louche texture without pushing the anise line too hard."],
@@ -168,10 +184,18 @@
           ["Safe language", "Unexpected, transforming, less-traveled", "Make the ritual itself the point."],
           ["Avoid saying", "Creative enhancer or psychedelic", "Do not imply altered consciousness benefits."]
         ]
+      },
+      {
+        "title": "Extraction plan",
+        "items": [
+          ["Still charge", "core distillation", "Run wormwoods, low anise, fennel, coriander, lemon peel, grapefruit peel, juniper, angelica, and trace rosemary in the still to establish the dry citrus-resin base."],
+          ["Maceration", "minimal resin work", "If mastic is used as a resinous bridge, keep it to a very light post-distillation maceration or tincture addition so it reads as texture rather than turpentine."],
+          ["Cold extract", "chromatic finishing", "Keep butterfly pea and cornflower entirely out of the still and build the blue-violet ritual through cold extraction or separate finishing components."]
+        ]
       }
     ],
     "herbs": [
-      ["wormwood", "keeps the SKU adult and bitter"],
+      ["wormwood", "keeps the expression dry, adult, and bitter"],
       ["roman-wormwood", "extends the absinthe echo"],
       ["anise", "holds a minimal louche grammar"],
       ["fennel", "supports low-licorice texture"],
@@ -202,12 +226,12 @@
     ]
   },
   "bleue": {
-    "title": "Chloris",
-    "subtitle": "Nowhere's End NE-04 / Bleue",
+    "title": "Bleue",
+    "subtitle": "Nowhere's End Absinthe / Bleue",
     "chip": "Quiet alpine ritual",
     "toneClass": "sku-blue",
-    "intro": "Cool, clear, and alpine: the most contemplative bottle in the line.",
-    "story": "Bleue should feel quiet and meditative without ever implying anti-anxiety or sleep claims. The ritual calm comes from clarity, cooling herbs, soft fennel structure, and the visual restraint of a clear bottle.",
+    "intro": "A clear absinthe with an alpine frame, a slow louche, and a cool, quiet finish.",
+    "story": "Bleue is the clearest and most restrained expression in the line, built around fennel, wormwood, angelica, and alpine herbs for a slow, contemplative serve.",
     "effectTerritory": "Cool, clear, and alpine; a quiet, contemplative absinthe.",
     "serve": "Serve 1:4.5 with very cold water and a slow drip.",
     "flavor": "Clear, fennel-soft, angelica, alpine herb, and mint trace.",
@@ -233,6 +257,14 @@
           ["Effect territory", "Calm ritual", "Use quiet and contemplative rather than anxiety or sleep language."],
           ["Safe language", "Cool, clear, alpine", "The calm comes from serve style and aromatic posture."],
           ["Avoid saying", "Relieves anxiety or helps sleep", "Do not imply therapeutic sedation."]
+        ]
+      },
+      {
+        "title": "Extraction plan",
+        "items": [
+          ["Still charge", "core distillation", "Distill wormwood, Roman wormwood or genepi, fennel, anise, angelica, coriander, and restrained hyssop for the quiet alpine frame."],
+          ["Maceration", "keep it clear", "Avoid green coloration maceration if the bottle is meant to stay bleue-clear; any botanical resting step should be short and color-neutral."],
+          ["Cold extract", "trace halo only", "Use mint, elderflower, or cornflower only as tiny cold-extract or tincture adjustments if needed, keeping the final profile clear and spare."]
         ]
       }
     ],

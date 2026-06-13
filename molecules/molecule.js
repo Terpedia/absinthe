@@ -1,3 +1,18 @@
+function isTerpene(molecule) {
+  return Boolean(molecule && /terpene/i.test(molecule.class));
+}
+
+function normalizeBiochemistryNote(note) {
+  if (typeof note === "string") {
+    return { text: note, refs: [] };
+  }
+
+  return {
+    text: note.text,
+    refs: Array.isArray(note.refs) ? note.refs : []
+  };
+}
+
 async function renderMoleculePage() {
   const moleculeSlug = document.body.dataset.moleculeSlug;
   const root = document.getElementById("molecule-root");
@@ -18,6 +33,17 @@ async function renderMoleculePage() {
     }
 
     document.title = `${molecule.title} | Nowhere's End Absinthe`;
+    const references = molecule.references || {};
+    const referenceOrder = [];
+    const referenceIndex = {};
+
+    const ensureRefIndex = (refId) => {
+      if (!referenceIndex[refId]) {
+        referenceOrder.push(refId);
+        referenceIndex[refId] = referenceOrder.length;
+      }
+      return referenceIndex[refId];
+    };
 
     const herbHtml = molecule.occursIn
       .map((slug) => {
@@ -29,7 +55,37 @@ async function renderMoleculePage() {
       .join("");
 
     const biochemistryHtml = molecule.biochemistry
-      .map((item) => `<li>${item}</li>`)
+      .map((item) => {
+        const note = normalizeBiochemistryNote(item);
+        const refsHtml = note.refs
+          .filter((refId) => references[refId])
+          .map((refId) => {
+            const ref = references[refId];
+            const number = ensureRefIndex(refId);
+            return `<a href="${ref.url}" target="_blank" rel="noreferrer">[${number}]</a>`;
+          })
+          .join(" ");
+
+        return `
+          <li>
+            ${note.text}
+            ${refsHtml ? `<span class="reference-links">${refsHtml}</span>` : ""}
+          </li>
+        `;
+      })
+      .join("");
+
+    const literatureHtml = referenceOrder
+      .map((refId) => {
+        const ref = references[refId];
+        const number = referenceIndex[refId];
+        return `
+          <li>
+            <span class="reference-number">[${number}]</span>
+            <a class="text-link" href="${ref.url}" target="_blank" rel="noreferrer">${ref.title}</a>
+          </li>
+        `;
+      })
       .join("");
 
     root.innerHTML = `
@@ -38,11 +94,12 @@ async function renderMoleculePage() {
       <header class="page-header shell">
         <a class="back-link" href="../index.html">Back to catalog</a>
         <a class="back-link" href="index.html">Back to molecule library</a>
-        <div class="page-title-wrap frame">
+        <div class="page-title-wrap frame${isTerpene(molecule) ? " molecule-card-terpene" : ""}">
           <p class="eyebrow">${molecule.class}</p>
           <div class="page-title">
             <h1>${molecule.title}</h1>
             <span class="chip">${molecule.chip}</span>
+            ${isTerpene(molecule) ? '<span class="chip chip-terpene">Terpene</span>' : ""}
           </div>
           <p class="page-intro">${molecule.summary}</p>
         </div>
@@ -67,6 +124,7 @@ async function renderMoleculePage() {
             <div class="molecule-meta">
               <div><strong>Formula:</strong> ${molecule.formula}</div>
               <div><strong>Class:</strong> ${molecule.class}</div>
+              <div><strong>Highlight:</strong> ${isTerpene(molecule) ? "Terpene-priority molecule" : "Non-terpene support molecule"}</div>
             </div>
           </article>
           <article class="panel">
@@ -74,6 +132,11 @@ async function renderMoleculePage() {
             <h2>Physiological relevance</h2>
             <ul>${biochemistryHtml}</ul>
             <p class="callout">These notes summarize common pharmacology and metabolism discussions from botanical and flavor literature. They are informational, not medical guidance.</p>
+          </article>
+          <article class="panel">
+            <p class="section-label">Literature</p>
+            <h2>References for biochemical claims</h2>
+            <ol class="reference-list">${literatureHtml}</ol>
           </article>
         </aside>
       </main>

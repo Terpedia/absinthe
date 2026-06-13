@@ -1,3 +1,7 @@
+function isTerpene(molecule) {
+  return Boolean(molecule && /terpene/i.test(molecule.class));
+}
+
 async function renderHerbLibrary() {
   const root = document.getElementById("herb-library-root");
 
@@ -20,8 +24,9 @@ async function renderHerbLibrary() {
                 .slice(0, 4)
                 .map((moleculeSlug) => {
                   const molecule = molecules[moleculeSlug];
+                  const terpeneClass = isTerpene(molecule) ? " mini-chip-terpene" : "";
                   return molecule
-                    ? `<a class="mini-chip" href="../molecules/${moleculeSlug}.html">${molecule.title}</a>`
+                    ? `<a class="mini-chip${terpeneClass}" href="../molecules/${moleculeSlug}.html">${molecule.title}</a>`
                     : "";
                 })
                 .join("")}
