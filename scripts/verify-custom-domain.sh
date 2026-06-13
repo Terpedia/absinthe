@@ -13,7 +13,7 @@ dig +short "$HOSTNAME" A || true
 echo
 
 echo "GitHub Pages metadata"
-gh api repos/Terpedia/absinthe/pages | jq '{status,cname,html_url,https_enforced}'
+gh api repos/Terpedia/nowhere/pages | jq '{status,cname,html_url,https_enforced}'
 echo
 
 echo "HTTP"

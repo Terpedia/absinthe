@@ -1,6 +1,6 @@
-# Absinthe Atlas
+# Nowhere
 
-Static GitHub Pages site for four absinthe concept pages:
+Static GitHub Pages site for the Nowhere absinthe line:
 
 - Verte
 - Rouge
@@ -15,7 +15,7 @@ The current site is moving toward a KB-friendly model:
 - `data/recipes.json` is the structured recipe/concept dataset.
 - `herbs/*.html` and `recipes/*.html` are thin shells rendered from the data files.
 
-That structure is intended to migrate cleanly into a future `kb.terpedia.com` backend.
+That structure is intended to migrate cleanly into a future `kb.terpedia.com` backend while the public-facing brand lives at `nowhere.terpedia.com`.
 
 ## Deployment helpers
 

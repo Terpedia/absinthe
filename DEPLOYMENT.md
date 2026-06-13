@@ -1,21 +1,21 @@
-# absinthe.terpedia.com deployment
+# nowhere.terpedia.com deployment
 
 Current deployment target:
 
-- Repository: `Terpedia/absinthe`
+- Repository: `Terpedia/nowhere`
 - GitHub Pages source: `main` branch, repo root
-- Custom domain: `absinthe.terpedia.com`
-- Published site origin after custom-domain switch: `http://absinthe.terpedia.com/`
+- Custom domain: `nowhere.terpedia.com`
+- Published site origin after custom-domain switch: `http://nowhere.terpedia.com/`
 
 ## Current verified state
 
 Verified on 2026-06-12 / 2026-06-13 UTC:
 
 - GitHub Pages is enabled for the repo.
-- The repo contains a `CNAME` file with `absinthe.terpedia.com`.
-- GitHub Pages metadata reports `cname: absinthe.terpedia.com`.
-- `https://terpedia.github.io/absinthe/...` now redirects to `http://absinthe.terpedia.com/...`.
-- `absinthe.terpedia.com` does **not** resolve yet because DNS is missing.
+- The repo contains a `CNAME` file with `nowhere.terpedia.com`.
+- GitHub Pages metadata reports `cname: nowhere.terpedia.com`.
+- `https://terpedia.github.io/nowhere/...` now redirects to `http://nowhere.terpedia.com/...`.
+- `nowhere.terpedia.com` does **not** resolve yet because DNS is missing.
 
 ## Required DNS change
 
@@ -27,7 +27,7 @@ Verified on 2026-06-12 / 2026-06-13 UTC:
 Create this DNS record in Cloudflare:
 
 - Type: `CNAME`
-- Name: `absinthe`
+- Name: `nowhere`
 - Target: `terpedia.github.io`
 - Proxy status: `DNS only` until GitHub Pages approves the certificate
 
@@ -41,13 +41,13 @@ After GitHub Pages shows the certificate/custom domain as healthy, proxying can 
 
 ## After DNS is added
 
-1. Wait for `absinthe.terpedia.com` to resolve.
+1. Wait for `nowhere.terpedia.com` to resolve.
 2. Re-check GitHub Pages domain status.
 3. Enable HTTPS enforcement once GitHub has issued the certificate.
 4. Verify:
-   - `http://absinthe.terpedia.com/` redirects or loads
-   - `https://absinthe.terpedia.com/` returns `200`
-   - deep links like `https://absinthe.terpedia.com/herbs/wormwood.html` and `https://absinthe.terpedia.com/data/herbs.json` return `200`
+   - `http://nowhere.terpedia.com/` redirects or loads
+   - `https://nowhere.terpedia.com/` returns `200`
+   - deep links like `https://nowhere.terpedia.com/herbs/wormwood.html` and `https://nowhere.terpedia.com/data/herbs.json` return `200`
 
 Repo helper:
 
