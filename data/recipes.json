@@ -1,0 +1,106 @@
+{
+  "verte": {
+    "title": "Verte",
+    "chip": "Green / classic",
+    "toneClass": "tone-verte",
+    "intro": "The reference frame: alpine, bitter, bright, and louche-friendly. This concept preserves the classic trinity of wormwood, anise, and fennel, then uses late green botanicals to widen the aromatic halo.",
+    "sensoryTitle": "What it should feel like",
+    "sensoryBody": "Start with high herbal lift, move into cool anise sweetness, and finish with dry wormwood bitterness. The palate should read green rather than sugary, with a louche that looks opaline jade.",
+    "herbs": [
+      ["wormwood", "bitter backbone and absinthe signature"],
+      ["anise", "sweet aromatic spine and louche support"],
+      ["fennel", "rounder sweetness with herbal depth"],
+      ["hyssop", "resinous green top notes and classic color contribution"],
+      ["lemon-balm", "fresh citron lift without breaking style"],
+      ["roman-wormwood", "softer wormwood tones for complexity"]
+    ],
+    "molecules": [
+      ["Anethole", "the core anise-fennel sweetness and louche behavior"],
+      ["Fenchone", "dry, slightly camphoraceous contrast to anethole"],
+      ["Thujone", "wormwood-associated bitter-aromatic marker"],
+      ["Linalool", "floral lift that softens the bitter frame"],
+      ["Citral", "lemon balm brightness in the top note"],
+      ["Chlorophylls", "green visual identity in naturally colored variants"]
+    ],
+    "colorTitle": "Why it reads green",
+    "colorBody": "The visual identity comes from post-base green botanicals rather than artificial coloring: hyssop, melissa, and pontica all reinforce the classic verte signal."
+  },
+  "rouge": {
+    "title": "Rouge",
+    "chip": "Red / hibiscus",
+    "toneClass": "tone-rouge",
+    "intro": "A red-leaning absinthe concept that keeps wormwood and anise intact while adding hibiscus for tart floral color and a brighter, more wine-like arc.",
+    "sensoryTitle": "What it should feel like",
+    "sensoryBody": "The opening should suggest cranberry, pomegranate, and rose without turning into a liqueur. Bitterness stays present, but the mid-palate picks up hibiscus snap and a vivid ruby impression.",
+    "herbs": [
+      ["wormwood", "essential bitter axis"],
+      ["anise", "keeps it recognizably absinthe"],
+      ["fennel", "rounds the sharp hibiscus edge"],
+      ["hibiscus", "tartness, color, and red-fruit illusion"],
+      ["rose", "optional support for a fuller floral bridge"],
+      ["lemon-balm", "keeps the top note lively and not jammy"]
+    ],
+    "molecules": [
+      ["Anethole", "the recognizable absinthe sweet-spice core"],
+      ["Fenchone", "dry structure against floral tartness"],
+      ["Anthocyanins", "red hue from hibiscus and pH-sensitive vibrancy"],
+      ["Citric and malic acids", "brightness that sharpens the profile"],
+      ["Geraniol", "rosy lift when petals or rosehip are present"],
+      ["Linalool", "floral smoothing across the transition from anise to hibiscus"]
+    ],
+    "colorTitle": "Why it reads red",
+    "colorBody": "Hibiscus does the heavy lifting, delivering a saturated crimson tone. The red identity works best when the visual aim is jewel-like rather than opaque."
+  },
+  "bleue": {
+    "title": "Bleue",
+    "chip": "Clear / transparent",
+    "toneClass": "tone-bleue",
+    "intro": "A clear absinthe concept that skips the green coloring step and instead leans into precision, brightness, and a clean louche on dilution.",
+    "sensoryTitle": "What it should feel like",
+    "sensoryBody": "Crystal-clear in the bottle and silvery-opaline when diluted. The aroma should be focused, brisk, and elegant, with fewer leafy tones than a verte and a slightly more architectural bitterness.",
+    "herbs": [
+      ["wormwood", "clean bitter signature"],
+      ["anise", "louche and sweet aromatic center"],
+      ["fennel", "support and softness"],
+      ["coriander", "dry citrus-spice lift"],
+      ["angelica", "earthy fixation and structure"],
+      ["roman-wormwood", "optional nuance without visible green extraction"]
+    ],
+    "molecules": [
+      ["Anethole", "essential for louche and sweet spice shape"],
+      ["Fenchone", "dries out the finish"],
+      ["Alpha-pinene", "crisp terpene lift from supporting botanicals"],
+      ["Limonene", "bright citrus edge from coriander"],
+      ["Thujone", "wormwood-associated bitter note"],
+      ["Terpinen-4-ol", "subtle aromatic bridge through the mid-palate"]
+    ],
+    "colorTitle": "Why it stays clear",
+    "colorBody": "The identity is defined by restraint: no green coloration phase, no red infusion, just a transparent spirit that blooms when water reveals the louche."
+  },
+  "detour": {
+    "title": "Detour",
+    "chip": "Blue to purple / no licorice",
+    "toneClass": "tone-detour",
+    "intro": "A deliberate departure from the usual anise-led licorice profile. Lemon balm carries the freshness, butterfly pea handles the chromatic drama, and the overall shape reads herbal-citrus rather than confectionary.",
+    "sensoryTitle": "What it should feel like",
+    "sensoryBody": "More like a mountain cordial crossed with an absinthe idea: cool herbs, citrus leaf, soft bitterness, and a color shift from blue toward purple when acidity enters the glass.",
+    "herbs": [
+      ["lemon-balm", "primary aromatic signature and green-citrus lift"],
+      ["butterfly-pea", "blue chromatic source and theatrical shift"],
+      ["roman-wormwood", "keeps an absinthe echo without heavy licorice"],
+      ["hyssop", "cool herbal brightness"],
+      ["lemon-verbena", "sharpened citrus line"],
+      ["angelica", "grounding structure"]
+    ],
+    "molecules": [
+      ["Citral", "lemon-balm brightness and the main top-note cue"],
+      ["Rosmarinic acid", "herbal depth often associated with lemon balm"],
+      ["Ternatins", "butterfly pea pigments responsible for blue-to-purple shift"],
+      ["Linalool", "floral-citrus smoothing across the profile"],
+      ["Verbascoside-related phenolics", "supportive herbal complexity from verbena-style botanicals"],
+      ["Bitters from wormwood-family herbs", "enough spine to keep it from reading like tea"]
+    ],
+    "colorTitle": "Why it shifts blue to purple",
+    "colorBody": "Butterfly pea contributes blue anthocyanin-like pigments that visually swing purple in a more acidic environment. Lemon elements support the narrative even when the acid source sits outside the core herb bill."
+  }
+}
