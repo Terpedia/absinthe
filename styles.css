@@ -234,6 +234,11 @@ h1 {
   line-height: 1.7;
 }
 
+.panel a,
+.notes a {
+  color: var(--ink);
+}
+
 ul {
   margin: 0;
   padding-left: 1.1rem;
@@ -267,6 +272,79 @@ ul {
   background: rgba(106, 134, 209, 0.22);
 }
 
+.text-link {
+  text-underline-offset: 0.2em;
+}
+
+.herb-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  padding-bottom: 4rem;
+}
+
+.herb-card {
+  padding: 1.35rem;
+  min-height: 220px;
+}
+
+.herb-card h2 {
+  font-size: 1.7rem;
+  margin: 0.35rem 0 0.55rem;
+}
+
+.herb-card p {
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.herb-card .chip-row {
+  margin-top: 1rem;
+}
+
+.chip-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.herb-page {
+  padding-bottom: 4rem;
+}
+
+.hero-image {
+  overflow: hidden;
+  padding: 0;
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.hero-image figcaption {
+  padding: 1rem 1.2rem 1.2rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.hero-image figcaption a {
+  color: var(--ink);
+}
+
+.source-list,
+.history-list {
+  padding-left: 1rem;
+}
+
+.callout {
+  border-left: 3px solid rgba(29, 38, 31, 0.18);
+  padding-left: 1rem;
+}
+
 @keyframes rise {
   to {
     transform: translateY(0);
@@ -276,7 +354,8 @@ ul {
 
 @media (max-width: 820px) {
   .grid,
-  .page-content {
+  .page-content,
+  .herb-grid {
     grid-template-columns: 1fr;
   }
 
