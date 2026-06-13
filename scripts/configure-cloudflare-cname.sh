@@ -17,7 +17,6 @@ fi
 
 RECORD_NAME="${RECORD_NAME:-${TARGET_HOSTNAME%%.*}}"
 ZONE_NAME="${ZONE_NAME:-${TARGET_HOSTNAME#*.}}"
-ZONE_NAME="${ZONE_NAME#*.}"
 ZONE_NAME="${ZONE_NAME:-terpedia.com}"
 CONTENT="${CONTENT:-terpedia.github.io}"
 PROXIED="${PROXIED:-false}"
