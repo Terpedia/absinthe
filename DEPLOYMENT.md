@@ -31,6 +31,12 @@ Create this DNS record in Cloudflare:
 - Target: `terpedia.github.io`
 - Proxy status: `DNS only` until GitHub Pages approves the certificate
 
+If Cloudflare credentials are available locally, use:
+
+```bash
+./scripts/configure-cloudflare-cname.sh
+```
+
 After GitHub Pages shows the certificate/custom domain as healthy, proxying can be reconsidered if desired.
 
 ## After DNS is added
@@ -42,6 +48,12 @@ After GitHub Pages shows the certificate/custom domain as healthy, proxying can 
    - `http://absinthe.terpedia.com/` redirects or loads
    - `https://absinthe.terpedia.com/` returns `200`
    - deep links like `https://absinthe.terpedia.com/herbs/wormwood.html` and `https://absinthe.terpedia.com/data/herbs.json` return `200`
+
+Repo helper:
+
+```bash
+./scripts/verify-custom-domain.sh
+```
 
 ## Relevant commits
 
