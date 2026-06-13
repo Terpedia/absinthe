@@ -6,7 +6,7 @@
     "chip": "Sweet anisic core",
     "summary": "Anethole is the defining sweet-spice aromatic in anise and fennel, and the key driver of classical absinthe's louche behavior.",
     "sensory": "Sweet licorice, anisic warmth, polished fennel sweetness.",
-    "occursIn": ["anise", "fennel"],
+    "occursIn": ["anise", "fennel", "star-anise"],
     "biochemistry": [
       "Absorbed through the gut and processed predominantly in the liver through oxidative metabolism and conjugation.",
       "Discussed in the literature for antimicrobial, spasmolytic, and anti-inflammatory activity, though dose and context matter.",
@@ -48,7 +48,7 @@
     "chip": "Floral softener",
     "summary": "Linalool broadens harsh herbal structures into something more perfumed and breathable.",
     "sensory": "Floral citrus, lavender-like softness, polished lift.",
-    "occursIn": ["coriander", "rose", "hyssop", "hibiscus"],
+    "occursIn": ["coriander", "rose", "hyssop", "hibiscus", "elderflower", "orange-peel"],
     "biochemistry": [
       "Rapidly absorbed and metabolized through common hepatic terpene pathways.",
       "Often discussed in sensory neuroscience because it can shift perceived calmness and floral brightness in inhalation contexts.",
@@ -90,7 +90,7 @@
     "chip": "Coniferous lift",
     "summary": "Alpha-pinene creates crisp lift and makes bitter herbal formulas feel high and airy instead of muddy.",
     "sensory": "Pine needle, resin, dry forest top note.",
-    "occursIn": ["wormwood", "coriander", "angelica"],
+    "occursIn": ["wormwood", "coriander", "angelica", "juniper", "mastic", "rosemary"],
     "biochemistry": [
       "Absorbed quickly by inhalation or ingestion and metabolized in the liver into oxygenated terpene derivatives.",
       "Research often explores bronchodilatory, anti-inflammatory, and cognitive-support associations, though evidence varies by model.",
@@ -104,7 +104,7 @@
     "chip": "Citrus edge",
     "summary": "Limonene adds a broad citrus glow that can sharpen structure without tasting like juice.",
     "sensory": "Orange peel, citrus oil, bright terpene bloom.",
-    "occursIn": ["coriander", "lemon-verbena"],
+    "occursIn": ["coriander", "lemon-verbena", "orange-peel", "lemon-peel", "grapefruit-peel", "mastic", "mint"],
     "biochemistry": [
       "Widely metabolized through oxidation and conjugation after gastrointestinal absorption.",
       "Frequently studied for gastric, anti-inflammatory, and chemopreventive associations in preclinical contexts.",
@@ -146,7 +146,7 @@
     "chip": "Red chromatic system",
     "summary": "Anthocyanins give rouge systems their jewel-like red-violet tone and respond visibly to acidity.",
     "sensory": "Visual first: ruby, garnet, magenta cues; lightly tannic-fruit context.",
-    "occursIn": ["hibiscus", "rose"],
+    "occursIn": ["hibiscus", "rose", "butterfly-pea", "cornflower"],
     "biochemistry": [
       "These pigments are heavily studied for antioxidant signaling and vascular or inflammatory associations, though bioavailability is limited and complex.",
       "They are transformed rapidly in the digestive tract and circulation into numerous metabolites rather than persisting intact.",
@@ -221,6 +221,146 @@
       "Citric acid is familiar to human biochemistry because citrate is a core intermediate in the TCA cycle, though dietary citric acid is not a targeted signaling supplement by default.",
       "In foods and drinks it matters physiologically through acidity, mineral binding, and salivary response.",
       "Perceptually it changes everything: sourness reorganizes aroma and color expectations."
+    ]
+  },
+  "gentiopicroside": {
+    "title": "Gentiopicroside",
+    "formula": "C16H20O9",
+    "class": "Secoiridoid bitter compound",
+    "chip": "Aperitif bitterness",
+    "summary": "Gentiopicroside represents the kind of structured bitterness that makes gentian useful in aperitif architecture.",
+    "sensory": "Firm bitter line, rooty dryness, palate-tightening persistence.",
+    "occursIn": ["gentian"],
+    "biochemistry": [
+      "Its main relevance in flavor is bitter receptor activation rather than endogenous signaling.",
+      "Bitter compounds influence salivation and appetite perception through sensory pathways more than through healthful beverage claims.",
+      "That makes it useful for ritual positioning but not for therapeutic language."
+    ]
+  },
+  "menthol": {
+    "title": "Menthol",
+    "formula": "C10H20O",
+    "class": "Monoterpene alcohol",
+    "chip": "Cooling cue",
+    "summary": "Menthol creates a trigeminal cooling sensation that can make a spirit feel calmer, cleaner, and more spacious.",
+    "sensory": "Cooling mint, clear breath, icy herbal lift.",
+    "occursIn": ["mint"],
+    "biochemistry": [
+      "Menthol is well known for TRPM8 receptor activation, which generates cooling perception without requiring cold temperature.",
+      "It is metabolized hepatically after absorption and widely used in sensory products for cooling cues.",
+      "In the absinthe line it should be used as a perceptual effect, not a health claim."
+    ]
+  },
+  "cineole": {
+    "title": "1,8-Cineole",
+    "formula": "C10H18O",
+    "class": "Monoterpene ether",
+    "chip": "Alpine clarity",
+    "summary": "1,8-Cineole brings a clean, eucalyptus-like lift that helps alpine herbs read cool and spacious.",
+    "sensory": "Cool camphor, eucalyptus, lifted herbal air.",
+    "occursIn": ["genepi", "cardamom", "rosemary"],
+    "biochemistry": [
+      "Frequently discussed in respiratory and anti-inflammatory literature, though beverage claims should not borrow that framing.",
+      "Its sensory significance is strong because it reads as breath, air, and clarity.",
+      "That makes it valuable for contemplative and alpine ritual language."
+    ]
+  },
+  "borneol": {
+    "title": "Borneol",
+    "formula": "C10H18O",
+    "class": "Bicyclic monoterpene alcohol",
+    "chip": "Camphor-soft altitude",
+    "summary": "Borneol gives alpine herbs a softer camphoraceous height without the hard edge of stronger ketones.",
+    "sensory": "Camphor-soft, resinous, dry alpine top note.",
+    "occursIn": ["genepi", "yarrow"],
+    "biochemistry": [
+      "Often discussed in traditional medicine and pharmacology literature as part of broader aromatic-herb systems.",
+      "Its beverage relevance is mainly perceptual: it makes herbal systems feel elevated and cool.",
+      "That is useful for ritual positioning but not for curative messaging."
+    ]
+  },
+  "hotrienol": {
+    "title": "Hotrienol",
+    "formula": "C10H18O",
+    "class": "Monoterpene alcohol",
+    "chip": "Soft floral halo",
+    "summary": "Hotrienol is a delicate floral top-note compound associated with airy blossom character.",
+    "sensory": "Honeyed floral vapor, blossom-like sweetness, soft halo.",
+    "occursIn": ["elderflower"],
+    "biochemistry": [
+      "Its significance is primarily olfactory rather than pharmacological.",
+      "Floral volatiles like hotrienol influence perceived softness and calmness through aroma construction.",
+      "That makes it relevant to contemplative serve design even when direct physiological claims are off limits."
+    ]
+  },
+  "terpinyl-acetate": {
+    "title": "Terpinyl acetate",
+    "formula": "C12H20O2",
+    "class": "Monoterpene ester",
+    "chip": "Cardamom sparkle",
+    "summary": "Terpinyl acetate is one of the compounds that makes cardamom feel sparkling, lifted, and expensive.",
+    "sensory": "Sweet spice, cool lift, perfumed cardamom brightness.",
+    "occursIn": ["cardamom"],
+    "biochemistry": [
+      "Like many terpene esters, it is relevant mainly through flavor and fragrance behavior.",
+      "It contributes to the psychological read of elegance and brightness more than to any justified functional claim.",
+      "In spirits it is useful when warmth needs polish rather than heat."
+    ]
+  },
+  "paradols": {
+    "title": "Paradols",
+    "formula": "Phenolic pungent compound family",
+    "class": "Pungent phenolics",
+    "chip": "Warm spice salivation",
+    "summary": "Paradols represent the warming pungency of grains of paradise and related spice materials.",
+    "sensory": "Warm peppery heat, salivation, spicy glow.",
+    "occursIn": ["grains-of-paradise"],
+    "biochemistry": [
+      "Pungent spice compounds act strongly through sensory pathways, especially trigeminal response and salivation.",
+      "They can make a drink feel lively and social without any need for mood or stimulant claims.",
+      "That makes them useful for convivial design language."
+    ]
+  },
+  "sabinene": {
+    "title": "Sabinene",
+    "formula": "C10H16",
+    "class": "Monoterpene hydrocarbon",
+    "chip": "Juniper bite",
+    "summary": "Sabinene gives juniper its dry, biting, gin-adjacent lift.",
+    "sensory": "Peppery pine, dry resin, bright conifer bite.",
+    "occursIn": ["juniper", "wormwood"],
+    "biochemistry": [
+      "Its importance is largely sensory and structural in essential-oil compositions.",
+      "Juniper-heavy systems use sabinene to feel brisk and adult rather than plush.",
+      "That is a product effect, not a health effect."
+    ]
+  },
+  "myrcene": {
+    "title": "Myrcene",
+    "formula": "C10H16",
+    "class": "Monoterpene hydrocarbon",
+    "chip": "Resinous depth",
+    "summary": "Myrcene deepens resinous and citrus systems, giving them body and a slightly humid vegetal floor.",
+    "sensory": "Resin, damp herb, terpene depth, rounded volatile body.",
+    "occursIn": ["juniper", "mastic", "orange-peel"],
+    "biochemistry": [
+      "Myrcene appears widely in terpene pharmacology conversations, but in a beverage context the safer truth is that it changes how aroma feels and lingers.",
+      "It is lipophilic and metabolized like many volatile terpenes.",
+      "Its practical value here is atmospheric depth."
+    ]
+  },
+  "camphor": {
+    "title": "Camphor",
+    "formula": "C10H16O",
+    "class": "Monoterpene ketone",
+    "chip": "Clean medicinal altitude",
+    "summary": "Camphor brings austere medicinal brightness and a clean alpine edge.",
+    "sensory": "Sharp medicinal coolness, resin, alpine austerity.",
+    "occursIn": ["genepi", "rosemary", "yarrow"],
+    "biochemistry": [
+      "Camphor is strongly sensory and historically associated with medicinal intensity.",
+      "At beverage formulation levels it is more useful as a precision cue than as a health-positioning asset.",
+      "Its presence should remain controlled so it reads elegant rather than harsh."
     ]
   }
 }

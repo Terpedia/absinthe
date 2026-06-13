@@ -1,39 +1,51 @@
 {
   "verte": {
     "title": "Absinthe",
-    "subtitle": "Nowhere's End NE-01",
-    "chip": "Verte / flagship",
+    "subtitle": "Nowhere's End NE-01 / Verte",
+    "chip": "Focused aperitif / green clarity",
     "toneClass": "sku-green",
-    "intro": "The flagship verte: alpine, bitter, louche-friendly, and deliberately classical in silhouette.",
-    "story": "This SKU is built as the house reference point. It starts with a traditional wormwood-anise-fennel trinity, then widens with green botanicals so the finish stays high and herbaceous rather than syrupy.",
+    "intro": "The sharpest and most classical bottle in the line: bitter, green, aromatic, dry, and structured.",
+    "story": "Verte is positioned as a focused aperitif ritual rather than a pharmacological promise. Its logic comes from bitterness, dry structure, citrus-herbal lift, and aromatic definition.",
+    "effectTerritory": "Bright, bitter, and lucidly herbal; built for a focused aperitif ritual.",
+    "serve": "Serve 1:4 with cold water, no sugar or half sugar.",
+    "flavor": "Bitter green, classic louche, melissa and coriander lift.",
+    "marketingPhrase": "For the green hour before dinner.",
     "recipeSections": [
       {
         "title": "Primary botanical bill",
         "items": [
-          ["Grand wormwood", "24 parts", "Sets the bitter spine and the sovereign absinthe signature."],
-          ["Green anise", "32 parts", "Carries the sweet anisic core and louche behavior."],
-          ["Florence fennel", "22 parts", "Rounds the mid-palate and softens anise sharpness."],
-          ["Hyssop", "8 parts", "Adds alpine lift and green medicinal structure."],
-          ["Lemon balm", "7 parts", "Pushes the profile toward fresh citron-green rather than confection."],
-          ["Roman wormwood", "7 parts", "Adds nuance and soft wormwood echo in the finish."]
+          ["Grand wormwood", "medium-high", "Classic bitter backbone and absinthe identity."],
+          ["Roman wormwood", "medium", "Extends the bitter line with softer Artemisia nuance."],
+          ["Green anise", "high", "Carries the sweet anisic body and the louche."],
+          ["Florence fennel", "medium-high", "Rounds the body and keeps the sweetness botanical."],
+          ["Coriander seed", "medium", "Adds citrus-spice clarity."],
+          ["Lemon balm", "medium", "Gives green citrus lift and aroma precision."],
+          ["Hyssop", "medium", "Provides minty alpine medicinal lift."],
+          ["Angelica root", "low-medium", "Acts as a root fixative and drying frame."],
+          ["Gentian", "trace", "Tightens the aperitif bitterness."],
+          ["Mint", "trace", "Introduces perceived sharpness without reading toothpaste."]
         ]
       },
       {
-        "title": "SKU cues",
+        "title": "Claim-safe positioning",
         "items": [
-          ["Target visual", "Jade louche", "The appearance should read naturally green rather than artificially saturated."],
-          ["Sweetness posture", "Dry-sweet", "Anisic sweetness remains present but is restrained by bitter lift."],
-          ["Finish", "Long herbal taper", "The last impression should be wormwood, fennel, and cool resin."]
+          ["Effect territory", "Green clarity", "Use ritual language rather than saying stimulant, focus aid, or nootropic."],
+          ["Safe language", "Bright, precise, bitter", "Aperitif and aromatic clarity are defensible; drug-effect language is not."],
+          ["Avoid saying", "Improves focus", "Do not imply enhanced cognition or stimulant function."]
         ]
       }
     ],
     "herbs": [
       ["wormwood", "bitter backbone and absinthe signature"],
+      ["roman-wormwood", "extends the wormwood line with softer nuance"],
       ["anise", "sweet aromatic spine and louche support"],
       ["fennel", "rounder sweetness with herbal depth"],
-      ["hyssop", "resinous green top notes and classic color contribution"],
+      ["coriander", "adds citrus-spice clarity"],
       ["lemon-balm", "fresh citron lift without breaking the style"],
-      ["roman-wormwood", "softer wormwood tones for complexity"]
+      ["hyssop", "resinous green top notes and medicinal altitude"],
+      ["angelica", "rooty persistence and dryness"],
+      ["gentian", "firmer aperitif bitterness"],
+      ["mint", "trace cooling sharpness"]
     ],
     "molecules": [
       ["anethole", "sweet anisic body and louche behavior"],
@@ -41,48 +53,67 @@
       ["thujone", "wormwood-associated austere edge"],
       ["linalool", "small floral lift that broadens the mid-palate"],
       ["citral", "green lemon brightness from melissa"],
-      ["chlorophylls", "visual identity in the colored SKU"]
+      ["gentiopicroside", "trace bitter reinforcement"],
+      ["menthol", "a tiny cooling edge in the finish"]
     ],
     "serviceNotes": [
-      "Best framed as the reference bottle that defines the family grammar.",
-      "Works when the narrative is historical continuity rather than spectacle."
+      "Talk about aperitif structure, attention to ritual, and green bitterness, not cognition claims.",
+      "The bottle should feel classically absinthe even when its clarity cues are modernized."
     ]
   },
   "rouge": {
     "title": "Crimson",
-    "subtitle": "Nowhere's End NE-02",
-    "chip": "Rouge / hibiscus",
+    "subtitle": "Nowhere's End NE-02 / Rouge",
+    "chip": "Convivial red ritual",
     "toneClass": "sku-red",
-    "intro": "A rouge SKU that keeps absinthe recognizable while letting hibiscus and rose push the line toward garnet and bloom.",
-    "story": "Crimson is not a liqueur masquerading as absinthe. It stays rooted in wormwood and anise, then bends toward hibiscus for tart color, rose for perfume, and melissa for freshness.",
+    "intro": "A tart crimson absinthe built for the table: floral, vivid, and social without abandoning the absinthe spine.",
+    "story": "Crimson is framed as a convivial ritual bottle, not a mood enhancer or aphrodisiac. Hibiscus, rosehip, citrus, and warm spice create table drama while wormwood, anise, and fennel keep the identity intact.",
+    "effectTerritory": "Tart, floral, crimson, and convivial; designed for a dramatic table ritual.",
+    "serve": "Serve 1:3.5 with cold water and optional expressed orange peel.",
+    "flavor": "Hibiscus, citrus, anise, warm spice, and floral bitter finish.",
+    "marketingPhrase": "A crimson absinthe for the table.",
     "recipeSections": [
       {
         "title": "Primary botanical bill",
         "items": [
-          ["Grand wormwood", "20 parts", "Maintains the bitter axis so the SKU remains anchored."],
-          ["Green anise", "28 parts", "Preserves absinthe identity and louche structure."],
-          ["Florence fennel", "18 parts", "Renders the red build softer and more continuous."],
-          ["Hibiscus calyx", "18 parts", "Supplies tartness, anthocyanin color, and red-fruit illusion."],
-          ["Rose petals", "8 parts", "Adds perfume and a soft floral bridge over the hibiscus acid line."],
-          ["Lemon balm", "8 parts", "Keeps the nose lifted and avoids syrupy collapse."]
+          ["Grand wormwood", "medium", "Maintains the bitter axis."],
+          ["Roman wormwood", "low-medium", "Supports structure without excessive severity."],
+          ["Green anise", "medium-high", "Preserves absinthe recognition and louche."],
+          ["Florence fennel", "medium", "Rounds hibiscus acidity."],
+          ["Star anise", "low", "Adds extra sweet-spice support."],
+          ["Coriander seed", "medium", "Bridges floral and citrus notes."],
+          ["Orange peel", "medium", "Creates a citrus bridge into hibiscus."],
+          ["Angelica root", "low", "Adds rooty restraint."],
+          ["Hibiscus finish", "medium", "Provides crimson color and tartness."],
+          ["Rosehip finish", "low-medium", "Adds tannic fruit support."],
+          ["Grains of paradise", "trace", "Adds warmth and salivation."],
+          ["Cardamom", "trace", "Lifts the top note with sparkling spice."],
+          ["Rose petal", "trace", "Softens the profile with perfume."]
         ]
       },
       {
-        "title": "SKU cues",
+        "title": "Claim-safe positioning",
         "items": [
-          ["Target visual", "Ruby-garnet", "The bottle should read like stained glass rather than opaque syrup."],
-          ["Acid posture", "Bright but not sour", "The red system should sharpen the absinthe spine without overwhelming it."],
-          ["Finish", "Floral bitter", "Rose and wormwood should remain after the hibiscus flash fades."]
+          ["Effect territory", "Social warmth / drama", "Use convivial and table-centered language rather than mood or heart-health claims."],
+          ["Safe language", "Vivid, convivial, crimson", "Frame the bottle as a dramatic ritual for the table."],
+          ["Avoid saying", "Aphrodisiac or heart healthy", "Do not imply cardiovascular or sexual-function benefits."]
         ]
       }
     ],
     "herbs": [
       ["wormwood", "essential bitter axis"],
+      ["roman-wormwood", "keeps the red build anchored to absinthe"],
       ["anise", "keeps the SKU recognizably absinthe"],
       ["fennel", "rounds the hibiscus edge"],
-      ["hibiscus", "provides tartness, color, and red-fruit illusion"],
-      ["rose", "gives the floral bridge and perfume"],
-      ["lemon-balm", "keeps the top note lively and not jammy"]
+      ["star-anise", "reinforces the sweet-spice frame"],
+      ["coriander", "floral citrus-spice bridge"],
+      ["orange-peel", "citrus bridge to the red floral core"],
+      ["angelica", "rooty restraint"],
+      ["hibiscus", "color, tartness, and red-fruit illusion"],
+      ["rosehip", "fruit and tannic grip"],
+      ["grains-of-paradise", "warmth and salivation"],
+      ["cardamom", "sparkling spice lift"],
+      ["rose", "perfume and floral bridge"]
     ],
     "molecules": [
       ["anethole", "retains the absinthe sweet-spice grammar"],
@@ -90,109 +121,146 @@
       ["anthocyanins", "create the ruby chromatic field"],
       ["citric-acid", "sharpens the perceived line"],
       ["geraniol", "adds rose bloom and soft lift"],
-      ["linalool", "smooths the floral transition"]
+      ["linalool", "smooths the floral transition"],
+      ["terpinyl-acetate", "supports cardamom sparkle"],
+      ["paradols", "supply warm spice heat"]
     ],
     "serviceNotes": [
-      "Best treated as the dramatic bottle in the line without losing the core identity.",
-      "Useful wherever the visual story matters as much as the louche."
+      "Position it as a vivid table ritual, not a physiological mood modifier.",
+      "The visual story should support conviviality without drifting into supplement language."
     ]
   },
   "detour": {
     "title": "Detour",
-    "subtitle": "Nowhere's End NE-03",
-    "chip": "No licorice / chromatic shift",
+    "subtitle": "Nowhere's End NE-03 / Blue Turning",
+    "chip": "Creative deviation / less licorice",
     "toneClass": "sku-amber",
-    "intro": "The family rebel: an absinthe-adjacent SKU that steps away from licorice toward lemon herbs, cool bitters, and blue-purple theater.",
-    "story": "Detour deliberately breaks the expectation that absinthe must always read as anise first. Lemon balm and lemon verbena lead, butterfly pea handles the chromatic shift, and softer bitter herbs keep it from becoming just a tea cordial.",
+    "intro": "The less-licorice side road: citrus, resin, blue-to-violet ritual, and botanical lift.",
+    "story": "Detour is the novel bottle in the family, but its language should stay on transformation, surprise, and ritual rather than cognitive enhancement or psychedelia. The point is a blue-to-violet absinthe detour with less licorice and more turning.",
+    "effectTerritory": "A less-licorice absinthe detour: citrus, resin, blue-to-violet ritual, and botanical lift.",
+    "serve": "Serve 1:4 with cold water; a citrus-acid drop can trigger the blue-to-violet shift.",
+    "flavor": "Less licorice, more citrus, juniper, resin, and botanical lift.",
+    "marketingPhrase": "The absinthe that turns.",
     "recipeSections": [
       {
         "title": "Primary botanical bill",
         "items": [
-          ["Lemon balm", "24 parts", "Acts as the aromatic signature and the green-citrus center."],
-          ["Butterfly pea flower", "20 parts", "Creates the blue visual system and pH-responsive color play."],
-          ["Roman wormwood", "14 parts", "Keeps an absinthe echo without hard licorice weight."],
-          ["Hyssop", "12 parts", "Adds cool herbal altitude and medicinal tension."],
-          ["Lemon verbena", "18 parts", "Pushes the profile toward leaf-citrus precision."],
-          ["Angelica root", "12 parts", "Anchors the top notes and gives the SKU structure."]
+          ["Grand wormwood", "medium", "Keeps the SKU adult and bitter."],
+          ["Roman wormwood", "medium", "Maintains absinthe continuity without dominance."],
+          ["Green anise", "low", "Keeps a low-licorice louche base."],
+          ["Florence fennel", "low-medium", "Adds louche texture without pushing the anise line too hard."],
+          ["Coriander", "high", "Creates bright citrus-herbal lift."],
+          ["Lemon peel", "medium-high", "Pushes the top note toward clean citrus brightness."],
+          ["Grapefruit peel", "low-medium", "Adds bitter citrus complexity."],
+          ["Juniper", "medium", "Introduces pine-resin lift."],
+          ["Angelica root", "medium", "Grounds the airy top notes."],
+          ["Mastic", "trace-low", "Gives resinous mouthfeel and ritual strangeness."],
+          ["Rosemary", "trace", "Adds camphoraceous clean lift."],
+          ["Yarrow or gentian", "trace", "Supplies extra dry bitter adulthood."],
+          ["Butterfly pea finish", "low-medium", "Creates the chromatic shift."],
+          ["Cornflower", "low", "Supports the blue visual field."]
         ]
       },
       {
-        "title": "SKU cues",
+        "title": "Claim-safe positioning",
         "items": [
-          ["Target visual", "Blue to purple shift", "The chromatic story is core to the product identity."],
-          ["Sweetness posture", "Low", "This SKU should feel botanical and exploratory rather than candy-like."],
-          ["Finish", "Herbal citrus with gentle bitters", "The final impression should be green, cooling, and strange in a good way."]
+          ["Effect territory", "Novelty / transformation", "Use unexpected and turning language rather than cognitive or psychedelic claims."],
+          ["Safe language", "Unexpected, transforming, less-traveled", "Make the ritual itself the point."],
+          ["Avoid saying", "Creative enhancer or psychedelic", "Do not imply altered consciousness benefits."]
         ]
       }
     ],
     "herbs": [
-      ["lemon-balm", "primary aromatic signature and green-citrus lift"],
-      ["butterfly-pea", "blue chromatic source and theatrical shift"],
-      ["roman-wormwood", "keeps an absinthe echo without heavy licorice"],
-      ["hyssop", "cool herbal brightness"],
-      ["lemon-verbena", "sharpens the citrus line"],
-      ["angelica", "grounds the structure"]
+      ["wormwood", "keeps the SKU adult and bitter"],
+      ["roman-wormwood", "extends the absinthe echo"],
+      ["anise", "holds a minimal louche grammar"],
+      ["fennel", "supports low-licorice texture"],
+      ["coriander", "citrus-floral bridge"],
+      ["lemon-peel", "bright citrus top note"],
+      ["grapefruit-peel", "bitter citrus complexity"],
+      ["juniper", "pine and resin lift"],
+      ["angelica", "rooty fixative"],
+      ["mastic", "resinous texture"],
+      ["rosemary", "clean camphoraceous lift"],
+      ["yarrow", "wild dry bitterness"],
+      ["butterfly-pea", "blue-violet chromatic ritual"],
+      ["cornflower", "supports the blue visual story"]
     ],
     "molecules": [
-      ["citral", "drives the lemon-green brightness"],
-      ["rosmarinic-acid", "adds melissa depth and cooling herbal persistence"],
-      ["ternatins", "generate the blue-to-purple visual performance"],
-      ["linalool", "keeps the top note polished instead of raw"],
-      ["verbascoside", "adds leaflike phenolic structure"],
-      ["alpha-pinene", "keeps the profile airy rather than sweet"]
+      ["citral", "keeps the citrus line bright and green"],
+      ["linalool", "smooths the aromatic transitions"],
+      ["ternatins", "generate the blue-to-violet visual performance"],
+      ["alpha-pinene", "creates pine-resin lift"],
+      ["limonene", "keeps the top note citrus-bright"],
+      ["sabinene", "juniper bite and lift"],
+      ["myrcene", "resinous depth"],
+      ["camphor", "clean medicinal altitude"]
     ],
     "serviceNotes": [
-      "This is the SKU for color ritual and deliberate deviation.",
-      "Its success depends on the balance between curiosity and coherence."
+      "Sell the visual transformation and the side-road feeling, not altered consciousness.",
+      "Detour should read as unexpected but still dry and adult."
     ]
   },
   "bleue": {
     "title": "Chloris",
-    "subtitle": "Nowhere's End NE-04",
-    "chip": "Bleue / clear architecture",
+    "subtitle": "Nowhere's End NE-04 / Bleue",
+    "chip": "Quiet alpine ritual",
     "toneClass": "sku-blue",
-    "intro": "The clear bottle in the line: all structure, no green coloration, with a cleaner and more architectural profile.",
-    "story": "Chloris strips away the colored-herb halo and lets the base grammar appear in clear form. It still speaks absinthe, but it does so with sharper lines and less visual camouflage.",
+    "intro": "Cool, clear, and alpine: the most contemplative bottle in the line.",
+    "story": "Bleue should feel quiet and meditative without ever implying anti-anxiety or sleep claims. The ritual calm comes from clarity, cooling herbs, soft fennel structure, and the visual restraint of a clear bottle.",
+    "effectTerritory": "Cool, clear, and alpine; a quiet, contemplative absinthe.",
+    "serve": "Serve 1:4.5 with very cold water and a slow drip.",
+    "flavor": "Clear, fennel-soft, angelica, alpine herb, and mint trace.",
+    "marketingPhrase": "A quiet alpine louche.",
     "recipeSections": [
       {
         "title": "Primary botanical bill",
         "items": [
-          ["Grand wormwood", "22 parts", "Provides the clean bitter signature."],
-          ["Green anise", "30 parts", "Retains louche and the expected absinthe center."],
-          ["Florence fennel", "20 parts", "Rounds and supports the anisic line."],
-          ["Coriander seed", "10 parts", "Adds citrus-spice lift and dries the finish."],
-          ["Angelica root", "10 parts", "Acts as fixative structure and body."],
-          ["Roman wormwood", "8 parts", "Adds gentler bitters without adding green color expectation."]
+          ["Grand wormwood", "medium", "Provides the clean bitter signature."],
+          ["Roman wormwood or genepi", "medium", "Adds alpine aromatic lift."],
+          ["Florence fennel", "high", "Makes the bottle soft and rounded."],
+          ["Green anise", "medium", "Keeps the center classically absinthe."],
+          ["Angelica root or seed", "medium", "Creates cool rooty complexity."],
+          ["Hyssop", "low-medium", "Provides restrained green lift."],
+          ["Mint", "trace", "Adds a cooling trigeminal cue."],
+          ["Coriander", "low", "Keeps the structure bright but not sharp."],
+          ["Cornflower or elderflower", "trace finish", "Creates a gentle aromatic halo."]
         ]
       },
       {
-        "title": "SKU cues",
+        "title": "Claim-safe positioning",
         "items": [
-          ["Target visual", "Clear in bottle, opaline in louche", "Transparency is part of the SKU's confidence."],
-          ["Aromatic posture", "Precise and brisk", "This SKU should feel cleaner and more technical than the verte."],
-          ["Finish", "Dry and bright", "Coriander and angelica should make the exit more skeletal and elegant."]
+          ["Effect territory", "Calm ritual", "Use quiet and contemplative rather than anxiety or sleep language."],
+          ["Safe language", "Cool, clear, alpine", "The calm comes from serve style and aromatic posture."],
+          ["Avoid saying", "Relieves anxiety or helps sleep", "Do not imply therapeutic sedation."]
         ]
       }
     ],
     "herbs": [
       ["wormwood", "clean bitter signature"],
-      ["anise", "louche and sweet aromatic center"],
-      ["fennel", "support and softness"],
-      ["coriander", "brings dry citrus-spice lift"],
-      ["angelica", "provides earthy fixation and structure"],
-      ["roman-wormwood", "adds optional nuance without green coloration"]
+      ["roman-wormwood", "soft alpine Artemisia support"],
+      ["genepi", "brings alpine lift and restraint"],
+      ["fennel", "supports the quiet rounded body"],
+      ["anise", "keeps the bottle recognizably absinthe"],
+      ["angelica", "rooty cool complexity"],
+      ["hyssop", "restrained green lift"],
+      ["mint", "cooling trace"],
+      ["coriander", "dry citrus-spice brightness"],
+      ["elderflower", "soft floral top note"],
+      ["cornflower", "visual and aromatic softness"]
     ],
     "molecules": [
       ["anethole", "holds the louche and sweet spice line"],
       ["fenchone", "dries the fennel register"],
-      ["alpha-pinene", "creates crisp lift"],
-      ["limonene", "introduces bright citrus edge"],
-      ["thujone", "keeps the bitter frame recognizable"],
-      ["terpinen-4-ol", "bridges citrus and root structure"]
+      ["alpha-pinene", "adds crisp lift"],
+      ["menthol", "supplies cooling perception"],
+      ["cineole", "supports alpine aromatic clarity"],
+      ["borneol", "adds soft camphoraceous altitude"],
+      ["hotrienol", "supports the delicate floral halo"]
     ],
     "serviceNotes": [
-      "This is the SKU for clarity, not spectacle.",
-      "It should feel deliberate, transparent, and composed."
+      "Describe this as a contemplative pour, not a relaxant or sleep aid.",
+      "Its calm should be sensory and ritual, not medicinal."
     ]
   }
 }
