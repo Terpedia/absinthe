@@ -3,12 +3,14 @@ async function renderRecipePage() {
   const root = document.getElementById("recipe-root");
 
   try {
-    const [recipeResponse, herbResponse] = await Promise.all([
+    const [recipeResponse, herbResponse, moleculeResponse] = await Promise.all([
       fetch("../data/recipes.json"),
-      fetch("../data/herbs.json")
+      fetch("../data/herbs.json"),
+      fetch("../data/molecules.json")
     ]);
     const recipes = await recipeResponse.json();
     const herbs = await herbResponse.json();
+    const molecules = await moleculeResponse.json();
     const recipe = recipes[recipeSlug];
 
     if (!recipe) {
@@ -17,40 +19,93 @@ async function renderRecipePage() {
       return;
     }
 
-    document.title = `${recipe.title} | Absinthe Atlas`;
+    document.title = `${recipe.title} | Nowhere's End Absinthe`;
+
+    const recipeSectionsHtml = recipe.recipeSections
+      .map(
+        (section) => `
+          <article class="panel">
+            <p class="section-label">${section.title}</p>
+            <div class="recipe-ledger">
+              ${section.items
+                .map(
+                  ([name, value, note]) => `
+                    <div class="ledger-row">
+                      <div>
+                        <div class="ledger-name">${name}</div>
+                        <div>${note}</div>
+                      </div>
+                      <div class="ledger-value">${value}</div>
+                    </div>
+                  `
+                )
+                .join("")}
+            </div>
+          </article>
+        `
+      )
+      .join("");
 
     const herbHtml = recipe.herbs
       .map(([slug, note]) => {
         const herb = herbs[slug];
         const label = herb ? herb.title : slug;
-        return `<li><strong><a class="text-link" href="../herbs/${slug}.html">${label}</a>:</strong> ${note}.</li>`;
+        const chips = herb
+          ? herb.molecules
+              .slice(0, 4)
+              .map((moleculeSlug) => {
+                const molecule = molecules[moleculeSlug];
+                return molecule
+                  ? `<a class="mini-chip" href="../molecules/${moleculeSlug}.html">${molecule.title}</a>`
+                  : "";
+              })
+              .join("")
+          : "";
+        return `
+          <li>
+            <strong><a class="text-link" href="../herbs/${slug}.html">${label}</a>:</strong> ${note}.
+            <div class="chip-row">${chips}</div>
+          </li>
+        `;
       })
       .join("");
 
     const moleculeHtml = recipe.molecules
-      .map(([name, note]) => `<li><strong>${name}:</strong> ${note}.</li>`)
+      .map(([slug, note]) => {
+        const molecule = molecules[slug];
+        if (!molecule) {
+          return "";
+        }
+        return `
+          <li>
+            <strong><a class="text-link" href="../molecules/${slug}.html">${molecule.title}</a>:</strong> ${note}.
+          </li>
+        `;
+      })
+      .join("");
+
+    const serviceHtml = recipe.serviceNotes
+      .map((note) => `<li>${note}</li>`)
       .join("");
 
     root.innerHTML = `
-      <div class="aurora aurora-a"></div>
-      <div class="aurora aurora-b"></div>
+      <div class="page-glow page-glow-a"></div>
+      <div class="page-glow page-glow-b"></div>
       <header class="page-header shell">
-        <a class="back-link" href="../index.html">Back to atlas</a>
-        <div class="page-title-wrap ${recipe.toneClass}">
+        <a class="back-link" href="../index.html">Back to catalog</a>
+        <div class="page-title-wrap frame ${recipe.toneClass}">
+          <p class="eyebrow">${recipe.subtitle}</p>
           <div class="page-title">
             <h1>${recipe.title}</h1>
             <span class="chip">${recipe.chip}</span>
           </div>
           <p class="page-intro">${recipe.intro}</p>
+          <p>${recipe.story}</p>
         </div>
       </header>
       <main class="page-content shell">
         <section class="stack">
-          <article class="panel">
-            <p class="section-label">Sensory target</p>
-            <h2>${recipe.sensoryTitle}</h2>
-            <p>${recipe.sensoryBody}</p>
-          </article>
+          ${recipeSectionsHtml}
           <article class="panel">
             <p class="section-label">Herbs</p>
             <h2>Botanical frame</h2>
@@ -60,14 +115,19 @@ async function renderRecipePage() {
         <aside class="stack">
           <article class="panel">
             <p class="section-label">Molecules</p>
-            <h2>Primary aromatic drivers</h2>
+            <h2>Molecule intent</h2>
             <ul class="molecule-list">${moleculeHtml}</ul>
           </article>
           <article class="panel">
-            <p class="section-label">Color logic</p>
-            <h2>${recipe.colorTitle}</h2>
-            <p>${recipe.colorBody}</p>
-            <p><a class="text-link" href="../herbs/index.html">Browse all herb pages</a></p>
+            <p class="section-label">Service posture</p>
+            <h2>How the SKU should read</h2>
+            <ul>${serviceHtml}</ul>
+          </article>
+          <article class="panel">
+            <p class="section-label">Knowledge graph</p>
+            <h2>Continue exploring</h2>
+            <p><a class="text-link" href="../herbs/index.html">Browse the herb library</a></p>
+            <p><a class="text-link" href="../molecules/index.html">Browse the molecule library</a></p>
           </article>
         </aside>
       </main>

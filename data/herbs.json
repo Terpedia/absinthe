@@ -15,7 +15,9 @@
       "Commonly listed in older herbals as a vermifuge or worm-expelling herb.",
       "Also appears in traditional remedies for sluggish digestion and dyspeptic complaints."
     ],
-    "role": "In the absinthe pages, wormwood sets the bitter architecture and keeps the drink from reading as candy or liqueur.",
+    "role": "In the Nowhere's End line, wormwood supplies the stern backbone that keeps the house style from drifting into perfume or confection.",
+    "molecules": ["thujone", "alpha-pinene"],
+    "recipes": ["verte", "rouge", "bleue"],
     "sources": [
       ["Wikipedia: Artemisia absinthium", "https://en.wikipedia.org/wiki/Artemisia_absinthium"],
       ["Herb Society quick facts: Artemisia", "https://www.herbsociety.org/file_download/inline/d52eae8c-be89-497d-94b3-7fc8da4105f1"]
@@ -31,13 +33,15 @@
     "imageAlt": "Roman wormwood growing outdoors.",
     "imageCreditLabel": "Wikipedia image source",
     "imageCreditUrl": "https://en.wikipedia.org/wiki/Artemisia_pontica",
-    "history": "Roman wormwood comes from southeastern Europe and entered the bitter-herb tradition as a more delicate Artemisia for aromatized wines, cordials, and absinthe-adjacent formulas. In historical spirits writing it is often treated as a supporting wormwood rather than the principal bitter.",
+    "history": "Roman wormwood entered the bitter-herb tradition as a more delicate Artemisia for aromatized wines, cordials, and absinthe-adjacent formulas. It is often treated as a supporting wormwood rather than the principal bitter.",
     "medicinal": [
       "Traditionally treated as a tonic bitter in the broader Artemisia family.",
       "Historically associated with digestive formulas and appetite support.",
-      "Less frequently singled out than grand wormwood, but used in similar bitter-herbal contexts."
+      "Used in similar bitter-herbal contexts to grand wormwood, but more gently."
     ],
-    "role": "On the site it appears where a formula wants wormwood character without the full severity of grand wormwood.",
+    "role": "Roman wormwood provides absinthe continuity without dragging every SKU back to the full severity of the flagship verte.",
+    "molecules": ["thujone", "chlorophylls"],
+    "recipes": ["verte", "detour", "bleue"],
     "sources": [
       ["Wikipedia: Artemisia pontica", "https://en.wikipedia.org/wiki/Artemisia_pontica"],
       ["Wikimedia Commons file page", "https://commons.wikimedia.org/wiki/File:Artemisia_pontica.jpg"]
@@ -53,13 +57,15 @@
     "imageAlt": "Botanical illustration of anise.",
     "imageCreditLabel": "Wikipedia image source",
     "imageCreditUrl": "https://en.wikipedia.org/wiki/Anise",
-    "history": "Anise has deep roots in Egyptian, Greek, Roman, and later European cookery and medicine. It moved easily between kitchen and apothecary, flavoring cakes, sweetmeats, cordials, and digestive preparations long before it became central to anisette, pastis, and absinthe traditions.",
+    "history": "Anise moved easily between kitchen and apothecary, flavoring cakes, sweetmeats, cordials, and digestive preparations long before it became central to anisette, pastis, and absinthe traditions.",
     "medicinal": [
       "Historically used as a carminative for gas and digestive discomfort.",
       "Traditional herbals also mention it for coughs, sore throats, and breath freshening.",
-      "Older household medicine often treated anise seed tea as a gentle warming stomach remedy."
+      "Older household medicine often treated anise seed tea as a warming stomach remedy."
     ],
-    "role": "In absinthe it provides both aroma and louche chemistry through anethole-rich seed oils.",
+    "role": "It is the louche anchor and the quickest route to making a SKU read as absinthe rather than merely herbal spirits.",
+    "molecules": ["anethole"],
+    "recipes": ["verte", "rouge", "bleue"],
     "sources": [
       ["Wikipedia: Anise", "https://en.wikipedia.org/wiki/Anise"],
       ["Herb Society quick facts: Anise", "https://herbsocietyorg.presencehost.net/file_download/inline/b653b1db-f267-47d2-9f7a-5a82955d0a48"]
@@ -75,17 +81,18 @@
     "imageAlt": "Flowering fennel plant.",
     "imageCreditLabel": "Wikipedia image source",
     "imageCreditUrl": "https://en.wikipedia.org/wiki/Fennel",
-    "history": "Fennel is a long-standing Mediterranean herb with culinary and medicinal use reaching back to classical antiquity. Seeds, fronds, and bulb types all entered food culture, while the aromatic fruits became standard in cordials, confectionery, and herbal preparations.",
+    "history": "A long-standing Mediterranean herb, fennel entered food culture, cordials, confectionery, and herbal medicine through seed, frond, and bulb forms.",
     "medicinal": [
       "Historically used for indigestion, bloating, and flatulence.",
       "Traditional medicine also associated fennel with coughs and upper-respiratory catarrh.",
       "Many older sources describe fennel as supportive for breath, appetite, and lactation."
     ],
-    "role": "In absinthe formulas fennel rounds the sharper edge of anise and helps the profile open more broadly across the palate.",
+    "role": "Fennel softens the architecture and makes the house line feel round rather than razor-thin.",
+    "molecules": ["anethole", "fenchone"],
+    "recipes": ["verte", "rouge", "bleue"],
     "sources": [
       ["Wikipedia: Fennel", "https://en.wikipedia.org/wiki/Fennel"],
-      ["Britannica: Fennel", "https://www.britannica.com/plant/fennel"],
-      ["Herb Society quick facts: Fennel", "https://www.herbsociety.org/file_download/inline/520b142e-66f4-45dc-b151-59283956b21e"]
+      ["Britannica: Fennel", "https://www.britannica.com/plant/fennel"]
     ]
   },
   "hyssop": {
@@ -98,13 +105,15 @@
     "imageAlt": "Botanical illustration of hyssop.",
     "imageCreditLabel": "Wikipedia image source",
     "imageCreditUrl": "https://en.wikipedia.org/wiki/Hyssopus_officinalis",
-    "history": "Hyssop carries both biblical and medieval associations, though the plant referred to in ancient texts is debated. In Europe it became a monastery-garden herb, a culinary seasoning, and a familiar component in liqueurs, strewing herbs, and domestic remedies.",
+    "history": "Hyssop became a monastery-garden herb, a culinary seasoning, and a familiar component in liqueurs, strewing herbs, and domestic remedies.",
     "medicinal": [
       "Historically used in teas and syrups for coughs, chest congestion, and sore throat.",
       "Traditional herbals also describe external use on bruises and minor skin complaints.",
-      "It appears often as a warming, stimulating, expectorant-type herb in older literature."
+      "It appears as a warming, stimulating, expectorant-type herb in older literature."
     ],
-    "role": "Absinthe uses hyssop for aromatic lift and, in green styles, as part of the color and fragrance halo.",
+    "role": "Hyssop is where the line gets its medicinal elegance and some of its visual green credibility.",
+    "molecules": ["pinocamphone", "rosmarinic-acid", "chlorophylls", "linalool"],
+    "recipes": ["verte", "detour"],
     "sources": [
       ["Wikipedia: Hyssopus officinalis", "https://en.wikipedia.org/wiki/Hyssopus_officinalis"],
       ["Britannica: Hyssop", "https://www.britannica.com/plant/hyssop"]
@@ -120,16 +129,17 @@
     "imageAlt": "Lemon balm plant in leaf.",
     "imageCreditLabel": "Wikipedia image source",
     "imageCreditUrl": "https://en.wikipedia.org/wiki/Lemon_balm",
-    "history": "Known to Greek, Arab, and later European herbal traditions, lemon balm became an apothecary mainstay for cordials, calming waters, and fragrant household uses. The species name officinalis reflects its longstanding sale through medicinal shops.",
+    "history": "Known to Greek, Arab, and later European herbal traditions, lemon balm became an apothecary mainstay for cordials, calming waters, and fragrant household uses.",
     "medicinal": [
       "Historically used for digestive upset and gas.",
       "Traditional systems also used it as a calming herb for nerves, melancholy, and sleep.",
       "Older herbals frequently mention lemon balm as uplifting, restorative, and bee-attracting."
     ],
-    "role": "In these formulas it gives verte and Detour a lemon-green brightness without shifting into overt citrus peel territory.",
+    "role": "Melissa is the house herb for freshness; it appears wherever the line wants green light rather than darkness.",
+    "molecules": ["citral", "rosmarinic-acid", "chlorophylls", "citric-acid"],
+    "recipes": ["verte", "rouge", "detour"],
     "sources": [
       ["Wikipedia: Lemon balm", "https://en.wikipedia.org/wiki/Lemon_balm"],
-      ["Herb Society guide: Lemon Balm", "https://www.herbsociety.org/file_download/inline/d7d790e9-c19e-4a40-93b0-8f4b45a644f1"],
       ["NIH review: Melissa officinalis", "https://pmc.ncbi.nlm.nih.gov/articles/PMC5871149/"]
     ]
   },
@@ -143,13 +153,15 @@
     "imageAlt": "Hibiscus flower.",
     "imageCreditLabel": "Wikipedia image source",
     "imageCreditUrl": "https://en.wikipedia.org/wiki/Hibiscus",
-    "history": "Hibiscus beverages and preserved calyces circulate through African, Caribbean, South Asian, and Latin American food traditions. In many places the plant is as much a refreshing household drink herb as it is a culinary ingredient, prized for vivid color and sour-bright flavor.",
+    "history": "Hibiscus beverages and preserved calyces circulate through African, Caribbean, South Asian, and Latin American food traditions as refreshing and vividly colored household drinks.",
     "medicinal": [
       "Historically used in cooling drinks in hot climates.",
       "Traditional medicine in several regions used hibiscus for digestive, urinary, and fever-related complaints.",
-      "Roselle preparations also appear in folk practice as a mild restorative or refreshing tonic."
+      "Roselle preparations also appear in folk practice as a mild restorative tonic."
     ],
-    "role": "On the rouge page hibiscus is the chromatic anchor and the source of the tart red-fruit impression.",
+    "role": "Hibiscus is the chromatic engine of Crimson and the reason the SKU can read jewel-like instead of merely red.",
+    "molecules": ["anthocyanins", "geraniol", "linalool", "citric-acid"],
+    "recipes": ["rouge"],
     "sources": [
       ["Wikipedia: Hibiscus", "https://en.wikipedia.org/wiki/Hibiscus"],
       ["Herb Society blog: Roselle Hibiscus", "https://blog.herbsociety.org/herb-of-the-month/herb-of-the-month-roselle-hibiscus-a-colorful-herb/"]
@@ -165,13 +177,15 @@
     "imageAlt": "Pink rose blossom on the plant.",
     "imageCreditLabel": "Wikipedia image source",
     "imageCreditUrl": "https://en.wikipedia.org/wiki/Rose",
-    "history": "Roses moved through Persian, Arab, Mediterranean, and European traditions as perfume, confection, medicine, and ceremony. Distilled rosewater and preserved petals had a strong presence in both elite and domestic apothecaries.",
+    "history": "Roses moved through Persian, Arab, Mediterranean, and European traditions as perfume, confection, medicine, and ceremony. Distilled rosewater and preserved petals were common apothecary materials.",
     "medicinal": [
       "Historically used as a soothing, lightly astringent herb in syrups, conserves, and gargles.",
       "Rose preparations were traditionally associated with cooling, comforting, and digestive uses.",
-      "Rosehip-rich preparations later became common in household tonic and restorative traditions."
+      "Rosehip-rich preparations later became common in household tonic traditions."
     ],
-    "role": "For rouge, rose can keep hibiscus from feeling one-dimensional by broadening the floral register.",
+    "role": "Rose softens Crimson and turns tartness into perfume.",
+    "molecules": ["geraniol", "linalool", "anthocyanins"],
+    "recipes": ["rouge"],
     "sources": [
       ["Wikipedia: Rose", "https://en.wikipedia.org/wiki/Rose"],
       ["Herb Society quick facts: Rose", "https://www.herbsociety.org/file_download/inline/5ed6dcae-7a91-4197-a837-4c582a60c6ee"]
@@ -187,13 +201,15 @@
     "imageAlt": "Botanical illustration of coriander.",
     "imageCreditLabel": "Wikipedia image source",
     "imageCreditUrl": "https://en.wikipedia.org/wiki/Coriander",
-    "history": "Coriander is one of the older recorded culinary herbs, appearing in ancient Mediterranean and Asian contexts and later in European spice cabinets and cordial formulas. It easily crossed from food into pharmacy because the seed was aromatic, shelf-stable, and considered stomach-friendly.",
+    "history": "Coriander is one of the older recorded culinary herbs, appearing in ancient Mediterranean and Asian contexts and later in European spice cabinets and cordial formulas.",
     "medicinal": [
       "Historically used as a digestive and carminative seed.",
       "Traditional sources also describe it for breath freshening and stomach comfort.",
       "In some older systems it was treated as a warming spice useful after heavy meals."
     ],
-    "role": "On the bleue page coriander trims sweetness and adds crispness without turning the profile fully citrusy.",
+    "role": "Coriander is what gives Chloris its briskness and keeps the clear SKU from feeling too soft.",
+    "molecules": ["linalool", "limonene", "alpha-pinene", "terpinen-4-ol"],
+    "recipes": ["bleue"],
     "sources": [
       ["Wikipedia: Coriander", "https://en.wikipedia.org/wiki/Coriander"],
       ["Britannica: Coriander", "https://www.britannica.com/plant/coriander"]
@@ -209,13 +225,15 @@
     "imageAlt": "Botanical illustration of angelica.",
     "imageCreditLabel": "Wikipedia image source",
     "imageCreditUrl": "https://en.wikipedia.org/wiki/Angelica_archangelica",
-    "history": "Angelica became prominent in northern European monastery gardens and early modern apothecaries. It acquired folklore around protection and plague prevention, while practical use centered on bitters, candied stems, cordial waters, and warming digestive preparations.",
+    "history": "Angelica became prominent in northern European monastery gardens and early modern apothecaries, where it acquired folklore around protection and plague prevention as well as practical use in bitters and cordials.",
     "medicinal": [
       "Historically used as a digestive, stomachic, and warming bitter.",
       "Traditional uses also include colds, chest complaints, and general weakness.",
       "Older European herbals often treated angelica as both protective and restorative."
     ],
-    "role": "In these pages angelica acts as a fixative root, helping volatile top notes feel anchored.",
+    "role": "Angelica is the structural root in Detour and Chloris; it ties volatile brightness back to the floor.",
+    "molecules": ["alpha-pinene", "terpinen-4-ol"],
+    "recipes": ["detour", "bleue"],
     "sources": [
       ["Wikipedia: Angelica archangelica", "https://en.wikipedia.org/wiki/Angelica_archangelica"],
       ["Herb Society quick facts: Angelica", "https://herbsocietyorg.presencehost.net/file_download/inline/1cd2a0d2-d855-451d-a0ef-1e6c9e97ee1b"]
@@ -231,13 +249,15 @@
     "imageAlt": "Blue butterfly pea flower.",
     "imageCreditLabel": "Wikipedia image source",
     "imageCreditUrl": "https://en.wikipedia.org/wiki/Clitoria_ternatea",
-    "history": "Butterfly pea has a long culinary and medicinal history across South and Southeast Asia, where the flowers color drinks, rice, and sweets. Its modern cocktail fame is recent, but the visual effect has older roots in regional food and herbal practice.",
+    "history": "Butterfly pea has a long culinary and medicinal history across South and Southeast Asia, where the flowers color drinks, rice, and sweets.",
     "medicinal": [
       "Historically used in Ayurvedic and regional herbal traditions as a memory and nerve herb.",
-      "Traditional uses also include calming, cooling, and general restorative preparations.",
+      "Traditional uses also include calming, cooling, and restorative preparations.",
       "Folk practice has also used the plant in hair, skin, and eye-related applications."
     ],
-    "role": "Detour uses butterfly pea to create the blue-to-purple transition that replaces classical absinthe's green ritual with a different kind of theater.",
+    "role": "Butterfly pea turns Detour from an idea into a visual event.",
+    "molecules": ["ternatins"],
+    "recipes": ["detour"],
     "sources": [
       ["Wikipedia: Clitoria ternatea", "https://en.wikipedia.org/wiki/Clitoria_ternatea"],
       ["Britannica: butterfly pea", "https://www.britannica.com/plant/butterfly-pea"]
@@ -253,13 +273,15 @@
     "imageAlt": "Lemon verbena shrub with leaves.",
     "imageCreditLabel": "Wikipedia image source",
     "imageCreditUrl": "https://en.wikipedia.org/wiki/Lemon_verbena",
-    "history": "Native to South America, lemon verbena was brought to Europe by Spanish and Portuguese networks in the 17th century and quickly became useful in teas, perfumery, dessert flavoring, and liqueur work. It reads as refined and bright rather than rustic.",
+    "history": "Native to South America, lemon verbena was brought to Europe by Spanish and Portuguese networks in the 17th century and quickly became useful in teas, perfumery, dessert flavoring, and liqueur work.",
     "medicinal": [
       "Historically used in teas for digestion and post-meal comfort.",
       "Traditional practice also treated it as calming and gently antispasmodic.",
       "In Latin American folk use it appears as a household herb for stomach and fever complaints."
     ],
-    "role": "Detour uses lemon verbena to intensify the lemon-green line started by lemon balm.",
+    "role": "Lemon verbena sharpens Detour and keeps its citrus story from becoming blurry.",
+    "molecules": ["citral", "limonene", "verbascoside"],
+    "recipes": ["detour"],
     "sources": [
       ["Wikipedia: Lemon verbena", "https://en.wikipedia.org/wiki/Lemon_verbena"],
       ["Herb Society feature: Lemon Verbena", "https://www.herbsocietypioneer.org/aloysia-citrodora/"]

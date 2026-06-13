@@ -1,0 +1,226 @@
+{
+  "anethole": {
+    "title": "Anethole",
+    "formula": "C10H12O",
+    "class": "Phenylpropene",
+    "chip": "Sweet anisic core",
+    "summary": "Anethole is the defining sweet-spice aromatic in anise and fennel, and the key driver of classical absinthe's louche behavior.",
+    "sensory": "Sweet licorice, anisic warmth, polished fennel sweetness.",
+    "occursIn": ["anise", "fennel"],
+    "biochemistry": [
+      "Absorbed through the gut and processed predominantly in the liver through oxidative metabolism and conjugation.",
+      "Discussed in the literature for antimicrobial, spasmolytic, and anti-inflammatory activity, though dose and context matter.",
+      "Best understood in product terms as a high-impact aromatic that shapes flavor perception more than a primary human signaling molecule."
+    ]
+  },
+  "fenchone": {
+    "title": "Fenchone",
+    "formula": "C10H16O",
+    "class": "Monoterpene ketone",
+    "chip": "Dry fennel structure",
+    "summary": "Fenchone provides the dry, camphoraceous counterweight that keeps fennel and anise profiles from collapsing into candy.",
+    "sensory": "Dry herbal camphor, bitter fennel, cool mineral sharpness.",
+    "occursIn": ["fennel"],
+    "biochemistry": [
+      "Like many monoterpenes, it is lipophilic and rapidly distributed after oral intake, then metabolized in the liver.",
+      "Its biological relevance is mostly discussed in the broader context of essential-oil activity rather than as a standalone endogenous mediator.",
+      "In formulation it is valuable because it introduces neural crispness to otherwise soft anisic sweetness."
+    ]
+  },
+  "thujone": {
+    "title": "Thujone",
+    "formula": "C10H16O",
+    "class": "Monoterpene ketone",
+    "chip": "Wormwood signature bitter",
+    "summary": "Thujone is one of the best-known wormwood-associated terpenes and a major symbolic marker in absinthe discourse.",
+    "sensory": "Dry green bitterness, resin, sage-like edge, austere lift.",
+    "occursIn": ["wormwood", "roman-wormwood", "hyssop"],
+    "biochemistry": [
+      "At higher exposures thujone is discussed as a GABA-A receptor modulator, which helps explain historical toxicology interest.",
+      "It is hepatically metabolized and is not itself a nutritional or endogenous target compound.",
+      "Modern relevance in absinthe is more about aroma identity and compliance than mythology."
+    ]
+  },
+  "linalool": {
+    "title": "Linalool",
+    "formula": "C10H18O",
+    "class": "Monoterpene alcohol",
+    "chip": "Floral softener",
+    "summary": "Linalool broadens harsh herbal structures into something more perfumed and breathable.",
+    "sensory": "Floral citrus, lavender-like softness, polished lift.",
+    "occursIn": ["coriander", "rose", "hyssop", "hibiscus"],
+    "biochemistry": [
+      "Rapidly absorbed and metabolized through common hepatic terpene pathways.",
+      "Often discussed in sensory neuroscience because it can shift perceived calmness and floral brightness in inhalation contexts.",
+      "Literature frequently explores anxiolytic and anti-inflammatory potential, but context and route of exposure matter."
+    ]
+  },
+  "citral": {
+    "title": "Citral",
+    "formula": "C10H16O",
+    "class": "Monoterpene aldehyde",
+    "chip": "Lemon-green brightness",
+    "summary": "Citral is the sharp lemon leaf cue behind melissa and lemon verbena styles.",
+    "sensory": "Lemon zest, green rind, bright volatile citrus.",
+    "occursIn": ["lemon-balm", "lemon-verbena"],
+    "biochemistry": [
+      "Citral is metabolized as a reactive fragrance aldehyde and then conjugated through common detoxification pathways.",
+      "Frequently investigated for antimicrobial and anti-inflammatory effects in essential-oil research.",
+      "From a human-response standpoint it strongly shapes freshness perception and can make bitter systems feel cleaner and more alert."
+    ]
+  },
+  "chlorophylls": {
+    "title": "Chlorophylls",
+    "formula": "Mg-porphyrin pigment family",
+    "class": "Photosynthetic pigments",
+    "chip": "Green color engine",
+    "summary": "Chlorophylls matter less as aroma molecules than as the visual anchor for naturally colored verte styles.",
+    "sensory": "Visual rather than aromatic: deep herbal green, opaque botanical signal.",
+    "occursIn": ["hyssop", "lemon-balm", "roman-wormwood"],
+    "biochemistry": [
+      "Chlorophylls are plant pigments, not human signaling molecules, and are broken down during digestion rather than used intact.",
+      "Human interest centers on antioxidant context, pigment derivatives, and food-color stability rather than receptor pharmacology.",
+      "In product design their power is symbolic: they tell the eye what the palate should expect."
+    ]
+  },
+  "alpha-pinene": {
+    "title": "Alpha-pinene",
+    "formula": "C10H16",
+    "class": "Monoterpene hydrocarbon",
+    "chip": "Coniferous lift",
+    "summary": "Alpha-pinene creates crisp lift and makes bitter herbal formulas feel high and airy instead of muddy.",
+    "sensory": "Pine needle, resin, dry forest top note.",
+    "occursIn": ["wormwood", "coriander", "angelica"],
+    "biochemistry": [
+      "Absorbed quickly by inhalation or ingestion and metabolized in the liver into oxygenated terpene derivatives.",
+      "Research often explores bronchodilatory, anti-inflammatory, and cognitive-support associations, though evidence varies by model.",
+      "In a beverage aroma matrix it reads as clarity and lift rather than sweetness."
+    ]
+  },
+  "limonene": {
+    "title": "Limonene",
+    "formula": "C10H16",
+    "class": "Monoterpene hydrocarbon",
+    "chip": "Citrus edge",
+    "summary": "Limonene adds a broad citrus glow that can sharpen structure without tasting like juice.",
+    "sensory": "Orange peel, citrus oil, bright terpene bloom.",
+    "occursIn": ["coriander", "lemon-verbena"],
+    "biochemistry": [
+      "Widely metabolized through oxidation and conjugation after gastrointestinal absorption.",
+      "Frequently studied for gastric, anti-inflammatory, and chemopreventive associations in preclinical contexts.",
+      "Consumer perception often reads limonene as freshness, solvency, and uplift."
+    ]
+  },
+  "terpinen-4-ol": {
+    "title": "Terpinen-4-ol",
+    "formula": "C10H18O",
+    "class": "Monoterpene alcohol",
+    "chip": "Herbal bridge",
+    "summary": "Terpinen-4-ol is a quieter structural terpene that helps hold herbal and citrus notes together.",
+    "sensory": "Soft herb, tea-tree-like cleanliness, muted camphor warmth.",
+    "occursIn": ["coriander", "angelica"],
+    "biochemistry": [
+      "Handled through the same broad metabolism pathways that process many volatile terpene alcohols.",
+      "Most human-interest research centers on antimicrobial and skin-relevant bioactivity in essential oils.",
+      "Its formulation value is balance: it keeps bright top notes from feeling detached from the body."
+    ]
+  },
+  "rosmarinic-acid": {
+    "title": "Rosmarinic acid",
+    "formula": "C18H16O8",
+    "class": "Polyphenolic ester",
+    "chip": "Melissa depth",
+    "summary": "Rosmarinic acid is one of the major phenolics behind the cooling, herbal depth of lemon balm and related Lamiaceae herbs.",
+    "sensory": "Not strongly aromatic on its own; contributes green, tannic-herbal depth.",
+    "occursIn": ["lemon-balm", "hyssop"],
+    "biochemistry": [
+      "Commonly studied for antioxidant and anti-inflammatory activity, especially in melissa and rosemary literature.",
+      "It is metabolized into smaller phenolic fragments and conjugates after ingestion.",
+      "Its importance in the site is as a bridge between botanical identity and broader inflammatory signaling discourse."
+    ]
+  },
+  "anthocyanins": {
+    "title": "Anthocyanins",
+    "formula": "Flavylium pigment family",
+    "class": "Water-soluble polyphenolic pigments",
+    "chip": "Red chromatic system",
+    "summary": "Anthocyanins give rouge systems their jewel-like red-violet tone and respond visibly to acidity.",
+    "sensory": "Visual first: ruby, garnet, magenta cues; lightly tannic-fruit context.",
+    "occursIn": ["hibiscus", "rose"],
+    "biochemistry": [
+      "These pigments are heavily studied for antioxidant signaling and vascular or inflammatory associations, though bioavailability is limited and complex.",
+      "They are transformed rapidly in the digestive tract and circulation into numerous metabolites rather than persisting intact.",
+      "For product design they are powerful because color change carries meaning before flavor arrives."
+    ]
+  },
+  "geraniol": {
+    "title": "Geraniol",
+    "formula": "C10H18O",
+    "class": "Monoterpene alcohol",
+    "chip": "Rose lift",
+    "summary": "Geraniol is one of the clearest floral cues in rose-forward systems and helps rouge stay perfumed instead of merely tart.",
+    "sensory": "Rose petal, lychee, sweet floral citrus.",
+    "occursIn": ["rose", "hibiscus"],
+    "biochemistry": [
+      "Metabolized like many floral terpene alcohols through oxidation and conjugation pathways.",
+      "Literature often explores antimicrobial and anti-inflammatory activity alongside fragrance toxicology and sensory response.",
+      "In formulation it creates the illusion of softness and bloom even when the structure is quite dry."
+    ]
+  },
+  "ternatins": {
+    "title": "Ternatins",
+    "formula": "Acylated anthocyanin family",
+    "class": "Blue floral pigments",
+    "chip": "Blue-to-purple shift",
+    "summary": "Ternatins are the signature pigments of butterfly pea flower and the engine behind Detour's chromatic theater.",
+    "sensory": "Primarily visual: saturated blue with pH-sensitive movement toward violet and purple.",
+    "occursIn": ["butterfly-pea"],
+    "biochemistry": [
+      "Like other anthocyanin-derived pigments, ternatins are discussed mainly in the context of antioxidant chemistry and pigment stability.",
+      "Human digestion transforms them substantially, so their biochemistry is more about metabolites than intact pigment persistence.",
+      "Their design relevance lies in visible pH behavior, which lets formulation become performance."
+    ]
+  },
+  "verbascoside": {
+    "title": "Verbascoside",
+    "formula": "C29H36O15",
+    "class": "Phenylpropanoid glycoside",
+    "chip": "Verbena phenolic backbone",
+    "summary": "Verbascoside is a useful marker for the denser phenolic side of lemon verbena-style herbs.",
+    "sensory": "Tea-like phenolic depth, herbal bitterness, dried-leaf structure.",
+    "occursIn": ["lemon-verbena"],
+    "biochemistry": [
+      "Often studied for antioxidant, anti-inflammatory, and neuroprotective potential in plant-extract research.",
+      "It undergoes hydrolysis and downstream phenolic metabolism after ingestion.",
+      "In product terms it helps explain why some lemon herbs feel structural instead of merely citrusy."
+    ]
+  },
+  "pinocamphone": {
+    "title": "Pinocamphone",
+    "formula": "C10H16O",
+    "class": "Monoterpene ketone",
+    "chip": "Hyssop severity",
+    "summary": "Pinocamphone contributes some of hyssop's sharper medicinal and resinous edge.",
+    "sensory": "Camphor, resin, medicinal herb, austere lift.",
+    "occursIn": ["hyssop"],
+    "biochemistry": [
+      "Discussed in safety literature because ketone-rich essential oils can show neuroactive behavior at higher exposures.",
+      "Metabolized hepatically, with most practical concern centered on exposure management rather than nutritional function.",
+      "In formulas it adds old-world medicinal tension."
+    ]
+  },
+  "citric-acid": {
+    "title": "Citric acid",
+    "formula": "C6H8O7",
+    "class": "Organic acid",
+    "chip": "Brightness and snap",
+    "summary": "Citric acid is a direct route to brightness and helps red and blue botanical systems feel alive.",
+    "sensory": "Sour snap, lifted fruit perception, cleaner finish.",
+    "occursIn": ["hibiscus", "lemon-balm"],
+    "biochemistry": [
+      "Citric acid is familiar to human biochemistry because citrate is a core intermediate in the TCA cycle, though dietary citric acid is not a targeted signaling supplement by default.",
+      "In foods and drinks it matters physiologically through acidity, mineral binding, and salivary response.",
+      "Perceptually it changes everything: sourness reorganizes aroma and color expectations."
+    ]
+  }
+}

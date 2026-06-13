@@ -1,106 +1,198 @@
 {
   "verte": {
-    "title": "Verte",
-    "chip": "Green / classic",
-    "toneClass": "tone-verte",
-    "intro": "The reference frame: alpine, bitter, bright, and louche-friendly. This concept preserves the classic trinity of wormwood, anise, and fennel, then uses late green botanicals to widen the aromatic halo.",
-    "sensoryTitle": "What it should feel like",
-    "sensoryBody": "Start with high herbal lift, move into cool anise sweetness, and finish with dry wormwood bitterness. The palate should read green rather than sugary, with a louche that looks opaline jade.",
+    "title": "Absinthe",
+    "subtitle": "Nowhere's End NE-01",
+    "chip": "Verte / flagship",
+    "toneClass": "sku-green",
+    "intro": "The flagship verte: alpine, bitter, louche-friendly, and deliberately classical in silhouette.",
+    "story": "This SKU is built as the house reference point. It starts with a traditional wormwood-anise-fennel trinity, then widens with green botanicals so the finish stays high and herbaceous rather than syrupy.",
+    "recipeSections": [
+      {
+        "title": "Primary botanical bill",
+        "items": [
+          ["Grand wormwood", "24 parts", "Sets the bitter spine and the sovereign absinthe signature."],
+          ["Green anise", "32 parts", "Carries the sweet anisic core and louche behavior."],
+          ["Florence fennel", "22 parts", "Rounds the mid-palate and softens anise sharpness."],
+          ["Hyssop", "8 parts", "Adds alpine lift and green medicinal structure."],
+          ["Lemon balm", "7 parts", "Pushes the profile toward fresh citron-green rather than confection."],
+          ["Roman wormwood", "7 parts", "Adds nuance and soft wormwood echo in the finish."]
+        ]
+      },
+      {
+        "title": "SKU cues",
+        "items": [
+          ["Target visual", "Jade louche", "The appearance should read naturally green rather than artificially saturated."],
+          ["Sweetness posture", "Dry-sweet", "Anisic sweetness remains present but is restrained by bitter lift."],
+          ["Finish", "Long herbal taper", "The last impression should be wormwood, fennel, and cool resin."]
+        ]
+      }
+    ],
     "herbs": [
       ["wormwood", "bitter backbone and absinthe signature"],
       ["anise", "sweet aromatic spine and louche support"],
       ["fennel", "rounder sweetness with herbal depth"],
       ["hyssop", "resinous green top notes and classic color contribution"],
-      ["lemon-balm", "fresh citron lift without breaking style"],
+      ["lemon-balm", "fresh citron lift without breaking the style"],
       ["roman-wormwood", "softer wormwood tones for complexity"]
     ],
     "molecules": [
-      ["Anethole", "the core anise-fennel sweetness and louche behavior"],
-      ["Fenchone", "dry, slightly camphoraceous contrast to anethole"],
-      ["Thujone", "wormwood-associated bitter-aromatic marker"],
-      ["Linalool", "floral lift that softens the bitter frame"],
-      ["Citral", "lemon balm brightness in the top note"],
-      ["Chlorophylls", "green visual identity in naturally colored variants"]
+      ["anethole", "sweet anisic body and louche behavior"],
+      ["fenchone", "dry fennel tension that keeps the sweetness trimmed"],
+      ["thujone", "wormwood-associated austere edge"],
+      ["linalool", "small floral lift that broadens the mid-palate"],
+      ["citral", "green lemon brightness from melissa"],
+      ["chlorophylls", "visual identity in the colored SKU"]
     ],
-    "colorTitle": "Why it reads green",
-    "colorBody": "The visual identity comes from post-base green botanicals rather than artificial coloring: hyssop, melissa, and pontica all reinforce the classic verte signal."
+    "serviceNotes": [
+      "Best framed as the reference bottle that defines the family grammar.",
+      "Works when the narrative is historical continuity rather than spectacle."
+    ]
   },
   "rouge": {
-    "title": "Rouge",
-    "chip": "Red / hibiscus",
-    "toneClass": "tone-rouge",
-    "intro": "A red-leaning absinthe concept that keeps wormwood and anise intact while adding hibiscus for tart floral color and a brighter, more wine-like arc.",
-    "sensoryTitle": "What it should feel like",
-    "sensoryBody": "The opening should suggest cranberry, pomegranate, and rose without turning into a liqueur. Bitterness stays present, but the mid-palate picks up hibiscus snap and a vivid ruby impression.",
+    "title": "Crimson",
+    "subtitle": "Nowhere's End NE-02",
+    "chip": "Rouge / hibiscus",
+    "toneClass": "sku-red",
+    "intro": "A rouge SKU that keeps absinthe recognizable while letting hibiscus and rose push the line toward garnet and bloom.",
+    "story": "Crimson is not a liqueur masquerading as absinthe. It stays rooted in wormwood and anise, then bends toward hibiscus for tart color, rose for perfume, and melissa for freshness.",
+    "recipeSections": [
+      {
+        "title": "Primary botanical bill",
+        "items": [
+          ["Grand wormwood", "20 parts", "Maintains the bitter axis so the SKU remains anchored."],
+          ["Green anise", "28 parts", "Preserves absinthe identity and louche structure."],
+          ["Florence fennel", "18 parts", "Renders the red build softer and more continuous."],
+          ["Hibiscus calyx", "18 parts", "Supplies tartness, anthocyanin color, and red-fruit illusion."],
+          ["Rose petals", "8 parts", "Adds perfume and a soft floral bridge over the hibiscus acid line."],
+          ["Lemon balm", "8 parts", "Keeps the nose lifted and avoids syrupy collapse."]
+        ]
+      },
+      {
+        "title": "SKU cues",
+        "items": [
+          ["Target visual", "Ruby-garnet", "The bottle should read like stained glass rather than opaque syrup."],
+          ["Acid posture", "Bright but not sour", "The red system should sharpen the absinthe spine without overwhelming it."],
+          ["Finish", "Floral bitter", "Rose and wormwood should remain after the hibiscus flash fades."]
+        ]
+      }
+    ],
     "herbs": [
       ["wormwood", "essential bitter axis"],
-      ["anise", "keeps it recognizably absinthe"],
-      ["fennel", "rounds the sharp hibiscus edge"],
-      ["hibiscus", "tartness, color, and red-fruit illusion"],
-      ["rose", "optional support for a fuller floral bridge"],
+      ["anise", "keeps the SKU recognizably absinthe"],
+      ["fennel", "rounds the hibiscus edge"],
+      ["hibiscus", "provides tartness, color, and red-fruit illusion"],
+      ["rose", "gives the floral bridge and perfume"],
       ["lemon-balm", "keeps the top note lively and not jammy"]
     ],
     "molecules": [
-      ["Anethole", "the recognizable absinthe sweet-spice core"],
-      ["Fenchone", "dry structure against floral tartness"],
-      ["Anthocyanins", "red hue from hibiscus and pH-sensitive vibrancy"],
-      ["Citric and malic acids", "brightness that sharpens the profile"],
-      ["Geraniol", "rosy lift when petals or rosehip are present"],
-      ["Linalool", "floral smoothing across the transition from anise to hibiscus"]
+      ["anethole", "retains the absinthe sweet-spice grammar"],
+      ["fenchone", "stops the profile from becoming plush"],
+      ["anthocyanins", "create the ruby chromatic field"],
+      ["citric-acid", "sharpens the perceived line"],
+      ["geraniol", "adds rose bloom and soft lift"],
+      ["linalool", "smooths the floral transition"]
     ],
-    "colorTitle": "Why it reads red",
-    "colorBody": "Hibiscus does the heavy lifting, delivering a saturated crimson tone. The red identity works best when the visual aim is jewel-like rather than opaque."
-  },
-  "bleue": {
-    "title": "Bleue",
-    "chip": "Clear / transparent",
-    "toneClass": "tone-bleue",
-    "intro": "A clear absinthe concept that skips the green coloring step and instead leans into precision, brightness, and a clean louche on dilution.",
-    "sensoryTitle": "What it should feel like",
-    "sensoryBody": "Crystal-clear in the bottle and silvery-opaline when diluted. The aroma should be focused, brisk, and elegant, with fewer leafy tones than a verte and a slightly more architectural bitterness.",
-    "herbs": [
-      ["wormwood", "clean bitter signature"],
-      ["anise", "louche and sweet aromatic center"],
-      ["fennel", "support and softness"],
-      ["coriander", "dry citrus-spice lift"],
-      ["angelica", "earthy fixation and structure"],
-      ["roman-wormwood", "optional nuance without visible green extraction"]
-    ],
-    "molecules": [
-      ["Anethole", "essential for louche and sweet spice shape"],
-      ["Fenchone", "dries out the finish"],
-      ["Alpha-pinene", "crisp terpene lift from supporting botanicals"],
-      ["Limonene", "bright citrus edge from coriander"],
-      ["Thujone", "wormwood-associated bitter note"],
-      ["Terpinen-4-ol", "subtle aromatic bridge through the mid-palate"]
-    ],
-    "colorTitle": "Why it stays clear",
-    "colorBody": "The identity is defined by restraint: no green coloration phase, no red infusion, just a transparent spirit that blooms when water reveals the louche."
+    "serviceNotes": [
+      "Best treated as the dramatic bottle in the line without losing the core identity.",
+      "Useful wherever the visual story matters as much as the louche."
+    ]
   },
   "detour": {
     "title": "Detour",
-    "chip": "Blue to purple / no licorice",
-    "toneClass": "tone-detour",
-    "intro": "A deliberate departure from the usual anise-led licorice profile. Lemon balm carries the freshness, butterfly pea handles the chromatic drama, and the overall shape reads herbal-citrus rather than confectionary.",
-    "sensoryTitle": "What it should feel like",
-    "sensoryBody": "More like a mountain cordial crossed with an absinthe idea: cool herbs, citrus leaf, soft bitterness, and a color shift from blue toward purple when acidity enters the glass.",
+    "subtitle": "Nowhere's End NE-03",
+    "chip": "No licorice / chromatic shift",
+    "toneClass": "sku-amber",
+    "intro": "The family rebel: an absinthe-adjacent SKU that steps away from licorice toward lemon herbs, cool bitters, and blue-purple theater.",
+    "story": "Detour deliberately breaks the expectation that absinthe must always read as anise first. Lemon balm and lemon verbena lead, butterfly pea handles the chromatic shift, and softer bitter herbs keep it from becoming just a tea cordial.",
+    "recipeSections": [
+      {
+        "title": "Primary botanical bill",
+        "items": [
+          ["Lemon balm", "24 parts", "Acts as the aromatic signature and the green-citrus center."],
+          ["Butterfly pea flower", "20 parts", "Creates the blue visual system and pH-responsive color play."],
+          ["Roman wormwood", "14 parts", "Keeps an absinthe echo without hard licorice weight."],
+          ["Hyssop", "12 parts", "Adds cool herbal altitude and medicinal tension."],
+          ["Lemon verbena", "18 parts", "Pushes the profile toward leaf-citrus precision."],
+          ["Angelica root", "12 parts", "Anchors the top notes and gives the SKU structure."]
+        ]
+      },
+      {
+        "title": "SKU cues",
+        "items": [
+          ["Target visual", "Blue to purple shift", "The chromatic story is core to the product identity."],
+          ["Sweetness posture", "Low", "This SKU should feel botanical and exploratory rather than candy-like."],
+          ["Finish", "Herbal citrus with gentle bitters", "The final impression should be green, cooling, and strange in a good way."]
+        ]
+      }
+    ],
     "herbs": [
       ["lemon-balm", "primary aromatic signature and green-citrus lift"],
       ["butterfly-pea", "blue chromatic source and theatrical shift"],
       ["roman-wormwood", "keeps an absinthe echo without heavy licorice"],
       ["hyssop", "cool herbal brightness"],
-      ["lemon-verbena", "sharpened citrus line"],
-      ["angelica", "grounding structure"]
+      ["lemon-verbena", "sharpens the citrus line"],
+      ["angelica", "grounds the structure"]
     ],
     "molecules": [
-      ["Citral", "lemon-balm brightness and the main top-note cue"],
-      ["Rosmarinic acid", "herbal depth often associated with lemon balm"],
-      ["Ternatins", "butterfly pea pigments responsible for blue-to-purple shift"],
-      ["Linalool", "floral-citrus smoothing across the profile"],
-      ["Verbascoside-related phenolics", "supportive herbal complexity from verbena-style botanicals"],
-      ["Bitters from wormwood-family herbs", "enough spine to keep it from reading like tea"]
+      ["citral", "drives the lemon-green brightness"],
+      ["rosmarinic-acid", "adds melissa depth and cooling herbal persistence"],
+      ["ternatins", "generate the blue-to-purple visual performance"],
+      ["linalool", "keeps the top note polished instead of raw"],
+      ["verbascoside", "adds leaflike phenolic structure"],
+      ["alpha-pinene", "keeps the profile airy rather than sweet"]
     ],
-    "colorTitle": "Why it shifts blue to purple",
-    "colorBody": "Butterfly pea contributes blue anthocyanin-like pigments that visually swing purple in a more acidic environment. Lemon elements support the narrative even when the acid source sits outside the core herb bill."
+    "serviceNotes": [
+      "This is the SKU for color ritual and deliberate deviation.",
+      "Its success depends on the balance between curiosity and coherence."
+    ]
+  },
+  "bleue": {
+    "title": "Chloris",
+    "subtitle": "Nowhere's End NE-04",
+    "chip": "Bleue / clear architecture",
+    "toneClass": "sku-blue",
+    "intro": "The clear bottle in the line: all structure, no green coloration, with a cleaner and more architectural profile.",
+    "story": "Chloris strips away the colored-herb halo and lets the base grammar appear in clear form. It still speaks absinthe, but it does so with sharper lines and less visual camouflage.",
+    "recipeSections": [
+      {
+        "title": "Primary botanical bill",
+        "items": [
+          ["Grand wormwood", "22 parts", "Provides the clean bitter signature."],
+          ["Green anise", "30 parts", "Retains louche and the expected absinthe center."],
+          ["Florence fennel", "20 parts", "Rounds and supports the anisic line."],
+          ["Coriander seed", "10 parts", "Adds citrus-spice lift and dries the finish."],
+          ["Angelica root", "10 parts", "Acts as fixative structure and body."],
+          ["Roman wormwood", "8 parts", "Adds gentler bitters without adding green color expectation."]
+        ]
+      },
+      {
+        "title": "SKU cues",
+        "items": [
+          ["Target visual", "Clear in bottle, opaline in louche", "Transparency is part of the SKU's confidence."],
+          ["Aromatic posture", "Precise and brisk", "This SKU should feel cleaner and more technical than the verte."],
+          ["Finish", "Dry and bright", "Coriander and angelica should make the exit more skeletal and elegant."]
+        ]
+      }
+    ],
+    "herbs": [
+      ["wormwood", "clean bitter signature"],
+      ["anise", "louche and sweet aromatic center"],
+      ["fennel", "support and softness"],
+      ["coriander", "brings dry citrus-spice lift"],
+      ["angelica", "provides earthy fixation and structure"],
+      ["roman-wormwood", "adds optional nuance without green coloration"]
+    ],
+    "molecules": [
+      ["anethole", "holds the louche and sweet spice line"],
+      ["fenchone", "dries the fennel register"],
+      ["alpha-pinene", "creates crisp lift"],
+      ["limonene", "introduces bright citrus edge"],
+      ["thujone", "keeps the bitter frame recognizable"],
+      ["terpinen-4-ol", "bridges citrus and root structure"]
+    ],
+    "serviceNotes": [
+      "This is the SKU for clarity, not spectacle.",
+      "It should feel deliberate, transparent, and composed."
+    ]
   }
 }
