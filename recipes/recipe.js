@@ -26,6 +26,7 @@ async function renderRecipePage() {
     document.title = `${recipe.title} | Nowhere's End Absinthe`;
 
     const recipeSectionsHtml = recipe.recipeSections
+      .filter((section) => section.title !== "Claim-safe positioning")
       .map(
         (section) => `
           <article class="panel">
@@ -120,8 +121,8 @@ async function renderRecipePage() {
         </section>
         <aside class="stack">
           <article class="panel">
-            <p class="section-label">Molecules</p>
-            <h2>Molecule intent</h2>
+            <p class="section-label">Aromatics</p>
+            <h2>Key compounds</h2>
             <ul class="molecule-list">${moleculeHtml}</ul>
           </article>
           <article class="panel">
@@ -130,8 +131,8 @@ async function renderRecipePage() {
             <ul>${serviceHtml}</ul>
           </article>
           <article class="panel">
-            <p class="section-label">Explore More</p>
-            <h2>Go deeper into the collection</h2>
+            <p class="section-label">Further Reading</p>
+            <h2>Go deeper</h2>
             <p><a class="text-link" href="../herbs/index.html">Browse the herb library</a></p>
             <p><a class="text-link" href="../molecules/index.html">Browse the molecule library</a></p>
           </article>
