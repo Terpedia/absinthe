@@ -306,6 +306,10 @@ li {
   padding-bottom: 3rem;
 }
 
+.history-layout {
+  grid-template-columns: 1.18fr 0.82fr;
+}
+
 .stack {
   display: grid;
   gap: 1rem;
@@ -341,6 +345,47 @@ ul {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+.history-hero {
+  background:
+    radial-gradient(circle at top right, rgba(82, 123, 89, 0.18), transparent 34%),
+    linear-gradient(180deg, rgba(31, 20, 15, 0.96), rgba(11, 7, 6, 0.96));
+}
+
+.history-timeline {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.timeline-row {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid rgba(213, 163, 93, 0.12);
+}
+
+.timeline-row:last-child {
+  border-bottom: 0;
+}
+
+.timeline-year {
+  color: var(--gold);
+  font-family: "Cinzel", serif;
+  font-size: 1rem;
+}
+
+.history-cite {
+  margin-left: 0.18rem;
+  color: var(--gold);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.history-cite:hover {
+  color: #f0c989;
 }
 
 .hero-image figcaption {
@@ -416,6 +461,61 @@ ul {
   border: 1px solid rgba(213, 163, 93, 0.12);
   border-radius: 18px;
   background: rgba(213, 163, 93, 0.04);
+}
+
+.canon-grid,
+.art-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.canon-card {
+  padding: 1rem;
+  border: 1px solid rgba(213, 163, 93, 0.12);
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(20, 16, 12, 0.96), rgba(11, 9, 8, 0.96));
+}
+
+.canon-card h3 {
+  margin-bottom: 0.4rem;
+}
+
+.canon-meta {
+  margin: 0 0 0.8rem;
+  color: var(--gold-soft);
+  font-size: 0.86rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.artwork-card {
+  overflow: hidden;
+  padding: 0;
+  background:
+    linear-gradient(180deg, rgba(17, 13, 10, 0.98), rgba(9, 8, 7, 0.98));
+}
+
+.artwork-card::before {
+  inset: 10px;
+}
+
+.artwork-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 0.84;
+  object-fit: cover;
+}
+
+.artwork-card figcaption {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem 1rem 1.1rem;
+}
+
+.artwork-card figcaption strong {
+  color: var(--ink);
 }
 
 .recipe-ledger,
@@ -495,6 +595,7 @@ ul {
 @media (max-width: 960px) {
   .site-home .site-hero,
   .page-content,
+  .history-layout,
   .sku-grid,
   .library-grid,
   .herb-grid,
@@ -503,6 +604,11 @@ ul {
   }
 
   .split-list {
+    grid-template-columns: 1fr;
+  }
+
+  .canon-grid,
+  .art-grid {
     grid-template-columns: 1fr;
   }
 
@@ -529,6 +635,11 @@ ul {
 
   .page-title h1 {
     font-size: clamp(2.25rem, 8vw, 4rem);
+  }
+
+  .timeline-row {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
   }
 }
 
