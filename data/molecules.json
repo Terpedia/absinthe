@@ -258,7 +258,7 @@
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8566702/"
       },
       "pineneReview": {
-        "title": "Therapeutic potential of α- and β-pinene: a miracle gift of nature",
+        "title": "Therapeutic potential of \u03b1- and \u03b2-pinene: a miracle gift of nature",
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6920849/"
       }
     }
@@ -962,6 +962,68 @@
       "camphorHazards": {
         "title": "Camphor's therapeutic uses and potential hazards: an in-depth review",
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12943631/"
+      }
+    }
+  },
+  "carotenoids": {
+    "title": "Carotenoids",
+    "formula": "C40 isoprenoid pigment family",
+    "class": "Tetraterpenoid pigments",
+    "chip": "Amber botanical color",
+    "summary": "Carotenoids are warm yellow-orange plant pigments that can support an amber botanical visual cue.",
+    "sensory": "Visual first: gold, orange, amber, dried-petal warmth rather than a dominant aroma note.",
+    "occursIn": [
+      "calendula"
+    ],
+    "biochemistry": [
+      {
+        "text": "Dietary carotenoids are discussed mainly as lipophilic pigments and antioxidant-associated compounds, with human relevance depending on compound identity, matrix, and absorption.",
+        "refs": [
+          "carotenoidReview"
+        ]
+      },
+      {
+        "text": "For this absinthe context, the defensible role is color design rather than a physiological promise.",
+        "refs": [
+          "carotenoidReview"
+        ]
+      }
+    ],
+    "references": {
+      "carotenoidReview": {
+        "title": "Carotenoids: considerations for human nutrition and health",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3942711/"
+      }
+    }
+  },
+  "lutein": {
+    "title": "Lutein",
+    "formula": "C40H56O2",
+    "class": "Xanthophyll carotenoid",
+    "chip": "Golden petal pigment",
+    "summary": "Lutein is a yellow xanthophyll carotenoid associated with marigold and calendula-style petal color.",
+    "sensory": "Visual contribution: golden-yellow warmth and dried-petal color association.",
+    "occursIn": [
+      "calendula"
+    ],
+    "biochemistry": [
+      {
+        "text": "Lutein is widely studied as a dietary xanthophyll, especially in nutrition literature around ocular pigment status, but that does not translate into beverage-effect positioning.",
+        "refs": [
+          "luteinReview"
+        ]
+      },
+      {
+        "text": "Here it is used as a color and botanical-context marker for calendula, not as a health claim.",
+        "refs": [
+          "luteinReview"
+        ]
+      }
+    ],
+    "references": {
+      "luteinReview": {
+        "title": "Lutein and zeaxanthin and their roles in age-related macular degeneration",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3705341/"
       }
     }
   }

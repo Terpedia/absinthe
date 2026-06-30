@@ -2,71 +2,164 @@
   "verte": {
     "title": "Verte",
     "subtitle": "Nowhere's End Absinthe / Verte",
-    "chip": "Focused aperitif / green clarity",
+    "chip": "Pre-ban Parisian verte",
     "toneClass": "sku-green",
-    "intro": "A classic green absinthe: bitter, aromatic, and bright with a clean, dry finish.",
-    "story": "Verte is the most traditional expression in the line, built around wormwood, anise, fennel, and alpine herbs for a vivid green louche and a focused aperitif ritual.",
-    "effectTerritory": "Bright, bitter, and lucidly herbal; built for a focused aperitif ritual.",
+    "intro": "A classic green absinthe: bitter, aromatic, bright, and deliberately free of minty modern distraction.",
+    "story": "Verte is the most traditional expression in the line, built around wormwood, anise, fennel, and classic coloring herbs for a vivid green louche and a focused aperitif ritual.",
+    "effectTerritory": "Bright, bitter, and lucidly herbal; built for a focused pre-ban Parisian aperitif ritual.",
     "serve": "Serve 1:4 with cold water, no sugar or half sugar.",
-    "flavor": "Bitter green, classic louche, melissa and coriander lift.",
+    "flavor": "Bitter green, classic louche, Roman wormwood, hyssop, melissa, coriander lift.",
     "marketingPhrase": "For the green hour before dinner.",
     "recipeSections": [
       {
         "title": "Primary botanical bill",
         "items": [
-          ["Grand wormwood", "medium-high", "Classic bitter backbone and absinthe identity."],
-          ["Roman wormwood", "medium", "Extends the bitter line with softer Artemisia nuance."],
-          ["Green anise", "high", "Carries the sweet anisic body and the louche."],
-          ["Florence fennel", "medium-high", "Rounds the body and keeps the sweetness botanical."],
-          ["Coriander seed", "medium", "Adds citrus-spice clarity."],
-          ["Lemon balm", "medium", "Gives green citrus lift and aroma precision."],
-          ["Hyssop", "medium", "Provides minty alpine medicinal lift."],
-          ["Angelica root", "low-medium", "Acts as a root fixative and drying frame."],
-          ["Gentian", "trace", "Tightens the aperitif bitterness."],
-          ["Mint", "trace", "Introduces perceived sharpness without reading toothpaste."]
+          [
+            "Grand wormwood",
+            "medium-high",
+            "Classic bitter backbone and absinthe identity."
+          ],
+          [
+            "Roman wormwood",
+            "medium-high",
+            "Soft Artemisia detail in the base and the classic verte coloring finish."
+          ],
+          [
+            "Green anise",
+            "high",
+            "Carries the sweet anisic body and the louche."
+          ],
+          [
+            "Florence fennel",
+            "medium-high",
+            "Rounds the body and keeps the sweetness botanical."
+          ],
+          [
+            "Coriander seed",
+            "medium",
+            "Adds citrus-spice clarity."
+          ],
+          [
+            "Hyssop",
+            "medium",
+            "Provides resinous green altitude and classic coloration character."
+          ],
+          [
+            "Lemon balm",
+            "medium",
+            "Gives green citrus lift and aroma precision."
+          ],
+          [
+            "Angelica root",
+            "low-medium",
+            "Acts as a root fixative and drying frame."
+          ]
         ]
       },
       {
         "title": "Claim-safe positioning",
         "items": [
-          ["Effect territory", "Green clarity", "Use ritual language rather than saying stimulant, focus aid, or nootropic."],
-          ["Safe language", "Bright, precise, bitter", "Aperitif and aromatic clarity are defensible; drug-effect language is not."],
-          ["Avoid saying", "Improves focus", "Do not imply enhanced cognition or stimulant function."]
+          [
+            "Effect territory",
+            "Green clarity",
+            "Use ritual language rather than saying stimulant, focus aid, or nootropic."
+          ],
+          [
+            "Safe language",
+            "Bright, precise, bitter",
+            "Aperitif and aromatic clarity are defensible; drug-effect language is not."
+          ],
+          [
+            "Avoid saying",
+            "Improves focus",
+            "Do not imply enhanced cognition or stimulant function."
+          ]
         ]
       },
       {
         "title": "Extraction plan",
         "items": [
-          ["Still charge", "core distillation", "Run grand wormwood, Roman wormwood, green anise, fennel, coriander, and angelica in the still for the structural absinthe spine."],
-          ["Coloration maceration", "warm post-distill", "Use hyssop and lemon balm in a short controlled post-distillation maceration to set the verte color and green aromatic lift without stewing the batch."],
-          ["Cold extract", "trace finishing", "Hold gentian and mint to restrained cold extraction or tincture dosing so bitterness and cooling stay precise rather than muddy."]
+          [
+            "Still charge",
+            "core distillation",
+            "Run grand wormwood, Roman wormwood, green anise, fennel, coriander, and angelica in the still for the structural absinthe spine."
+          ],
+          [
+            "Coloration maceration",
+            "warm post-distill",
+            "Use Roman wormwood, hyssop, and lemon balm in a short controlled post-distillation maceration to set the verte color and green aromatic lift without stewing the batch."
+          ],
+          [
+            "Avoid",
+            "mint and gentian",
+            "Do not use mint or gentian in this expression; they pull the profile away from the pre-ban Parisian target."
+          ]
         ]
       }
     ],
     "herbs": [
-      ["wormwood", "bitter backbone and absinthe signature"],
-      ["roman-wormwood", "extends the wormwood line with softer nuance"],
-      ["anise", "sweet aromatic spine and louche support"],
-      ["fennel", "rounder sweetness with herbal depth"],
-      ["coriander", "adds citrus-spice clarity"],
-      ["lemon-balm", "fresh citron lift without breaking the style"],
-      ["hyssop", "resinous green top notes and medicinal altitude"],
-      ["angelica", "rooty persistence and dryness"],
-      ["gentian", "firmer aperitif bitterness"],
-      ["mint", "trace cooling sharpness"]
+      [
+        "wormwood",
+        "bitter backbone and absinthe signature"
+      ],
+      [
+        "roman-wormwood",
+        "classic coloring-herb signature and softer Artemisia nuance"
+      ],
+      [
+        "anise",
+        "sweet aromatic spine and louche support"
+      ],
+      [
+        "fennel",
+        "rounder sweetness with herbal depth"
+      ],
+      [
+        "coriander",
+        "adds citrus-spice clarity"
+      ],
+      [
+        "lemon-balm",
+        "fresh citron lift without breaking the style"
+      ],
+      [
+        "hyssop",
+        "resinous green top notes and medicinal altitude"
+      ],
+      [
+        "angelica",
+        "rooty persistence and dryness"
+      ]
     ],
     "molecules": [
-      ["anethole", "sweet anisic body and louche behavior"],
-      ["fenchone", "dry fennel tension that keeps the sweetness trimmed"],
-      ["thujone", "wormwood-associated austere edge"],
-      ["linalool", "small floral lift that broadens the mid-palate"],
-      ["citral", "green lemon brightness from melissa"],
-      ["gentiopicroside", "trace bitter reinforcement"],
-      ["menthol", "a tiny cooling edge in the finish"]
+      [
+        "anethole",
+        "sweet anisic body and louche behavior"
+      ],
+      [
+        "fenchone",
+        "dry fennel tension that keeps the sweetness trimmed"
+      ],
+      [
+        "thujone",
+        "wormwood-associated austere edge"
+      ],
+      [
+        "linalool",
+        "small floral lift that broadens the mid-palate"
+      ],
+      [
+        "citral",
+        "green lemon brightness from melissa"
+      ],
+      [
+        "chlorophylls",
+        "green coloration from the classic verte finish"
+      ]
     ],
     "serviceNotes": [
       "Talk about aperitif structure, attention to ritual, and green bitterness, not cognition claims.",
-      "The bottle should feel classically absinthe even when its clarity cues are modernized."
+      "The bottle should feel classically absinthe and specifically less mint-driven than a modern herbal liqueur."
     ]
   },
   "rouge": {
@@ -84,62 +177,201 @@
       {
         "title": "Primary botanical bill",
         "items": [
-          ["Grand wormwood", "medium", "Maintains the bitter axis."],
-          ["Roman wormwood", "low-medium", "Supports structure without excessive severity."],
-          ["Green anise", "medium-high", "Preserves absinthe recognition and louche."],
-          ["Florence fennel", "medium", "Rounds hibiscus acidity."],
-          ["Star anise", "low", "Adds extra sweet-spice support."],
-          ["Coriander seed", "medium", "Bridges floral and citrus notes."],
-          ["Orange peel", "medium", "Creates a citrus bridge into hibiscus."],
-          ["Angelica root", "low", "Adds rooty restraint."],
-          ["Hibiscus finish", "medium", "Provides crimson color and tartness."],
-          ["Rosehip finish", "low-medium", "Adds tannic fruit support."],
-          ["Grains of paradise", "trace", "Adds warmth and salivation."],
-          ["Cardamom", "trace", "Lifts the top note with sparkling spice."],
-          ["Rose petal", "trace", "Softens the profile with perfume."]
+          [
+            "Grand wormwood",
+            "medium",
+            "Maintains the bitter axis."
+          ],
+          [
+            "Roman wormwood",
+            "low-medium",
+            "Supports structure without excessive severity."
+          ],
+          [
+            "Green anise",
+            "medium-high",
+            "Preserves absinthe recognition and louche."
+          ],
+          [
+            "Florence fennel",
+            "medium",
+            "Rounds hibiscus acidity."
+          ],
+          [
+            "Star anise",
+            "low",
+            "Adds extra sweet-spice support."
+          ],
+          [
+            "Coriander seed",
+            "medium",
+            "Bridges floral and citrus notes."
+          ],
+          [
+            "Orange peel",
+            "medium",
+            "Creates a citrus bridge into hibiscus."
+          ],
+          [
+            "Angelica root",
+            "low",
+            "Adds rooty restraint."
+          ],
+          [
+            "Hibiscus finish",
+            "medium",
+            "Provides crimson color and tartness."
+          ],
+          [
+            "Rosehip finish",
+            "low-medium",
+            "Adds tannic fruit support."
+          ],
+          [
+            "Grains of paradise",
+            "trace",
+            "Adds warmth and salivation."
+          ],
+          [
+            "Cardamom",
+            "trace",
+            "Lifts the top note with sparkling spice."
+          ],
+          [
+            "Rose petal",
+            "trace",
+            "Softens the profile with perfume."
+          ]
         ]
       },
       {
         "title": "Claim-safe positioning",
         "items": [
-          ["Effect territory", "Social warmth / drama", "Use convivial and table-centered language rather than mood or heart-health claims."],
-          ["Safe language", "Vivid, convivial, crimson", "Frame the bottle as a dramatic ritual for the table."],
-          ["Avoid saying", "Aphrodisiac or heart healthy", "Do not imply cardiovascular or sexual-function benefits."]
+          [
+            "Effect territory",
+            "Social warmth / drama",
+            "Use convivial and table-centered language rather than mood or heart-health claims."
+          ],
+          [
+            "Safe language",
+            "Vivid, convivial, crimson",
+            "Frame the bottle as a dramatic ritual for the table."
+          ],
+          [
+            "Avoid saying",
+            "Aphrodisiac or heart healthy",
+            "Do not imply cardiovascular or sexual-function benefits."
+          ]
         ]
       },
       {
         "title": "Extraction plan",
         "items": [
-          ["Still charge", "core distillation", "Distill wormwoods, anise, fennel, star anise, coriander, orange peel, angelica, cardamom, and grains of paradise for a stable absinthe frame."],
-          ["Maceration", "avoid for hibiscus", "Do not drive hibiscus or rosehip through a hot still maceration; they are better handled outside the main distillation path to preserve fresh tart color."],
-          ["Cold extract", "red finishing", "Build the crimson layer with controlled cold extracts or finishing tinctures of hibiscus, rosehip, and trace rose petal, then bench the dose against louche strength and acid balance."]
+          [
+            "Still charge",
+            "core distillation",
+            "Distill wormwoods, anise, fennel, star anise, coriander, orange peel, angelica, cardamom, and grains of paradise for a stable absinthe frame."
+          ],
+          [
+            "Maceration",
+            "avoid for hibiscus",
+            "Do not drive hibiscus or rosehip through a hot still maceration; they are better handled outside the main distillation path to preserve fresh tart color."
+          ],
+          [
+            "Cold extract",
+            "red finishing",
+            "Build the crimson layer with controlled cold extracts or finishing tinctures of hibiscus, rosehip, and trace rose petal, then bench the dose against louche strength and acid balance."
+          ]
         ]
       }
     ],
     "herbs": [
-      ["wormwood", "essential bitter axis"],
-      ["roman-wormwood", "keeps the red build anchored to absinthe"],
-      ["anise", "keeps the bottle recognizably absinthe"],
-      ["fennel", "rounds the hibiscus edge"],
-      ["star-anise", "reinforces the sweet-spice frame"],
-      ["coriander", "floral citrus-spice bridge"],
-      ["orange-peel", "citrus bridge to the red floral core"],
-      ["angelica", "rooty restraint"],
-      ["hibiscus", "color, tartness, and red-fruit illusion"],
-      ["rosehip", "fruit and tannic grip"],
-      ["grains-of-paradise", "warmth and salivation"],
-      ["cardamom", "sparkling spice lift"],
-      ["rose", "perfume and floral bridge"]
+      [
+        "wormwood",
+        "essential bitter axis"
+      ],
+      [
+        "roman-wormwood",
+        "keeps the red build anchored to absinthe"
+      ],
+      [
+        "anise",
+        "keeps the bottle recognizably absinthe"
+      ],
+      [
+        "fennel",
+        "rounds the hibiscus edge"
+      ],
+      [
+        "star-anise",
+        "reinforces the sweet-spice frame"
+      ],
+      [
+        "coriander",
+        "floral citrus-spice bridge"
+      ],
+      [
+        "orange-peel",
+        "citrus bridge to the red floral core"
+      ],
+      [
+        "angelica",
+        "rooty restraint"
+      ],
+      [
+        "hibiscus",
+        "color, tartness, and red-fruit illusion"
+      ],
+      [
+        "rosehip",
+        "fruit and tannic grip"
+      ],
+      [
+        "grains-of-paradise",
+        "warmth and salivation"
+      ],
+      [
+        "cardamom",
+        "sparkling spice lift"
+      ],
+      [
+        "rose",
+        "perfume and floral bridge"
+      ]
     ],
     "molecules": [
-      ["anethole", "retains the absinthe sweet-spice grammar"],
-      ["fenchone", "stops the profile from becoming plush"],
-      ["anthocyanins", "create the ruby chromatic field"],
-      ["citric-acid", "sharpens the perceived line"],
-      ["geraniol", "adds rose bloom and soft lift"],
-      ["linalool", "smooths the floral transition"],
-      ["terpinyl-acetate", "supports cardamom sparkle"],
-      ["paradols", "supply warm spice heat"]
+      [
+        "anethole",
+        "retains the absinthe sweet-spice grammar"
+      ],
+      [
+        "fenchone",
+        "stops the profile from becoming plush"
+      ],
+      [
+        "anthocyanins",
+        "create the ruby chromatic field"
+      ],
+      [
+        "citric-acid",
+        "sharpens the perceived line"
+      ],
+      [
+        "geraniol",
+        "adds rose bloom and soft lift"
+      ],
+      [
+        "linalool",
+        "smooths the floral transition"
+      ],
+      [
+        "terpinyl-acetate",
+        "supports cardamom sparkle"
+      ],
+      [
+        "paradols",
+        "supply warm spice heat"
+      ]
     ],
     "serviceNotes": [
       "Position it as a vivid table ritual, not a physiological mood modifier.",
@@ -149,150 +381,385 @@
   "detour": {
     "title": "Detour",
     "subtitle": "Nowhere's End Absinthe / Detour",
-    "chip": "Creative deviation / less licorice",
+    "chip": "Amber deviation / less licorice",
     "toneClass": "sku-amber",
-    "intro": "A less-licorice absinthe with citrus, resin, and a blue-to-violet ritual in the glass.",
-    "story": "Detour steps away from the expected path, leaning into citrus peel, juniper, mastic, and butterfly pea for an absinthe that turns as it opens.",
-    "effectTerritory": "A less-licorice absinthe detour: citrus, resin, blue-to-violet ritual, and botanical lift.",
-    "serve": "Serve 1:4 with cold water; a citrus-acid drop can trigger the blue-to-violet shift.",
-    "flavor": "Less licorice, more citrus, juniper, resin, and botanical lift.",
-    "marketingPhrase": "The absinthe that turns.",
+    "intro": "A less-licorice amber absinthe with sharp citrus, dry resin, gentian bitterness, and warm color.",
+    "story": "Detour steps away from the expected path, using sharp citrus peel, juniper, mastic, gentian, calendula, and dry root notes to pull the shared absinthe base away from licorice.",
+    "effectTerritory": "Less-licorice amber absinthe: sharp citrus, dry resin, bitter root, and warm color.",
+    "serve": "Serve 1:4 with cold water; garnish only with a restrained citrus peel if needed.",
+    "flavor": "Less licorice, more lemon and grapefruit peel, juniper, resin, gentian bitterness, and amber botanical warmth.",
+    "marketingPhrase": "The amber side road away from licorice.",
     "recipeSections": [
       {
         "title": "Primary botanical bill",
         "items": [
-          ["Grand wormwood", "medium", "Keeps the expression dry, adult, and bitter."],
-          ["Roman wormwood", "medium", "Maintains absinthe continuity without dominance."],
-          ["Green anise", "low", "Keeps a low-licorice louche base."],
-          ["Florence fennel", "low-medium", "Adds louche texture without pushing the anise line too hard."],
-          ["Coriander", "high", "Creates bright citrus-herbal lift."],
-          ["Lemon peel", "medium-high", "Pushes the top note toward clean citrus brightness."],
-          ["Grapefruit peel", "low-medium", "Adds bitter citrus complexity."],
-          ["Juniper", "medium", "Introduces pine-resin lift."],
-          ["Angelica root", "medium", "Grounds the airy top notes."],
-          ["Mastic", "trace-low", "Gives resinous mouthfeel and ritual strangeness."],
-          ["Rosemary", "trace", "Adds camphoraceous clean lift."],
-          ["Yarrow or gentian", "trace", "Supplies extra dry bitter adulthood."],
-          ["Butterfly pea finish", "low-medium", "Creates the chromatic shift."],
-          ["Cornflower", "low", "Supports the blue visual field."]
+          [
+            "Grand wormwood",
+            "medium",
+            "Keeps the expression dry, adult, and bitter."
+          ],
+          [
+            "Roman wormwood",
+            "medium",
+            "Maintains absinthe continuity without dominance."
+          ],
+          [
+            "Green anise",
+            "low",
+            "Keeps a minimal louche grammar without leading the profile."
+          ],
+          [
+            "Florence fennel",
+            "low-medium",
+            "Supports texture while staying less licorice than the house base."
+          ],
+          [
+            "Coriander",
+            "high",
+            "Creates bright citrus-herbal lift."
+          ],
+          [
+            "Lemon peel",
+            "high",
+            "Pushes the top note toward clean citrus brightness."
+          ],
+          [
+            "Orange peel",
+            "medium",
+            "Adds amber warmth without becoming sweet-orange cordial."
+          ],
+          [
+            "Grapefruit peel",
+            "medium",
+            "Adds bitter citrus complexity and suppresses licorice perception."
+          ],
+          [
+            "Juniper",
+            "medium",
+            "Introduces dry pine-resin lift."
+          ],
+          [
+            "Angelica root",
+            "low-medium",
+            "Grounds the airy top notes as a dry root fixative."
+          ],
+          [
+            "Mastic",
+            "trace-low",
+            "Gives resinous mouthfeel and ritual strangeness."
+          ],
+          [
+            "Rosemary",
+            "trace",
+            "Adds camphoraceous clean lift."
+          ],
+          [
+            "Yarrow",
+            "trace",
+            "Supplies wild dry bitterness; keep as an approved editorial choice only."
+          ],
+          [
+            "Gentian root",
+            "low",
+            "Hardens the bitter axis and pulls the profile away from licorice."
+          ],
+          [
+            "Calendula petals",
+            "trace",
+            "Supports a warm amber color without blue/violet performance."
+          ]
         ]
       },
       {
         "title": "Claim-safe positioning",
         "items": [
-          ["Effect territory", "Novelty / transformation", "Use unexpected and turning language rather than cognitive or psychedelic claims."],
-          ["Safe language", "Unexpected, transforming, less-traveled", "Make the ritual itself the point."],
-          ["Avoid saying", "Creative enhancer or psychedelic", "Do not imply altered consciousness benefits."]
+          [
+            "Effect territory",
+            "Side-road bitterness",
+            "Use unexpected and less-traveled language rather than cognitive or psychedelic claims."
+          ],
+          [
+            "Safe language",
+            "Amber, dry, bitter-citrus, less licorice",
+            "Make the flavor deviation itself the point."
+          ],
+          [
+            "Avoid saying",
+            "Creative enhancer or psychedelic",
+            "Do not imply altered consciousness benefits."
+          ]
         ]
       },
       {
         "title": "Extraction plan",
         "items": [
-          ["Still charge", "core distillation", "Run wormwoods, low anise, fennel, coriander, lemon peel, grapefruit peel, juniper, angelica, and trace rosemary in the still to establish the dry citrus-resin base."],
-          ["Maceration", "minimal resin work", "If mastic is used as a resinous bridge, keep it to a very light post-distillation maceration or tincture addition so it reads as texture rather than turpentine."],
-          ["Cold extract", "chromatic finishing", "Keep butterfly pea and cornflower entirely out of the still and build the blue-violet ritual through cold extraction or separate finishing components."]
+          [
+            "Still charge",
+            "core distillation",
+            "Run wormwoods, low anise, fennel, coriander, lemon peel, grapefruit peel, juniper, angelica, and trace rosemary in the still to establish the dry citrus-resin base."
+          ],
+          [
+            "Maceration",
+            "minimal resin work",
+            "If mastic is used as a resinous bridge, keep it to a very light post-distillation maceration or tincture addition so it reads as texture rather than turpentine."
+          ],
+          [
+            "Amber finish",
+            "controlled finishing",
+            "Use gentian, calendula, and the final citrus adjustments as controlled finishing components; avoid butterfly pea and cornflower for this amber direction."
+          ]
         ]
       }
     ],
     "herbs": [
-      ["wormwood", "keeps the expression dry, adult, and bitter"],
-      ["roman-wormwood", "extends the absinthe echo"],
-      ["anise", "holds a minimal louche grammar"],
-      ["fennel", "supports low-licorice texture"],
-      ["coriander", "citrus-floral bridge"],
-      ["lemon-peel", "bright citrus top note"],
-      ["grapefruit-peel", "bitter citrus complexity"],
-      ["juniper", "pine and resin lift"],
-      ["angelica", "rooty fixative"],
-      ["mastic", "resinous texture"],
-      ["rosemary", "clean camphoraceous lift"],
-      ["yarrow", "wild dry bitterness"],
-      ["butterfly-pea", "blue-violet chromatic ritual"],
-      ["cornflower", "supports the blue visual story"]
+      [
+        "wormwood",
+        "keeps the expression dry, adult, and bitter"
+      ],
+      [
+        "roman-wormwood",
+        "extends the absinthe echo"
+      ],
+      [
+        "anise",
+        "holds a minimal louche grammar"
+      ],
+      [
+        "fennel",
+        "supports low-licorice texture"
+      ],
+      [
+        "coriander",
+        "citrus-floral bridge"
+      ],
+      [
+        "lemon-peel",
+        "sharp citrus top note"
+      ],
+      [
+        "orange-peel",
+        "amber citrus warmth"
+      ],
+      [
+        "grapefruit-peel",
+        "bitter citrus complexity"
+      ],
+      [
+        "juniper",
+        "pine and resin lift"
+      ],
+      [
+        "angelica",
+        "rooty fixative"
+      ],
+      [
+        "mastic",
+        "resinous texture"
+      ],
+      [
+        "rosemary",
+        "clean camphoraceous lift"
+      ],
+      [
+        "yarrow",
+        "wild dry bitterness"
+      ],
+      [
+        "gentian",
+        "licorice-suppressing bitter root"
+      ],
+      [
+        "calendula",
+        "warm amber color support"
+      ]
     ],
     "molecules": [
-      ["citral", "keeps the citrus line bright and green"],
-      ["linalool", "smooths the aromatic transitions"],
-      ["ternatins", "generate the blue-to-violet visual performance"],
-      ["alpha-pinene", "creates pine-resin lift"],
-      ["limonene", "keeps the top note citrus-bright"],
-      ["sabinene", "juniper bite and lift"],
-      ["myrcene", "resinous depth"],
-      ["camphor", "clean medicinal altitude"]
+      [
+        "citral",
+        "keeps the citrus line bright and green"
+      ],
+      [
+        "linalool",
+        "smooths the aromatic transitions"
+      ],
+      [
+        "alpha-pinene",
+        "creates pine-resin lift"
+      ],
+      [
+        "limonene",
+        "keeps the top note citrus-bright"
+      ],
+      [
+        "sabinene",
+        "juniper bite and lift"
+      ],
+      [
+        "myrcene",
+        "resinous depth"
+      ],
+      [
+        "camphor",
+        "clean medicinal altitude"
+      ],
+      [
+        "gentiopicroside",
+        "firm aperitif bitterness"
+      ],
+      [
+        "carotenoids",
+        "warm amber visual field"
+      ]
     ],
     "serviceNotes": [
-      "Sell the visual transformation and the side-road feeling, not altered consciousness.",
-      "Detour should read as unexpected but still dry and adult."
+      "Sell the amber side-road feeling and the less-licorice contrast, not altered consciousness.",
+      "Detour should read as unexpected but still dry, adult, and recognizably absinthe."
     ]
   },
   "bleue": {
     "title": "Bleue",
     "subtitle": "Nowhere's End Absinthe / Bleue",
-    "chip": "Quiet alpine ritual",
+    "chip": "Post-ban bootleg / clear concealment",
     "toneClass": "sku-blue",
-    "intro": "A clear absinthe with an alpine frame, a slow louche, and a cool, quiet finish.",
-    "story": "Bleue is the clearest and most restrained expression in the line, built around fennel, wormwood, angelica, and alpine herbs for a slow, contemplative serve.",
-    "effectTerritory": "Cool, clear, and alpine; a quiet, contemplative absinthe.",
+    "intro": "A clear post-ban bootleg-style absinthe kept colorless for concealment, with no visible botanical finish.",
+    "story": "Bleue is the clandestine post-ban expression: a clear absinthe kept colorless for concealment, built from the base distillation and finished without visible coloring botanicals.",
+    "effectTerritory": "Clear, dry, illicit, and restrained; a smuggling-era blanche / la bleue profile.",
     "serve": "Serve 1:4.5 with very cold water and a slow drip.",
-    "flavor": "Clear, fennel-soft, angelica, alpine herb, and mint trace.",
-    "marketingPhrase": "A quiet alpine louche.",
+    "flavor": "Clear absinthe base, dry wormwood, anise-fennel louche, angelica root, and restrained citrus-spice brightness.",
+    "marketingPhrase": "Clear enough to hide in plain sight.",
     "recipeSections": [
       {
         "title": "Primary botanical bill",
         "items": [
-          ["Grand wormwood", "medium", "Provides the clean bitter signature."],
-          ["Roman wormwood or genepi", "medium", "Adds alpine aromatic lift."],
-          ["Florence fennel", "high", "Makes the bottle soft and rounded."],
-          ["Green anise", "medium", "Keeps the center classically absinthe."],
-          ["Angelica root or seed", "medium", "Creates cool rooty complexity."],
-          ["Hyssop", "low-medium", "Provides restrained green lift."],
-          ["Mint", "trace", "Adds a cooling trigeminal cue."],
-          ["Coriander", "low", "Keeps the structure bright but not sharp."],
-          ["Cornflower or elderflower", "trace finish", "Creates a gentle aromatic halo."]
+          [
+            "Grand wormwood",
+            "medium",
+            "Provides the clean bitter signature."
+          ],
+          [
+            "Roman wormwood",
+            "medium",
+            "Keeps a soft Artemisia line inside the base distillation."
+          ],
+          [
+            "Green anise",
+            "medium",
+            "Keeps the center classically absinthe without decorative finish."
+          ],
+          [
+            "Florence fennel",
+            "medium-high",
+            "Makes the clear bottle round enough to louche gracefully."
+          ],
+          [
+            "Coriander",
+            "medium",
+            "Keeps the structure bright but not perfumed."
+          ],
+          [
+            "Angelica root",
+            "medium",
+            "Creates cool rooty complexity and dry persistence."
+          ],
+          [
+            "Clear base distillate reserve",
+            "finish share",
+            "Used only as uncolored reserve/proofing volume, not as a coloring maceration."
+          ]
         ]
       },
       {
         "title": "Claim-safe positioning",
         "items": [
-          ["Effect territory", "Calm ritual", "Use quiet and contemplative rather than anxiety or sleep language."],
-          ["Safe language", "Cool, clear, alpine", "The calm comes from serve style and aromatic posture."],
-          ["Avoid saying", "Relieves anxiety or helps sleep", "Do not imply therapeutic sedation."]
+          [
+            "Effect territory",
+            "Clandestine clarity",
+            "Use smuggling-era and clear ritual language rather than anxiety, sleep, or therapeutic claims."
+          ],
+          [
+            "Safe language",
+            "Clear, dry, illicit, restrained",
+            "The drama comes from history and concealment, not physiological effect."
+          ],
+          [
+            "Avoid saying",
+            "Relieves anxiety or helps sleep",
+            "Do not imply therapeutic sedation."
+          ]
         ]
       },
       {
         "title": "Extraction plan",
         "items": [
-          ["Still charge", "core distillation", "Distill wormwood, Roman wormwood or genepi, fennel, anise, angelica, coriander, and restrained hyssop for the quiet alpine frame."],
-          ["Maceration", "keep it clear", "Avoid green coloration maceration if the bottle is meant to stay bleue-clear; any botanical resting step should be short and color-neutral."],
-          ["Cold extract", "trace halo only", "Use mint, elderflower, or cornflower only as tiny cold-extract or tincture adjustments if needed, keeping the final profile clear and spare."]
+          [
+            "Still charge",
+            "core distillation",
+            "Distill wormwoods, anise, fennel, coriander, and angelica for a clear absinthe base."
+          ],
+          [
+            "No coloration",
+            "keep it clear",
+            "Avoid green coloration maceration entirely; no hyssop, genepi, mint, elderflower, or cornflower finish in this expression."
+          ],
+          [
+            "Reserve / proofing",
+            "uncolored finish",
+            "Use clear base distillate reserve or proofing adjustment only, keeping the final profile colorless and spare."
+          ]
         ]
       }
     ],
     "herbs": [
-      ["wormwood", "clean bitter signature"],
-      ["roman-wormwood", "soft alpine Artemisia support"],
-      ["genepi", "brings alpine lift and restraint"],
-      ["fennel", "supports the quiet rounded body"],
-      ["anise", "keeps the bottle recognizably absinthe"],
-      ["angelica", "rooty cool complexity"],
-      ["hyssop", "restrained green lift"],
-      ["mint", "cooling trace"],
-      ["coriander", "dry citrus-spice brightness"],
-      ["elderflower", "soft floral top note"],
-      ["cornflower", "visual and aromatic softness"]
+      [
+        "wormwood",
+        "clean bitter signature"
+      ],
+      [
+        "roman-wormwood",
+        "soft Artemisia support in the base"
+      ],
+      [
+        "anise",
+        "keeps the bottle recognizably absinthe"
+      ],
+      [
+        "fennel",
+        "supports the quiet rounded body"
+      ],
+      [
+        "coriander",
+        "dry citrus-spice brightness"
+      ],
+      [
+        "angelica",
+        "rooty cool complexity"
+      ]
     ],
     "molecules": [
-      ["anethole", "holds the louche and sweet spice line"],
-      ["fenchone", "dries the fennel register"],
-      ["alpha-pinene", "adds crisp lift"],
-      ["menthol", "supplies cooling perception"],
-      ["cineole", "supports alpine aromatic clarity"],
-      ["borneol", "adds soft camphoraceous altitude"],
-      ["hotrienol", "supports the delicate floral halo"]
+      [
+        "anethole",
+        "holds the louche and sweet spice line"
+      ],
+      [
+        "fenchone",
+        "dries the fennel register"
+      ],
+      [
+        "alpha-pinene",
+        "adds crisp lift"
+      ],
+      [
+        "terpinen-4-ol",
+        "supports the dry root and spice frame"
+      ],
+      [
+        "linalool",
+        "small aromatic bridge from coriander"
+      ]
     ],
     "serviceNotes": [
-      "Describe this as a contemplative pour, not a relaxant or sleep aid.",
-      "Its calm should be sensory and ritual, not medicinal."
+      "Describe this as a clandestine post-ban clear absinthe, not a relaxant or sleep aid.",
+      "Its quiet should be historical and sensory: clear, dry, spare, and easy to conceal."
     ]
   }
 }

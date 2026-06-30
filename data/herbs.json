@@ -1,30 +1,920 @@
 {
-  "wormwood": { "title": "Grand wormwood", "latin": "Artemisia absinthium", "chip": "Bitter / foundational", "family": "Asteraceae", "intro": "Grand wormwood is the defining bitter herb of classical absinthe: silvery, aromatic, and dry rather than sweet.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Artemisia_absinthium_P1210748.jpg/960px-Artemisia_absinthium_P1210748.jpg", "imageAlt": "Grand wormwood plant with silvery foliage.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Artemisia_absinthium", "history": "Wormwood has been used since classical antiquity around the Mediterranean as a bitter herb in wines, tonics, and digestive preparations.", "medicinal": ["Historically used as a bitter digestive and appetite stimulant.", "Commonly listed in older herbals as a vermifuge or worm-expelling herb.", "Also appears in traditional remedies for sluggish digestion and dyspeptic complaints."], "role": "Wormwood supplies the stern bitter frame that keeps the house style adult and recognizably absinthe.", "molecules": ["thujone", "alpha-pinene", "sabinene"], "recipes": ["verte", "rouge", "detour", "bleue"], "sources": [["Wikipedia: Artemisia absinthium", "https://en.wikipedia.org/wiki/Artemisia_absinthium"]] },
-  "roman-wormwood": { "title": "Roman wormwood", "latin": "Artemisia pontica", "chip": "Gentler bitter / nuance", "family": "Asteraceae", "intro": "Roman wormwood is softer and finer than grand wormwood and often used for detail rather than brute force.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Artemisia_pontica_sl1.jpg/960px-Artemisia_pontica_sl1.jpg", "imageAlt": "Roman wormwood growing outdoors.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Artemisia_pontica", "history": "Roman wormwood entered the bitter-herb tradition as a more delicate Artemisia for aromatized wines and absinthe-adjacent formulas.", "medicinal": ["Traditionally treated as a tonic bitter in the broader Artemisia family.", "Historically associated with digestive formulas and appetite support.", "Used in similar bitter-herbal contexts to grand wormwood, but more gently."], "role": "Roman wormwood lets the line keep an absinthe echo without dragging every bottle toward full severity.", "molecules": ["thujone", "chlorophylls"], "recipes": ["verte", "rouge", "detour", "bleue"], "sources": [["Wikipedia: Artemisia pontica", "https://en.wikipedia.org/wiki/Artemisia_pontica"]] },
-  "anise": { "title": "Green anise", "latin": "Pimpinella anisum", "chip": "Sweet spice / louche", "family": "Apiaceae", "intro": "Anise is the seed note that makes absinthe immediately recognizable: sweet, cool, and licorice-adjacent.", "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Koehler1887-PimpinellaAnisum.jpg", "imageAlt": "Botanical illustration of anise.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Anise", "history": "Anise moved easily between kitchen and apothecary, flavoring cakes, cordials, and digestive preparations before it became central to absinthe traditions.", "medicinal": ["Historically used as a carminative for gas and digestive discomfort.", "Traditional herbals also mention it for coughs and breath freshening.", "Older household medicine often treated anise seed tea as a warming stomach remedy."], "role": "Anise is the louche anchor and the quickest route to making a bottle read as absinthe.", "molecules": ["anethole"], "recipes": ["verte", "rouge", "detour", "bleue"], "sources": [["Wikipedia: Anise", "https://en.wikipedia.org/wiki/Anise"]] },
-  "fennel": { "title": "Florence fennel", "latin": "Foeniculum vulgare", "chip": "Round sweetness / bridge", "family": "Apiaceae", "intro": "Fennel shares absinthe's sweet-spice register with anise, but it is rounder and greener.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Foeniculum_July_2011-1a.jpg/1280px-Foeniculum_July_2011-1a.jpg", "imageAlt": "Flowering fennel plant.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Fennel", "history": "A long-standing Mediterranean herb, fennel entered food culture, cordials, confectionery, and herbal medicine through seed, frond, and bulb forms.", "medicinal": ["Historically used for indigestion, bloating, and flatulence.", "Traditional medicine also associated fennel with coughs and upper-respiratory catarrh.", "Many older sources describe fennel as supportive for breath, appetite, and lactation."], "role": "Fennel softens the architecture and keeps the line from becoming too sharp or skeletal.", "molecules": ["anethole", "fenchone"], "recipes": ["verte", "rouge", "detour", "bleue"], "sources": [["Wikipedia: Fennel", "https://en.wikipedia.org/wiki/Fennel"]] },
-  "coriander": { "title": "Coriander", "latin": "Coriandrum sativum", "chip": "Dry citrus spice / brightener", "family": "Apiaceae", "intro": "Coriander seed adds a bright, dry, citrus-spice note that can sharpen an otherwise soft absinthe profile.", "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-193.jpg", "imageAlt": "Botanical illustration of coriander.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Coriander", "history": "Coriander is one of the older recorded culinary herbs, appearing in ancient Mediterranean and Asian contexts and later in European spice cabinets and cordial formulas.", "medicinal": ["Historically used as a digestive and carminative seed.", "Traditional sources also describe it for stomach comfort.", "In some older systems it was treated as a warming spice useful after heavy meals."], "role": "Coriander is the clarity lever in the line: it sharpens without becoming overtly citrus peel.", "molecules": ["linalool", "limonene", "terpinen-4-ol", "alpha-pinene"], "recipes": ["verte", "rouge", "detour", "bleue"], "sources": [["Wikipedia: Coriander", "https://en.wikipedia.org/wiki/Coriander"]] },
-  "lemon-balm": { "title": "Lemon balm", "latin": "Melissa officinalis", "chip": "Citral freshness / calming", "family": "Lamiaceae", "intro": "Lemon balm softens bitterness with bright green-citrus aroma and a long tradition as a comforting herb.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Lemon_balm_plant.jpg/1280px-Lemon_balm_plant.jpg", "imageAlt": "Lemon balm plant in leaf.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Lemon_balm", "history": "Known to Greek, Arab, and later European herbal traditions, lemon balm became an apothecary mainstay for cordials, calming waters, and fragrant household uses.", "medicinal": ["Historically used for digestive upset and gas.", "Traditional systems also used it as a calming herb for nerves and sleep.", "Older herbals frequently mention lemon balm as uplifting and restorative."], "role": "Melissa is the house herb for freshness; it appears wherever the line wants green light rather than darkness.", "molecules": ["citral", "rosmarinic-acid", "chlorophylls", "citric-acid"], "recipes": ["verte", "rouge"], "sources": [["Wikipedia: Lemon balm", "https://en.wikipedia.org/wiki/Lemon_balm"]] },
-  "hyssop": { "title": "Hyssop", "latin": "Hyssopus officinalis", "chip": "Resinous green / alpine", "family": "Lamiaceae", "intro": "Hyssop gives classic absinthe some of its cool, resinous, green top notes.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Illustration_Hyssopus_officinalis0.jpg/960px-Illustration_Hyssopus_officinalis0.jpg", "imageAlt": "Botanical illustration of hyssop.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Hyssopus_officinalis", "history": "Hyssop became a monastery-garden herb, a culinary seasoning, and a familiar component in liqueurs and domestic remedies.", "medicinal": ["Historically used in teas and syrups for coughs and chest congestion.", "Traditional herbals also describe external use on bruises and skin complaints.", "It appears as a warming, stimulating expectorant-type herb in older literature."], "role": "Hyssop brings medicinal altitude and old-world green complexity.", "molecules": ["pinocamphone", "thujone", "rosmarinic-acid", "chlorophylls"], "recipes": ["verte", "detour", "bleue"], "sources": [["Wikipedia: Hyssop", "https://en.wikipedia.org/wiki/Hyssopus_officinalis"]] },
-  "angelica": { "title": "Angelica", "latin": "Angelica archangelica", "chip": "Root structure / tonic bitter", "family": "Apiaceae", "intro": "Angelica root is a classic liqueur and bitters material: earthy, musky, and structurally useful in tiny amounts.", "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Koehler1887-GardenAngelica.jpg", "imageAlt": "Botanical illustration of angelica.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Angelica_archangelica", "history": "Angelica became prominent in northern European monastery gardens and early modern apothecaries.", "medicinal": ["Historically used as a digestive, stomachic, and warming bitter.", "Traditional uses also include colds, chest complaints, and general weakness.", "Older European herbals often treated angelica as both protective and restorative."], "role": "Angelica is the structural root across the line, tying volatile top notes back to the floor.", "molecules": ["alpha-pinene", "terpinen-4-ol"], "recipes": ["verte", "rouge", "detour", "bleue"], "sources": [["Wikipedia: Angelica archangelica", "https://en.wikipedia.org/wiki/Angelica_archangelica"]] },
-  "hibiscus": { "title": "Hibiscus", "latin": "Hibiscus sabdariffa", "chip": "Ruby tartness / cooling", "family": "Malvaceae", "intro": "Hibiscus contributes color first, tart floral structure second, and fruit illusion third.", "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Hibiscus_flower_TZ.jpg", "imageAlt": "Hibiscus flower.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Hibiscus", "history": "Hibiscus beverages and preserved calyces circulate through African, Caribbean, South Asian, and Latin American food traditions.", "medicinal": ["Historically used in cooling drinks in hot climates.", "Traditional medicine in several regions used hibiscus for digestive and fever-related complaints.", "Roselle preparations also appear in folk practice as a mild restorative tonic."], "role": "Hibiscus is the chromatic engine of Crimson and the reason it reads jewel-like instead of merely red.", "molecules": ["anthocyanins", "geraniol", "linalool", "citric-acid"], "recipes": ["rouge"], "sources": [["Wikipedia: Hibiscus", "https://en.wikipedia.org/wiki/Hibiscus"]] },
-  "rose": { "title": "Rose", "latin": "Rosa species", "chip": "Perfume / floral bridge", "family": "Rosaceae", "intro": "Rose petals bridge the herbal core to more floral and red-fruit directions.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Rosa_rubiginosa_1.jpg/1280px-Rosa_rubiginosa_1.jpg", "imageAlt": "Pink rose blossom on the plant.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Rose", "history": "Roses moved through Persian, Arab, Mediterranean, and European traditions as perfume, confection, medicine, and ceremony.", "medicinal": ["Historically used as a soothing, lightly astringent herb in syrups and conserves.", "Rose preparations were traditionally associated with cooling and digestive uses.", "Rosehip-rich preparations later became common in household tonic traditions."], "role": "Rose softens Crimson and turns tartness into perfume.", "molecules": ["geraniol", "linalool", "anthocyanins"], "recipes": ["rouge"], "sources": [["Wikipedia: Rose", "https://en.wikipedia.org/wiki/Rose"]] },
-  "butterfly-pea": { "title": "Butterfly pea flower", "latin": "Clitoria ternatea", "chip": "Color shift / soft floral", "family": "Fabaceae", "intro": "Butterfly pea is the chromatic engine behind Detour's blue-to-violet ritual.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Asian_pigeonwings_in_Bhopal_04.jpg/960px-Asian_pigeonwings_in_Bhopal_04.jpg", "imageAlt": "Blue butterfly pea flower.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Clitoria_ternatea", "history": "Butterfly pea has a long culinary and medicinal history across South and Southeast Asia, where the flowers color drinks, rice, and sweets.", "medicinal": ["Historically used in Ayurvedic and regional herbal traditions as a memory and nerve herb.", "Traditional uses also include calming, cooling, and restorative preparations.", "Folk practice has also used the plant in hair, skin, and eye-related applications."], "role": "Butterfly pea turns Detour from a flavor idea into a visual event.", "molecules": ["ternatins", "anthocyanins"], "recipes": ["detour"], "sources": [["Wikipedia: Clitoria ternatea", "https://en.wikipedia.org/wiki/Clitoria_ternatea"]] },
-  "lemon-verbena": { "title": "Lemon verbena", "latin": "Aloysia citrodora", "chip": "High lemon leaf / perfumed", "family": "Verbenaceae", "intro": "Lemon verbena is more incisive than lemon balm, with a sharper leaf-citrus note.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Aloysia_citriodora_002.jpg/960px-Aloysia_citriodora_002.jpg", "imageAlt": "Lemon verbena shrub with leaves.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Lemon_verbena", "history": "Native to South America, lemon verbena was brought to Europe by Spanish and Portuguese networks and became useful in teas, perfumery, and liqueur work.", "medicinal": ["Historically used in teas for digestion and post-meal comfort.", "Traditional practice also treated it as calming and gently antispasmodic.", "In Latin American folk use it appears as a household herb for stomach complaints."], "role": "Lemon verbena sharpens Detour and keeps its citrus story from becoming blurry.", "molecules": ["citral", "limonene", "verbascoside"], "recipes": ["detour"], "sources": [["Wikipedia: Lemon verbena", "https://en.wikipedia.org/wiki/Lemon_verbena"]] },
-  "gentian": { "title": "Gentian", "latin": "Gentiana lutea", "chip": "Aperitif bitter", "family": "Gentianaceae", "intro": "Gentian is one of the archetypal European bitter roots and a direct route to firmer aperitif structure.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Gentiana_lutea_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-065.jpg/960px-Gentiana_lutea_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-065.jpg", "imageAlt": "Botanical illustration of gentian.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Gentiana_lutea", "history": "Gentian root has long been central to European bitters, aperitifs, and apothecary tonics.", "medicinal": ["Historically used as a digestive bitter.", "Often listed for appetite stimulation in older herbals.", "A classic component of stomachic liqueurs and tonics."], "role": "Gentian is used only in trace amounts here, but it hardens the aperitif posture immediately.", "molecules": ["gentiopicroside"], "recipes": ["verte"], "sources": [["Wikipedia: Gentiana lutea", "https://en.wikipedia.org/wiki/Gentiana_lutea"]] },
-  "mint": { "title": "Mint", "latin": "Mentha species", "chip": "Cooling trace", "family": "Lamiaceae", "intro": "Mint adds cooling perception and perceived sharpness in tiny amounts.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Mentha_x_piperita_001.JPG/960px-Mentha_x_piperita_001.JPG", "imageAlt": "Mint leaves.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Mentha", "history": "Mint has deep culinary and medicinal history across the Mediterranean and Europe in teas, cordials, and household remedies.", "medicinal": ["Traditionally used for digestion and cooling herbal teas.", "Often associated with stomach comfort and breath freshness.", "Mentha species appear widely in domestic medicinal practice."], "role": "Mint is a trace-level perception tool rather than a headline herb in this line.", "molecules": ["menthol", "limonene"], "recipes": ["verte", "bleue"], "sources": [["Wikipedia: Mentha", "https://en.wikipedia.org/wiki/Mentha"]] },
-  "genepi": { "title": "Genepi", "latin": "Artemisia genipi and related alpine Artemisia", "chip": "Alpine restraint", "family": "Asteraceae", "intro": "Genepi brings alpine restraint and cool aromatic lift to the bleue profile.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Artemisia_genipi.jpg/960px-Artemisia_genipi.jpg", "imageAlt": "Alpine Artemisia plant.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Genepi", "history": "Genepi liqueur and alpine Artemisia traditions are closely tied to mountain herbalism and regional digestifs.", "medicinal": ["Historically associated with mountain digestifs and tonic herb traditions.", "Used in folk practice for stomachic and warming preparations.", "Part of alpine medicinal and liqueur heritage."], "role": "Genepi lets Bleue feel alpine rather than merely clear.", "molecules": ["cineole", "borneol", "camphor"], "recipes": ["bleue"], "sources": [["Wikipedia: Genepi", "https://en.wikipedia.org/wiki/Genepi"]] },
-  "elderflower": { "title": "Elderflower", "latin": "Sambucus nigra", "chip": "Soft floral halo", "family": "Adoxaceae", "intro": "Elderflower gives a subtle blossom halo that can keep a quiet profile from feeling bare.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Sambucus_nigra_008.jpg/960px-Sambucus_nigra_008.jpg", "imageAlt": "Elderflower clusters.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Sambucus_nigra", "history": "Elderflower has a long European history in cordials, fritters, and domestic medicinal infusions.", "medicinal": ["Historically used in teas and infusions for colds and fevers.", "Associated with gentle diaphoretic and comforting household remedies.", "Also used widely in cordial and syrup traditions."], "role": "Elderflower is a trace halo herb for Bleue rather than a foreground flavor.", "molecules": ["linalool", "hotrienol"], "recipes": ["bleue"], "sources": [["Wikipedia: Sambucus nigra", "https://en.wikipedia.org/wiki/Sambucus_nigra"]] },
-  "cornflower": { "title": "Cornflower", "latin": "Centaurea cyanus", "chip": "Blue support", "family": "Asteraceae", "intro": "Cornflower contributes visual and aromatic softness in blue-leaning ritual systems.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Centaurea_cyanus2.jpg/960px-Centaurea_cyanus2.jpg", "imageAlt": "Blue cornflowers.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Centaurea_cyanus", "history": "Cornflower has traveled through ornamental, culinary garnish, and gentle household-herb traditions.", "medicinal": ["Historically used in mild eye and skin folk remedies.", "More often a decorative and symbolic herb than a major medicinal one.", "Sometimes used in teas and floral mixtures."], "role": "Cornflower supports blue visual logic without overpowering the formula.", "molecules": ["anthocyanins"], "recipes": ["detour", "bleue"], "sources": [["Wikipedia: Centaurea cyanus", "https://en.wikipedia.org/wiki/Centaurea_cyanus"]] },
-  "orange-peel": { "title": "Orange peel", "latin": "Citrus sinensis peel", "chip": "Citrus bridge", "family": "Rutaceae", "intro": "Orange peel links spice and floral systems to anise without collapsing into juice.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/960px-Orange-Fruit-Pieces.jpg", "imageAlt": "Orange peel and fruit.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Orange_(fruit)", "history": "Orange peel has long flavored liqueurs, marmalades, bitters, and digestive cordials.", "medicinal": ["Historically used in digestif and cordial traditions.", "Often treated as warming and stomach-friendly in older preparations.", "Widely used in peel bitters and aromatic preparations."], "role": "Orange peel bridges Crimson's hibiscus-acid line back to the absinthe spine.", "molecules": ["limonene", "linalool", "myrcene"], "recipes": ["rouge"], "sources": [["Wikipedia: Orange", "https://en.wikipedia.org/wiki/Orange_(fruit)"]] },
-  "rosehip": { "title": "Rosehip", "latin": "Rosa canina and related hips", "chip": "Tannic fruit support", "family": "Rosaceae", "intro": "Rosehip supports hibiscus with tart fruit, tannin, and a softer red-fruit body.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Rose_hips.jpg/960px-Rose_hips.jpg", "imageAlt": "Rosehips on the plant.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Rose_hip", "history": "Rosehips have a long role in preserves, teas, and household tonic traditions.", "medicinal": ["Historically used in syrups and restorative household preparations.", "Often associated with tonic and seasonal use.", "A common preserve and tea ingredient with medicinal overlap."], "role": "Rosehip makes Crimson feel fruit-complete rather than merely floral-acidic.", "molecules": ["anthocyanins", "citric-acid"], "recipes": ["rouge"], "sources": [["Wikipedia: Rose hip", "https://en.wikipedia.org/wiki/Rose_hip"]] },
-  "cardamom": { "title": "Cardamom", "latin": "Elettaria cardamomum", "chip": "Sparkling spice", "family": "Zingiberaceae", "intro": "Cardamom lifts blends with cool spice and aromatic polish.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Cardamom.jpg/960px-Cardamom.jpg", "imageAlt": "Green cardamom pods.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Cardamom", "history": "Cardamom has a long history in perfumery, cookery, and herbal preparations across South Asia and the Middle East.", "medicinal": ["Historically used for digestion and fragrant household remedies.", "Associated with warming and carminative spice traditions.", "Used in both culinary and medicinal aromatic formulas."], "role": "Cardamom gives Crimson sparkle without dragging it into winter-spice heaviness.", "molecules": ["cineole", "terpinyl-acetate"], "recipes": ["rouge"], "sources": [["Wikipedia: Cardamom", "https://en.wikipedia.org/wiki/Cardamom"]] },
-  "grains-of-paradise": { "title": "Grains of paradise", "latin": "Aframomum melegueta", "chip": "Warm social spice", "family": "Zingiberaceae", "intro": "Grains of paradise add warm peppery brightness and salivation without clove-like heaviness.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Aframomum_melegueta_seeds.jpg/960px-Aframomum_melegueta_seeds.jpg", "imageAlt": "Grains of paradise seeds.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Aframomum_melegueta", "history": "Aframomum melegueta moved through spice trade, culinary use, and cordial traditions as a peppery aromatic seed.", "medicinal": ["Traditionally used in warming spice systems.", "Associated with digestive and stimulating spice traditions in older literature.", "Often used where pepper-like energy without black-pepper harshness was desired."], "role": "This is a trace social-warmth spice for Crimson, not a major flavor block.", "molecules": ["paradols"], "recipes": ["rouge"], "sources": [["Wikipedia: Aframomum melegueta", "https://en.wikipedia.org/wiki/Aframomum_melegueta"]] },
-  "star-anise": { "title": "Star anise", "latin": "Illicium verum", "chip": "Sweet-spice reinforcement", "family": "Schisandraceae", "intro": "Star anise reinforces sweet-spice body and can support louche in tiny amounts.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Illicium_verum_spice.jpg/960px-Illicium_verum_spice.jpg", "imageAlt": "Star anise pods.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Illicium_verum", "history": "Star anise traveled widely through spice, medicine, and liqueur traditions as a strong sweet aromatic.", "medicinal": ["Historically used in digestive and warming spice traditions.", "Often used in teas and aromatic household remedies.", "Shares some culinary-medical overlap with anise but is more forceful."], "role": "Star anise is a reinforcing herb in Crimson, not a lead note.", "molecules": ["anethole"], "recipes": ["rouge"], "sources": [["Wikipedia: Illicium verum", "https://en.wikipedia.org/wiki/Illicium_verum"]] },
-  "lemon-peel": { "title": "Lemon peel", "latin": "Citrus limon peel", "chip": "Bright citrus top note", "family": "Rutaceae", "intro": "Lemon peel pushes a profile toward clean citrus brightness and ritual freshness.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Lemon-Whole-Split.jpg/960px-Lemon-Whole-Split.jpg", "imageAlt": "Lemon peel and fruit.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Lemon", "history": "Lemon peel has long been used in cordials, peels, medicines, and perfumery for bright aromatic lift.", "medicinal": ["Historically used in digestif and household aromatic preparations.", "Associated with brightening and stomachic uses in older traditions.", "Common in peels, bitters, and citrus cordials."], "role": "Lemon peel gives Detour its clean top note and helps narrate the color-shift ritual.", "molecules": ["limonene"], "recipes": ["detour"], "sources": [["Wikipedia: Lemon", "https://en.wikipedia.org/wiki/Lemon"]] },
-  "grapefruit-peel": { "title": "Grapefruit peel", "latin": "Citrus × paradisi peel", "chip": "Bitter citrus complexity", "family": "Rutaceae", "intro": "Grapefruit peel adds bitter citrus complexity and a more adult citrus register than sweet orange.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Grapefruit-Whole-%26-Half.jpg/960px-Grapefruit-Whole-%26-Half.jpg", "imageAlt": "Grapefruit peel and fruit.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Grapefruit", "history": "Grapefruit entered modern aromatic and culinary use later than orange or lemon but became important in bitters and aperitif profiles.", "medicinal": ["Historically less central than older citrus peels in European herbals.", "Used more in modern tonic and bitter contexts.", "Valued for bitter freshness more than deep folk-medicinal identity."], "role": "Grapefruit peel makes Detour feel adult and less confectionary.", "molecules": ["limonene"], "recipes": ["detour"], "sources": [["Wikipedia: Grapefruit", "https://en.wikipedia.org/wiki/Grapefruit"]] },
-  "juniper": { "title": "Juniper", "latin": "Juniperus communis", "chip": "Pine resin lift", "family": "Cupressaceae", "intro": "Juniper introduces conifer lift, resin, and the suggestion of a side road toward gin-like terrain.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Juniperus_communis_berries.jpg/960px-Juniperus_communis_berries.jpg", "imageAlt": "Juniper berries on the plant.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Juniper_berry", "history": "Juniper has a long history in preserved meats, medicinal spirits, and later gin and aquavit traditions.", "medicinal": ["Historically used in diuretic and digestive traditions.", "Appears in warming household and spirit remedies.", "Closely tied to medicinal spirit history in Europe."], "role": "Juniper is one of Detour's clearest signals that the route has changed.", "molecules": ["alpha-pinene", "sabinene", "myrcene"], "recipes": ["detour"], "sources": [["Wikipedia: Juniper berry", "https://en.wikipedia.org/wiki/Juniper_berry"]] },
-  "mastic": { "title": "Mastic", "latin": "Pistacia lentiscus resin", "chip": "Resinous mouthfeel", "family": "Anacardiaceae", "intro": "Mastic adds pine-citrus resin and unusual textural aroma in very small amounts.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Mastic_resin.jpg/960px-Mastic_resin.jpg", "imageAlt": "Mastic resin tears.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Mastic_(plant_resin)", "history": "Mastic has long moved through Mediterranean confectionery, incense, medicine, and liqueur traditions.", "medicinal": ["Historically used in oral, digestive, and resin-based household remedies.", "Associated with stomachic and fragrant resin preparations.", "Also used in incense and chewing traditions."], "role": "Mastic gives Detour its deliberate oddness and resinous grip.", "molecules": ["alpha-pinene", "limonene", "myrcene"], "recipes": ["detour"], "sources": [["Wikipedia: Mastic", "https://en.wikipedia.org/wiki/Mastic_(plant_resin)"]] },
-  "rosemary": { "title": "Rosemary", "latin": "Salvia rosmarinus", "chip": "Camphor lift", "family": "Lamiaceae", "intro": "Rosemary supplies a clean camphoraceous lift that can make a formula feel brighter and more precise.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Rosemary_Bush.jpg/960px-Rosemary_Bush.jpg", "imageAlt": "Rosemary bush.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Rosemary", "history": "Rosemary has long been culinary, symbolic, perfumery, and medicinal across the Mediterranean world.", "medicinal": ["Historically used for circulation, memory, and warming preparations in older herbals.", "Common in aromatic household remedies.", "Also used as a preservative and strewing herb."], "role": "In Detour rosemary is a trace clarity tool, not a lead flavor.", "molecules": ["cineole", "camphor", "alpha-pinene"], "recipes": ["detour"], "sources": [["Wikipedia: Rosemary", "https://en.wikipedia.org/wiki/Rosemary"]] },
-  "yarrow": { "title": "Yarrow", "latin": "Achillea millefolium", "chip": "Wild dry bitterness", "family": "Asteraceae", "intro": "Yarrow brings a wild, dry, almost field-bitter quality to a formula.", "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Achillea_millefolium0.jpg/960px-Achillea_millefolium0.jpg", "imageAlt": "Yarrow flowers.", "imageCreditLabel": "Wikipedia image source", "imageCreditUrl": "https://en.wikipedia.org/wiki/Achillea_millefolium", "history": "Yarrow has deep European herbal history in bitter, wound, and tea traditions.", "medicinal": ["Historically used in bitter, wound, and fever folk remedies.", "A classic domestic herb in many European traditions.", "Used in teas, compresses, and tonic preparations."], "role": "Yarrow helps keep Detour dry and adult when the color ritual could otherwise turn whimsical.", "molecules": ["camphor", "borneol"], "recipes": ["detour"], "sources": [["Wikipedia: Achillea millefolium", "https://en.wikipedia.org/wiki/Achillea_millefolium"]] }
+  "wormwood": {
+    "title": "Grand wormwood",
+    "latin": "Artemisia absinthium",
+    "chip": "Bitter / foundational",
+    "family": "Asteraceae",
+    "intro": "Grand wormwood is the defining bitter herb of classical absinthe: silvery, aromatic, and dry rather than sweet.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Artemisia_absinthium_P1210748.jpg/960px-Artemisia_absinthium_P1210748.jpg",
+    "imageAlt": "Grand wormwood plant with silvery foliage.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Artemisia_absinthium",
+    "history": "Wormwood has been used since classical antiquity around the Mediterranean as a bitter herb in wines, tonics, and digestive preparations.",
+    "medicinal": [
+      "Historically used as a bitter digestive and appetite stimulant.",
+      "Commonly listed in older herbals as a vermifuge or worm-expelling herb.",
+      "Also appears in traditional remedies for sluggish digestion and dyspeptic complaints."
+    ],
+    "role": "Wormwood supplies the stern bitter frame that keeps the house style adult and recognizably absinthe.",
+    "molecules": [
+      "thujone",
+      "alpha-pinene",
+      "sabinene"
+    ],
+    "recipes": [
+      "verte",
+      "rouge",
+      "detour",
+      "bleue"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Artemisia absinthium",
+        "https://en.wikipedia.org/wiki/Artemisia_absinthium"
+      ]
+    ]
+  },
+  "roman-wormwood": {
+    "title": "Roman wormwood",
+    "latin": "Artemisia pontica",
+    "chip": "Gentler bitter / nuance",
+    "family": "Asteraceae",
+    "intro": "Roman wormwood is softer and finer than grand wormwood and often used for detail rather than brute force.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Artemisia_pontica_sl1.jpg/960px-Artemisia_pontica_sl1.jpg",
+    "imageAlt": "Roman wormwood growing outdoors.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Artemisia_pontica",
+    "history": "Roman wormwood entered the bitter-herb tradition as a more delicate Artemisia for aromatized wines and absinthe-adjacent formulas.",
+    "medicinal": [
+      "Traditionally treated as a tonic bitter in the broader Artemisia family.",
+      "Historically associated with digestive formulas and appetite support.",
+      "Used in similar bitter-herbal contexts to grand wormwood, but more gently."
+    ],
+    "role": "Roman wormwood lets the line keep an absinthe echo without dragging every bottle toward full severity.",
+    "molecules": [
+      "thujone",
+      "chlorophylls"
+    ],
+    "recipes": [
+      "verte",
+      "rouge",
+      "detour",
+      "bleue"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Artemisia pontica",
+        "https://en.wikipedia.org/wiki/Artemisia_pontica"
+      ]
+    ]
+  },
+  "anise": {
+    "title": "Green anise",
+    "latin": "Pimpinella anisum",
+    "chip": "Sweet spice / louche",
+    "family": "Apiaceae",
+    "intro": "Anise is the seed note that makes absinthe immediately recognizable: sweet, cool, and licorice-adjacent.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Koehler1887-PimpinellaAnisum.jpg",
+    "imageAlt": "Botanical illustration of anise.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Anise",
+    "history": "Anise moved easily between kitchen and apothecary, flavoring cakes, cordials, and digestive preparations before it became central to absinthe traditions.",
+    "medicinal": [
+      "Historically used as a carminative for gas and digestive discomfort.",
+      "Traditional herbals also mention it for coughs and breath freshening.",
+      "Older household medicine often treated anise seed tea as a warming stomach remedy."
+    ],
+    "role": "Anise is the louche anchor and the quickest route to making a bottle read as absinthe.",
+    "molecules": [
+      "anethole"
+    ],
+    "recipes": [
+      "verte",
+      "rouge",
+      "detour",
+      "bleue"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Anise",
+        "https://en.wikipedia.org/wiki/Anise"
+      ]
+    ]
+  },
+  "fennel": {
+    "title": "Florence fennel",
+    "latin": "Foeniculum vulgare",
+    "chip": "Round sweetness / bridge",
+    "family": "Apiaceae",
+    "intro": "Fennel shares absinthe's sweet-spice register with anise, but it is rounder and greener.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Foeniculum_July_2011-1a.jpg/1280px-Foeniculum_July_2011-1a.jpg",
+    "imageAlt": "Flowering fennel plant.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Fennel",
+    "history": "A long-standing Mediterranean herb, fennel entered food culture, cordials, confectionery, and herbal medicine through seed, frond, and bulb forms.",
+    "medicinal": [
+      "Historically used for indigestion, bloating, and flatulence.",
+      "Traditional medicine also associated fennel with coughs and upper-respiratory catarrh.",
+      "Many older sources describe fennel as supportive for breath, appetite, and lactation."
+    ],
+    "role": "Fennel softens the architecture and keeps the line from becoming too sharp or skeletal.",
+    "molecules": [
+      "anethole",
+      "fenchone"
+    ],
+    "recipes": [
+      "verte",
+      "rouge",
+      "detour",
+      "bleue"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Fennel",
+        "https://en.wikipedia.org/wiki/Fennel"
+      ]
+    ]
+  },
+  "coriander": {
+    "title": "Coriander",
+    "latin": "Coriandrum sativum",
+    "chip": "Dry citrus spice / brightener",
+    "family": "Apiaceae",
+    "intro": "Coriander seed adds a bright, dry, citrus-spice note that can sharpen an otherwise soft absinthe profile.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/13/Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-193.jpg",
+    "imageAlt": "Botanical illustration of coriander.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Coriander",
+    "history": "Coriander is one of the older recorded culinary herbs, appearing in ancient Mediterranean and Asian contexts and later in European spice cabinets and cordial formulas.",
+    "medicinal": [
+      "Historically used as a digestive and carminative seed.",
+      "Traditional sources also describe it for stomach comfort.",
+      "In some older systems it was treated as a warming spice useful after heavy meals."
+    ],
+    "role": "Coriander is the clarity lever in the line: it sharpens without becoming overtly citrus peel.",
+    "molecules": [
+      "linalool",
+      "limonene",
+      "terpinen-4-ol",
+      "alpha-pinene"
+    ],
+    "recipes": [
+      "verte",
+      "rouge",
+      "detour",
+      "bleue"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Coriander",
+        "https://en.wikipedia.org/wiki/Coriander"
+      ]
+    ]
+  },
+  "lemon-balm": {
+    "title": "Lemon balm",
+    "latin": "Melissa officinalis",
+    "chip": "Citral freshness / calming",
+    "family": "Lamiaceae",
+    "intro": "Lemon balm softens bitterness with bright green-citrus aroma and a long tradition as a comforting herb.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Lemon_balm_plant.jpg/1280px-Lemon_balm_plant.jpg",
+    "imageAlt": "Lemon balm plant in leaf.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Lemon_balm",
+    "history": "Known to Greek, Arab, and later European herbal traditions, lemon balm became an apothecary mainstay for cordials, calming waters, and fragrant household uses.",
+    "medicinal": [
+      "Historically used for digestive upset and gas.",
+      "Traditional systems also used it as a calming herb for nerves and sleep.",
+      "Older herbals frequently mention lemon balm as uplifting and restorative."
+    ],
+    "role": "Melissa is the house herb for freshness; it appears wherever the line wants green light rather than darkness.",
+    "molecules": [
+      "citral",
+      "rosmarinic-acid",
+      "chlorophylls",
+      "citric-acid"
+    ],
+    "recipes": [
+      "verte",
+      "rouge"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Lemon balm",
+        "https://en.wikipedia.org/wiki/Lemon_balm"
+      ]
+    ]
+  },
+  "hyssop": {
+    "title": "Hyssop",
+    "latin": "Hyssopus officinalis",
+    "chip": "Resinous green / alpine",
+    "family": "Lamiaceae",
+    "intro": "Hyssop gives classic absinthe some of its cool, resinous, green top notes.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Illustration_Hyssopus_officinalis0.jpg/960px-Illustration_Hyssopus_officinalis0.jpg",
+    "imageAlt": "Botanical illustration of hyssop.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Hyssopus_officinalis",
+    "history": "Hyssop became a monastery-garden herb, a culinary seasoning, and a familiar component in liqueurs and domestic remedies.",
+    "medicinal": [
+      "Historically used in teas and syrups for coughs and chest congestion.",
+      "Traditional herbals also describe external use on bruises and skin complaints.",
+      "It appears as a warming, stimulating expectorant-type herb in older literature."
+    ],
+    "role": "Hyssop brings medicinal altitude and old-world green complexity.",
+    "molecules": [
+      "pinocamphone",
+      "thujone",
+      "rosmarinic-acid",
+      "chlorophylls"
+    ],
+    "recipes": [
+      "verte"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Hyssop",
+        "https://en.wikipedia.org/wiki/Hyssopus_officinalis"
+      ]
+    ]
+  },
+  "angelica": {
+    "title": "Angelica",
+    "latin": "Angelica archangelica",
+    "chip": "Root structure / tonic bitter",
+    "family": "Apiaceae",
+    "intro": "Angelica root is a classic liqueur and bitters material: earthy, musky, and structurally useful in tiny amounts.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Koehler1887-GardenAngelica.jpg",
+    "imageAlt": "Botanical illustration of angelica.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Angelica_archangelica",
+    "history": "Angelica became prominent in northern European monastery gardens and early modern apothecaries.",
+    "medicinal": [
+      "Historically used as a digestive, stomachic, and warming bitter.",
+      "Traditional uses also include colds, chest complaints, and general weakness.",
+      "Older European herbals often treated angelica as both protective and restorative."
+    ],
+    "role": "Angelica is the structural root across the line, tying volatile top notes back to the floor.",
+    "molecules": [
+      "alpha-pinene",
+      "terpinen-4-ol"
+    ],
+    "recipes": [
+      "verte",
+      "rouge",
+      "detour",
+      "bleue"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Angelica archangelica",
+        "https://en.wikipedia.org/wiki/Angelica_archangelica"
+      ]
+    ]
+  },
+  "hibiscus": {
+    "title": "Hibiscus",
+    "latin": "Hibiscus sabdariffa",
+    "chip": "Ruby tartness / cooling",
+    "family": "Malvaceae",
+    "intro": "Hibiscus contributes color first, tart floral structure second, and fruit illusion third.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Hibiscus_flower_TZ.jpg",
+    "imageAlt": "Hibiscus flower.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Hibiscus",
+    "history": "Hibiscus beverages and preserved calyces circulate through African, Caribbean, South Asian, and Latin American food traditions.",
+    "medicinal": [
+      "Historically used in cooling drinks in hot climates.",
+      "Traditional medicine in several regions used hibiscus for digestive and fever-related complaints.",
+      "Roselle preparations also appear in folk practice as a mild restorative tonic."
+    ],
+    "role": "Hibiscus is the chromatic engine of Crimson and the reason it reads jewel-like instead of merely red.",
+    "molecules": [
+      "anthocyanins",
+      "geraniol",
+      "linalool",
+      "citric-acid"
+    ],
+    "recipes": [
+      "rouge"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Hibiscus",
+        "https://en.wikipedia.org/wiki/Hibiscus"
+      ]
+    ]
+  },
+  "rose": {
+    "title": "Rose",
+    "latin": "Rosa species",
+    "chip": "Perfume / floral bridge",
+    "family": "Rosaceae",
+    "intro": "Rose petals bridge the herbal core to more floral and red-fruit directions.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Rosa_rubiginosa_1.jpg/1280px-Rosa_rubiginosa_1.jpg",
+    "imageAlt": "Pink rose blossom on the plant.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Rose",
+    "history": "Roses moved through Persian, Arab, Mediterranean, and European traditions as perfume, confection, medicine, and ceremony.",
+    "medicinal": [
+      "Historically used as a soothing, lightly astringent herb in syrups and conserves.",
+      "Rose preparations were traditionally associated with cooling and digestive uses.",
+      "Rosehip-rich preparations later became common in household tonic traditions."
+    ],
+    "role": "Rose softens Crimson and turns tartness into perfume.",
+    "molecules": [
+      "geraniol",
+      "linalool",
+      "anthocyanins"
+    ],
+    "recipes": [
+      "rouge"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Rose",
+        "https://en.wikipedia.org/wiki/Rose"
+      ]
+    ]
+  },
+  "butterfly-pea": {
+    "title": "Butterfly pea flower",
+    "latin": "Clitoria ternatea",
+    "chip": "Color shift / soft floral",
+    "family": "Fabaceae",
+    "intro": "Butterfly pea is the chromatic engine behind Detour's blue-to-violet ritual.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Asian_pigeonwings_in_Bhopal_04.jpg/960px-Asian_pigeonwings_in_Bhopal_04.jpg",
+    "imageAlt": "Blue butterfly pea flower.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Clitoria_ternatea",
+    "history": "Butterfly pea has a long culinary and medicinal history across South and Southeast Asia, where the flowers color drinks, rice, and sweets.",
+    "medicinal": [
+      "Historically used in Ayurvedic and regional herbal traditions as a memory and nerve herb.",
+      "Traditional uses also include calming, cooling, and restorative preparations.",
+      "Folk practice has also used the plant in hair, skin, and eye-related applications."
+    ],
+    "role": "Butterfly pea turns Detour from a flavor idea into a visual event.",
+    "molecules": [
+      "ternatins",
+      "anthocyanins"
+    ],
+    "recipes": [],
+    "sources": [
+      [
+        "Wikipedia: Clitoria ternatea",
+        "https://en.wikipedia.org/wiki/Clitoria_ternatea"
+      ]
+    ]
+  },
+  "lemon-verbena": {
+    "title": "Lemon verbena",
+    "latin": "Aloysia citrodora",
+    "chip": "High lemon leaf / perfumed",
+    "family": "Verbenaceae",
+    "intro": "Lemon verbena is more incisive than lemon balm, with a sharper leaf-citrus note.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Aloysia_citriodora_002.jpg/960px-Aloysia_citriodora_002.jpg",
+    "imageAlt": "Lemon verbena shrub with leaves.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Lemon_verbena",
+    "history": "Native to South America, lemon verbena was brought to Europe by Spanish and Portuguese networks and became useful in teas, perfumery, and liqueur work.",
+    "medicinal": [
+      "Historically used in teas for digestion and post-meal comfort.",
+      "Traditional practice also treated it as calming and gently antispasmodic.",
+      "In Latin American folk use it appears as a household herb for stomach complaints."
+    ],
+    "role": "Lemon verbena sharpens Detour and keeps its citrus story from becoming blurry.",
+    "molecules": [
+      "citral",
+      "limonene",
+      "verbascoside"
+    ],
+    "recipes": [
+      "detour"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Lemon verbena",
+        "https://en.wikipedia.org/wiki/Lemon_verbena"
+      ]
+    ]
+  },
+  "gentian": {
+    "title": "Gentian",
+    "latin": "Gentiana lutea",
+    "chip": "Aperitif bitter",
+    "family": "Gentianaceae",
+    "intro": "Gentian is one of the archetypal European bitter roots and a direct route to firmer aperitif structure.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Gentiana_lutea_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-065.jpg/960px-Gentiana_lutea_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-065.jpg",
+    "imageAlt": "Botanical illustration of gentian.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Gentiana_lutea",
+    "history": "Gentian root has long been central to European bitters, aperitifs, and apothecary tonics.",
+    "medicinal": [
+      "Historically used as a digestive bitter.",
+      "Often listed for appetite stimulation in older herbals.",
+      "A classic component of stomachic liqueurs and tonics."
+    ],
+    "role": "Gentian hardens Detour into a dry amber bitter profile and helps pull perception away from licorice.",
+    "molecules": [
+      "gentiopicroside"
+    ],
+    "recipes": [
+      "detour"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Gentiana lutea",
+        "https://en.wikipedia.org/wiki/Gentiana_lutea"
+      ]
+    ]
+  },
+  "mint": {
+    "title": "Mint",
+    "latin": "Mentha species",
+    "chip": "Cooling trace",
+    "family": "Lamiaceae",
+    "intro": "Mint adds cooling perception and perceived sharpness in tiny amounts.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Mentha_x_piperita_001.JPG/960px-Mentha_x_piperita_001.JPG",
+    "imageAlt": "Mint leaves.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Mentha",
+    "history": "Mint has deep culinary and medicinal history across the Mediterranean and Europe in teas, cordials, and household remedies.",
+    "medicinal": [
+      "Traditionally used for digestion and cooling herbal teas.",
+      "Often associated with stomach comfort and breath freshness.",
+      "Mentha species appear widely in domestic medicinal practice."
+    ],
+    "role": "Mint is a trace-level perception tool rather than a headline herb in this line.",
+    "molecules": [
+      "menthol",
+      "limonene"
+    ],
+    "recipes": [],
+    "sources": [
+      [
+        "Wikipedia: Mentha",
+        "https://en.wikipedia.org/wiki/Mentha"
+      ]
+    ]
+  },
+  "genepi": {
+    "title": "Genepi",
+    "latin": "Artemisia genipi and related alpine Artemisia",
+    "chip": "Alpine restraint",
+    "family": "Asteraceae",
+    "intro": "Genepi brings alpine restraint and cool aromatic lift to the bleue profile.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Artemisia_genipi.jpg/960px-Artemisia_genipi.jpg",
+    "imageAlt": "Alpine Artemisia plant.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Genepi",
+    "history": "Genepi liqueur and alpine Artemisia traditions are closely tied to mountain herbalism and regional digestifs.",
+    "medicinal": [
+      "Historically associated with mountain digestifs and tonic herb traditions.",
+      "Used in folk practice for stomachic and warming preparations.",
+      "Part of alpine medicinal and liqueur heritage."
+    ],
+    "role": "Genepi lets Bleue feel alpine rather than merely clear.",
+    "molecules": [
+      "cineole",
+      "borneol",
+      "camphor"
+    ],
+    "recipes": [],
+    "sources": [
+      [
+        "Wikipedia: Genepi",
+        "https://en.wikipedia.org/wiki/Genepi"
+      ]
+    ]
+  },
+  "elderflower": {
+    "title": "Elderflower",
+    "latin": "Sambucus nigra",
+    "chip": "Soft floral halo",
+    "family": "Adoxaceae",
+    "intro": "Elderflower gives a subtle blossom halo that can keep a quiet profile from feeling bare.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Sambucus_nigra_008.jpg/960px-Sambucus_nigra_008.jpg",
+    "imageAlt": "Elderflower clusters.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Sambucus_nigra",
+    "history": "Elderflower has a long European history in cordials, fritters, and domestic medicinal infusions.",
+    "medicinal": [
+      "Historically used in teas and infusions for colds and fevers.",
+      "Associated with gentle diaphoretic and comforting household remedies.",
+      "Also used widely in cordial and syrup traditions."
+    ],
+    "role": "Elderflower is a trace halo herb for Bleue rather than a foreground flavor.",
+    "molecules": [
+      "linalool",
+      "hotrienol"
+    ],
+    "recipes": [],
+    "sources": [
+      [
+        "Wikipedia: Sambucus nigra",
+        "https://en.wikipedia.org/wiki/Sambucus_nigra"
+      ]
+    ]
+  },
+  "cornflower": {
+    "title": "Cornflower",
+    "latin": "Centaurea cyanus",
+    "chip": "Blue support",
+    "family": "Asteraceae",
+    "intro": "Cornflower contributes visual and aromatic softness in blue-leaning ritual systems.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Centaurea_cyanus2.jpg/960px-Centaurea_cyanus2.jpg",
+    "imageAlt": "Blue cornflowers.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Centaurea_cyanus",
+    "history": "Cornflower has traveled through ornamental, culinary garnish, and gentle household-herb traditions.",
+    "medicinal": [
+      "Historically used in mild eye and skin folk remedies.",
+      "More often a decorative and symbolic herb than a major medicinal one.",
+      "Sometimes used in teas and floral mixtures."
+    ],
+    "role": "Cornflower supports blue visual logic without overpowering the formula.",
+    "molecules": [
+      "anthocyanins"
+    ],
+    "recipes": [],
+    "sources": [
+      [
+        "Wikipedia: Centaurea cyanus",
+        "https://en.wikipedia.org/wiki/Centaurea_cyanus"
+      ]
+    ]
+  },
+  "orange-peel": {
+    "title": "Orange peel",
+    "latin": "Citrus sinensis peel",
+    "chip": "Citrus bridge",
+    "family": "Rutaceae",
+    "intro": "Orange peel links spice and floral systems to anise without collapsing into juice.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Orange-Fruit-Pieces.jpg/960px-Orange-Fruit-Pieces.jpg",
+    "imageAlt": "Orange peel and fruit.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Orange_(fruit)",
+    "history": "Orange peel has long flavored liqueurs, marmalades, bitters, and digestive cordials.",
+    "medicinal": [
+      "Historically used in digestif and cordial traditions.",
+      "Often treated as warming and stomach-friendly in older preparations.",
+      "Widely used in peel bitters and aromatic preparations."
+    ],
+    "role": "Orange peel bridges Crimson's hibiscus-acid line and gives Detour amber citrus warmth.",
+    "molecules": [
+      "limonene",
+      "linalool",
+      "myrcene"
+    ],
+    "recipes": [
+      "rouge",
+      "detour"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Orange",
+        "https://en.wikipedia.org/wiki/Orange_(fruit)"
+      ]
+    ]
+  },
+  "rosehip": {
+    "title": "Rosehip",
+    "latin": "Rosa canina and related hips",
+    "chip": "Tannic fruit support",
+    "family": "Rosaceae",
+    "intro": "Rosehip supports hibiscus with tart fruit, tannin, and a softer red-fruit body.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Rose_hips.jpg/960px-Rose_hips.jpg",
+    "imageAlt": "Rosehips on the plant.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Rose_hip",
+    "history": "Rosehips have a long role in preserves, teas, and household tonic traditions.",
+    "medicinal": [
+      "Historically used in syrups and restorative household preparations.",
+      "Often associated with tonic and seasonal use.",
+      "A common preserve and tea ingredient with medicinal overlap."
+    ],
+    "role": "Rosehip makes Crimson feel fruit-complete rather than merely floral-acidic.",
+    "molecules": [
+      "anthocyanins",
+      "citric-acid"
+    ],
+    "recipes": [
+      "rouge"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Rose hip",
+        "https://en.wikipedia.org/wiki/Rose_hip"
+      ]
+    ]
+  },
+  "cardamom": {
+    "title": "Cardamom",
+    "latin": "Elettaria cardamomum",
+    "chip": "Sparkling spice",
+    "family": "Zingiberaceae",
+    "intro": "Cardamom lifts blends with cool spice and aromatic polish.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Cardamom.jpg/960px-Cardamom.jpg",
+    "imageAlt": "Green cardamom pods.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Cardamom",
+    "history": "Cardamom has a long history in perfumery, cookery, and herbal preparations across South Asia and the Middle East.",
+    "medicinal": [
+      "Historically used for digestion and fragrant household remedies.",
+      "Associated with warming and carminative spice traditions.",
+      "Used in both culinary and medicinal aromatic formulas."
+    ],
+    "role": "Cardamom gives Crimson sparkle without dragging it into winter-spice heaviness.",
+    "molecules": [
+      "cineole",
+      "terpinyl-acetate"
+    ],
+    "recipes": [
+      "rouge"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Cardamom",
+        "https://en.wikipedia.org/wiki/Cardamom"
+      ]
+    ]
+  },
+  "grains-of-paradise": {
+    "title": "Grains of paradise",
+    "latin": "Aframomum melegueta",
+    "chip": "Warm social spice",
+    "family": "Zingiberaceae",
+    "intro": "Grains of paradise add warm peppery brightness and salivation without clove-like heaviness.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Aframomum_melegueta_seeds.jpg/960px-Aframomum_melegueta_seeds.jpg",
+    "imageAlt": "Grains of paradise seeds.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Aframomum_melegueta",
+    "history": "Aframomum melegueta moved through spice trade, culinary use, and cordial traditions as a peppery aromatic seed.",
+    "medicinal": [
+      "Traditionally used in warming spice systems.",
+      "Associated with digestive and stimulating spice traditions in older literature.",
+      "Often used where pepper-like energy without black-pepper harshness was desired."
+    ],
+    "role": "This is a trace social-warmth spice for Crimson, not a major flavor block.",
+    "molecules": [
+      "paradols"
+    ],
+    "recipes": [
+      "rouge"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Aframomum melegueta",
+        "https://en.wikipedia.org/wiki/Aframomum_melegueta"
+      ]
+    ]
+  },
+  "star-anise": {
+    "title": "Star anise",
+    "latin": "Illicium verum",
+    "chip": "Sweet-spice reinforcement",
+    "family": "Schisandraceae",
+    "intro": "Star anise reinforces sweet-spice body and can support louche in tiny amounts.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Illicium_verum_spice.jpg/960px-Illicium_verum_spice.jpg",
+    "imageAlt": "Star anise pods.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Illicium_verum",
+    "history": "Star anise traveled widely through spice, medicine, and liqueur traditions as a strong sweet aromatic.",
+    "medicinal": [
+      "Historically used in digestive and warming spice traditions.",
+      "Often used in teas and aromatic household remedies.",
+      "Shares some culinary-medical overlap with anise but is more forceful."
+    ],
+    "role": "Star anise is a reinforcing herb in Crimson, not a lead note.",
+    "molecules": [
+      "anethole"
+    ],
+    "recipes": [
+      "rouge"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Illicium verum",
+        "https://en.wikipedia.org/wiki/Illicium_verum"
+      ]
+    ]
+  },
+  "lemon-peel": {
+    "title": "Lemon peel",
+    "latin": "Citrus limon peel",
+    "chip": "Bright citrus top note",
+    "family": "Rutaceae",
+    "intro": "Lemon peel pushes a profile toward clean citrus brightness and ritual freshness.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Lemon-Whole-Split.jpg/960px-Lemon-Whole-Split.jpg",
+    "imageAlt": "Lemon peel and fruit.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Lemon",
+    "history": "Lemon peel has long been used in cordials, peels, medicines, and perfumery for bright aromatic lift.",
+    "medicinal": [
+      "Historically used in digestif and household aromatic preparations.",
+      "Associated with brightening and stomachic uses in older traditions.",
+      "Common in peels, bitters, and citrus cordials."
+    ],
+    "role": "Lemon peel gives Detour its sharp citrus top note and helps pull the profile away from licorice.",
+    "molecules": [
+      "limonene"
+    ],
+    "recipes": [
+      "detour"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Lemon",
+        "https://en.wikipedia.org/wiki/Lemon"
+      ]
+    ]
+  },
+  "grapefruit-peel": {
+    "title": "Grapefruit peel",
+    "latin": "Citrus × paradisi peel",
+    "chip": "Bitter citrus complexity",
+    "family": "Rutaceae",
+    "intro": "Grapefruit peel adds bitter citrus complexity and a more adult citrus register than sweet orange.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Grapefruit-Whole-%26-Half.jpg/960px-Grapefruit-Whole-%26-Half.jpg",
+    "imageAlt": "Grapefruit peel and fruit.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Grapefruit",
+    "history": "Grapefruit entered modern aromatic and culinary use later than orange or lemon but became important in bitters and aperitif profiles.",
+    "medicinal": [
+      "Historically less central than older citrus peels in European herbals.",
+      "Used more in modern tonic and bitter contexts.",
+      "Valued for bitter freshness more than deep folk-medicinal identity."
+    ],
+    "role": "Grapefruit peel makes Detour feel adult, bitter-citrus, and less confectionary.",
+    "molecules": [
+      "limonene"
+    ],
+    "recipes": [
+      "detour"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Grapefruit",
+        "https://en.wikipedia.org/wiki/Grapefruit"
+      ]
+    ]
+  },
+  "juniper": {
+    "title": "Juniper",
+    "latin": "Juniperus communis",
+    "chip": "Pine resin lift",
+    "family": "Cupressaceae",
+    "intro": "Juniper introduces conifer lift, resin, and the suggestion of a side road toward gin-like terrain.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Juniperus_communis_berries.jpg/960px-Juniperus_communis_berries.jpg",
+    "imageAlt": "Juniper berries on the plant.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Juniper_berry",
+    "history": "Juniper has a long history in preserved meats, medicinal spirits, and later gin and aquavit traditions.",
+    "medicinal": [
+      "Historically used in diuretic and digestive traditions.",
+      "Appears in warming household and spirit remedies.",
+      "Closely tied to medicinal spirit history in Europe."
+    ],
+    "role": "Juniper is one of Detour's clearest signals that the route has changed.",
+    "molecules": [
+      "alpha-pinene",
+      "sabinene",
+      "myrcene"
+    ],
+    "recipes": [
+      "detour"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Juniper berry",
+        "https://en.wikipedia.org/wiki/Juniper_berry"
+      ]
+    ]
+  },
+  "mastic": {
+    "title": "Mastic",
+    "latin": "Pistacia lentiscus resin",
+    "chip": "Resinous mouthfeel",
+    "family": "Anacardiaceae",
+    "intro": "Mastic adds pine-citrus resin and unusual textural aroma in very small amounts.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Mastic_resin.jpg/960px-Mastic_resin.jpg",
+    "imageAlt": "Mastic resin tears.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Mastic_(plant_resin)",
+    "history": "Mastic has long moved through Mediterranean confectionery, incense, medicine, and liqueur traditions.",
+    "medicinal": [
+      "Historically used in oral, digestive, and resin-based household remedies.",
+      "Associated with stomachic and fragrant resin preparations.",
+      "Also used in incense and chewing traditions."
+    ],
+    "role": "Mastic gives Detour its deliberate oddness and resinous grip.",
+    "molecules": [
+      "alpha-pinene",
+      "limonene",
+      "myrcene"
+    ],
+    "recipes": [
+      "detour"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Mastic",
+        "https://en.wikipedia.org/wiki/Mastic_(plant_resin)"
+      ]
+    ]
+  },
+  "rosemary": {
+    "title": "Rosemary",
+    "latin": "Salvia rosmarinus",
+    "chip": "Camphor lift",
+    "family": "Lamiaceae",
+    "intro": "Rosemary supplies a clean camphoraceous lift that can make a formula feel brighter and more precise.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Rosemary_Bush.jpg/960px-Rosemary_Bush.jpg",
+    "imageAlt": "Rosemary bush.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Rosemary",
+    "history": "Rosemary has long been culinary, symbolic, perfumery, and medicinal across the Mediterranean world.",
+    "medicinal": [
+      "Historically used for circulation, memory, and warming preparations in older herbals.",
+      "Common in aromatic household remedies.",
+      "Also used as a preservative and strewing herb."
+    ],
+    "role": "In Detour rosemary is a trace clarity tool, not a lead flavor.",
+    "molecules": [
+      "cineole",
+      "camphor",
+      "alpha-pinene"
+    ],
+    "recipes": [
+      "detour"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Rosemary",
+        "https://en.wikipedia.org/wiki/Rosemary"
+      ]
+    ]
+  },
+  "yarrow": {
+    "title": "Yarrow",
+    "latin": "Achillea millefolium",
+    "chip": "Wild dry bitterness",
+    "family": "Asteraceae",
+    "intro": "Yarrow brings a wild, dry, almost field-bitter quality to a formula.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Achillea_millefolium0.jpg/960px-Achillea_millefolium0.jpg",
+    "imageAlt": "Yarrow flowers.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Achillea_millefolium",
+    "history": "Yarrow has deep European herbal history in bitter, wound, and tea traditions.",
+    "medicinal": [
+      "Historically used in bitter, wound, and fever folk remedies.",
+      "A classic domestic herb in many European traditions.",
+      "Used in teas, compresses, and tonic preparations."
+    ],
+    "role": "Yarrow helps keep Detour dry and adult when the color ritual could otherwise turn whimsical.",
+    "molecules": [
+      "camphor",
+      "borneol"
+    ],
+    "recipes": [
+      "detour"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Achillea millefolium",
+        "https://en.wikipedia.org/wiki/Achillea_millefolium"
+      ]
+    ]
+  },
+  "calendula": {
+    "title": "Calendula",
+    "latin": "Calendula officinalis",
+    "chip": "Amber petal color",
+    "family": "Asteraceae",
+    "intro": "Calendula petals can lend a warm gold-orange color cue without pushing Detour into blue or red ritual territory.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Calendula_officinalis_002.JPG/960px-Calendula_officinalis_002.JPG",
+    "imageAlt": "Orange calendula flower.",
+    "imageCreditLabel": "Wikipedia image source",
+    "imageCreditUrl": "https://en.wikipedia.org/wiki/Calendula_officinalis",
+    "history": "Calendula has long appeared in European household herb gardens, culinary color work, and topical herbal traditions.",
+    "medicinal": [
+      "Historically used in skin and household herbal preparations.",
+      "Also used as a culinary petal and colorant in traditional kitchen contexts.",
+      "In this line it is treated as color support, not a therapeutic ingredient."
+    ],
+    "role": "Calendula supports Detour with a warm amber visual field while staying flavor-light.",
+    "molecules": [
+      "carotenoids",
+      "lutein"
+    ],
+    "recipes": [
+      "detour"
+    ],
+    "sources": [
+      [
+        "Wikipedia: Calendula officinalis",
+        "https://en.wikipedia.org/wiki/Calendula_officinalis"
+      ]
+    ]
+  }
 }
